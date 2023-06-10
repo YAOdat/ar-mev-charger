@@ -96,8 +96,9 @@ export default function WithSubnavigation() {
             <Icon as={BsWhatsapp} w={5} h={5} />
           </Button>
 
-
+          <Button as="a" href="https://mevcharger.com">
           <Image src={Arabic2English} alt="Arabic to English" width={10} />
+          </Button>
 
 
           <Button onClick={toggleColorMode}>
