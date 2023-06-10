@@ -36,10 +36,10 @@ function App() {
     <BrowserRouter>
       <Fragment>
         <Helmet>
-          <title>MEV Charger - Electric Vehicle Chargers</title>
+          <title>شواحن ميجا - شواحن سيارات كهربائية</title>
           <meta
             name="description"
-            content="MEV Charger is a leading company specializing in the sale of electric vehicle (EV) chargers and EV products. We offer reliable and efficient charging infrastructure to support the global transition towards electric mobility."
+            content="شواحن ميجا هي شركة رائدة في مجال تزويد شواحن السيارات الكهربائية منتجاتها. نحن ملتزمون بتعزيز حلول النقل المستدامة ودعم الانتقال العالمي نحو السيارات الكهربائية."
           />
         </Helmet>
         <Analytics />
@@ -53,10 +53,10 @@ function App() {
             element={
               <Fragment>
                 <Helmet>
-                  <title>MEV Charger - Shop</title>
+                  <title>متجر - الشواحن الكهربائية</title>
                   <meta
                     name="description"
-                    content="Explore our wide range of electric vehicle chargers and accessories. Find the perfect charging solution for your electric vehicle at MEV Charger."
+                    content="استكشف مجموعتنا من شواحن السيارات الكهربائية. توفر شواحن ميجا شاحن سريع وآمن لمختلف أنواع السيارات الكهربائية."
                   />
                 </Helmet>
                 <Products />
@@ -68,10 +68,10 @@ function App() {
             element={
               <Fragment>
                 <Helmet>
-                  <title>MEV Charger - All Products</title>
+                  <title>MEV Charger - جميع المنتجات</title>
                   <meta
                     name="description"
-                    content="Browse our selection of electric vehicle chargers and accessories. MEV Charger offers reliable and efficient charging solutions for all types of electric vehicles."
+                    content="تصفح مجموعتنا من شواحن السيارات الكهربائية. توفر شواحن ميجا شاحن سريع وآمن لمختلف أنواع السيارات الكهربائية. بالإضافة إلى ذلك، نقدم أيضًا محولات وخدمات تركيب الشواحن المنزلية.                    " 
                   />
                 </Helmet>
                 <Products />
@@ -83,10 +83,10 @@ function App() {
             element={
               <Fragment>
                 <Helmet>
-                  <title>MEV Charger - Chargers</title>
+                  <title>MEV Charger - الشواحن</title>
                   <meta
                     name="description"
-                    content="Discover our range of electric vehicle chargers. MEV Charger provides fast and safe charging solutions for various electric vehicle models."
+                    content="اكتشف أفضل شاحن لسيارتك الكهربائية. يتوفر أنواع مختلفة لشواحن السيارات الكهربائية المختلفة مثل فولس فاجن ID4 و ID6 وتسلا وغيرها الكثير."
                   />
                 </Helmet>
                 <Products />
@@ -99,10 +99,10 @@ function App() {
             element={
               <Fragment>
                 <Helmet>
-                  <title>MEV Charger - GBT Chargers</title>
+                  <title>MEV Charger - GBT شواحن</title>
                   <meta
                     name="description"
-                    content="Explore our selection of GBT electric vehicle chargers. MEV Charger offers reliable and high-performance charging solutions for GBT compatible electric vehicles."
+                    content="شواحن بمنفذ GBT لسيارات فولكس فاجن ID4, ID6, شانجان وأي سيارة كهربائية أخرى تستخدم منفذ GBT."
                   />
                 </Helmet>
                 <Products />
@@ -114,10 +114,10 @@ function App() {
             element={
               <Fragment>
                 <Helmet>
-                  <title>MEV Charger - GBT Chargers</title>
+                  <title>MEV Charger - GBT شواحن بمنفذ</title>
                   <meta
                     name="description"
-                    content="Discover our range of GBT electric vehicle chargers. MEV Charger provides fast and safe charging solutions for GBT compatible electric vehicles."
+                    content="توفر شركة ميجا للشواحن شواحن بمنفذ GBT لسيارات فولكس فاجن ID4, ID6, شانجان وأي سيارة كهربائية أخرى تستخدم منفذ GBT."
                   />
                 </Helmet>
                 <GBT />
@@ -129,10 +129,10 @@ function App() {
             element={
               <Fragment>
                 <Helmet>
-                  <title>MEV Charger - Type 2 Chargers</title>
+                  <title>شواحن ميجا – شواحن بمنفذ Type 2</title>
                   <meta
                     name="description"
-                    content="Explore our selection of Type 2 electric vehicle chargers. MEV Charger offers reliable and high-performance charging solutions for Type 2 compatible electric vehicles."
+                    content="استكشف شواحن السيارات الكهربائية بمنفذ Type 2  والذي يتوافق مع السيارات الأوروبية الكهربائية مثل BMW, Audi, Porsche, Mercedes Benz بالإضافة للكثير من السيارات الأخرى مثل الدماني وبعض السيارات الآسيوية التي تأتي بمنفذ Type 2  مثل بعض سيارات الKia."
                   />
                 </Helmet>
                 <Type2 />
@@ -144,10 +144,10 @@ function App() {
             element={
               <Fragment>
                 <Helmet>
-                  <title>MEV Charger - Type 1 Chargers</title>
+                  <title>شواحن سيارات كهربائية بمنفذ Type 1 – MEV Charger</title>
                   <meta
                     name="description"
-                    content="Discover our range of Type 1 electric vehicle chargers. MEV Charger provides fast and safe charging solutions for Type 1 compatible electric vehicles."
+                    content="يتوفر شواحن للسيارات الكهربائية بمنفذ Type 1 مثل سيارات Ford, Chevrolet, GMC وغيرها من السيارات بمنفذ Type 1"
                   />
                 </Helmet>
                 <Type1 />
@@ -159,10 +159,10 @@ function App() {
             element={
               <Fragment>
                 <Helmet>
-                  <title>MEV Charger - Tesla Chargers</title>
+                  <title>شواحن سيارات تسلا – شواحن ميجا</title>
                   <meta
                     name="description"
-                    content="Explore our selection of Tesla electric vehicle chargers. MEV Charger offers reliable and high-performance charging solutions for Tesla electric vehicles."
+                    content="جد أفضل شاحن لسيارة تسلا الخاصة بك. تتوفر مجموعة واسعة من الشواحن المتنقل والثابتة لسيارات تسلا. ويتوفر أيضًا أدابتر تسلا كي تستطيع شحن التسلا بشواحن أكثر."
                   />
                 </Helmet>
                 <Tesla />
@@ -175,10 +175,10 @@ function App() {
             element={
               <Fragment>
                 <Helmet>
-                  <title>MEV Charger - About Us</title>
+                  <title>MEV Charger - عنا</title>
                   <meta
                     name="description"
-                    content="Learn about MEV Charger, a leading company specializing in the sale of electric vehicle (EV) chargers and EV products. We are dedicated to promoting sustainable transportation solutions and supporting the global transition towards electric mobility."
+                    content="اعرف أكثر عن شواحن ميجا للسيارات الكهربائية. نوفر شواحن وأدابتر للسيارات الكهربائية المختلفة."
                   />
                 </Helmet>
                 <About />
@@ -190,10 +190,10 @@ function App() {
             element={
               <Fragment>
                 <Helmet>
-                  <title>MEV Charger - Adapters</title>
+                  <title>MEV Charger - المحولات</title>
                   <meta
                     name="description"
-                    content="Discover our range of electric vehicle adapters. MEV Charger provides high-quality adapters to ensure compatibility with different charging standards and connectors."
+                    content=" اشتر محول لشاحن السيارة الكهربائية لديك كي تتمكن من شحن سيارتك بمختلف منافذ الشحن. يتوفر أنواع مختلفة من المحولات (ادابتر) لمختلف السيارات."
                   />
                 </Helmet>
                 <Adapters />

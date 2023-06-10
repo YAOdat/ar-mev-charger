@@ -14,6 +14,7 @@ import {
   PopoverContent,
   useColorModeValue,
   useDisclosure,
+  Image,
   useColorMode,
 } from '@chakra-ui/react';
 import {
@@ -26,6 +27,7 @@ import {
 
 import { BsWhatsapp } from 'react-icons/bs';
 import Logo from './images/mevchargerslogo.png';
+import Arabic2English from './images/Icon Images/ArabicToEnglish.png';
 
 export default function WithSubnavigation() {
   const { isOpen, onToggle } = useDisclosure();
@@ -49,6 +51,7 @@ export default function WithSubnavigation() {
           ml={{ base: -2 }}
           display={{ base: 'flex', md: 'none' }}
         >
+
           <IconButton
             onClick={onToggle}
             icon={
@@ -63,20 +66,21 @@ export default function WithSubnavigation() {
           justify={{ base: 'center', md: 'start' }}
           alignItems="center"
         >
-          <Link href="/">
+    <Link href="/">
             <img src={Logo} alt="MEV Charger" width={80} />
           </Link>
           <Flex display={{ base: 'none', md: 'flex' }} ml={10}>
             <DesktopNav />
           </Flex>
         </Flex>
-
+     
         <Stack
           flex={{ base: 1, md: 0 }}
           justify={'flex-end'}
           direction={'row'}
           spacing={6}
         >
+         
           <Button
             as={'a'}
             fontSize={'sm'}
@@ -89,13 +93,18 @@ export default function WithSubnavigation() {
             }}
             dir='ltr'
           >
-            <Icon as={BsWhatsapp} w={5} h={5} mr={3} />
-            +971 501 679 410
+            <Icon as={BsWhatsapp} w={5} h={5} />
           </Button>
+
+          <Button as="a" href="https://mevcharger.com">
+          <Image src={Arabic2English} alt="Arabic to English" width={10} />
+          </Button>
+
 
           <Button onClick={toggleColorMode}>
             <MoonIcon />
           </Button>
+
         </Stack>
       </Flex>
 
@@ -306,10 +315,10 @@ const NAV_ITEMS = [
       {
         label: 'أجهزة فحص السيارات الكهربائية',
         href: '/products/ev-scanners',
-    
+
       },
     ],
-   
+
   },
 
   {

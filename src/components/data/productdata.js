@@ -245,7 +245,7 @@ export const images = [
       },
       {
         id: '9',
-        name: 'GB/T to Tesla Adapter',
+        name: 'محول GB/T إلى تسلا',
         currency: 'AED',
         price: 450,
         flag: 'new',
@@ -253,7 +253,7 @@ export const images = [
         rating: 4,
         ratingCount: 14,
         description:
-          'With this adapater you can charge your Tesla with ID4, ID6, or Changan EV chargers.',
+          'باستخدام هذا ادابتر GBT إلى تسلا يمكنك شحن سيارة تسلا باستخدام شواحن سيارات فولكس فاجن ID4 و ID6',
         images,
         portType: 'gbt',
         function: 'adapter',
