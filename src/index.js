@@ -5,6 +5,8 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { ChakraProvider } from "@chakra-ui/react";
 import ReactGA from 'react-ga';
+import { extendTheme, ThemeProvider } from "@chakra-ui/react"
+
 
 // Initialize Google Analytics
 ReactGA.initialize('G-09GTV1PCZ7'); // Replace with your own Google Analytics tracking ID
@@ -14,7 +16,7 @@ ReactGA.pageview(window.location.pathname + window.location.search);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <ChakraProvider>
+  <ChakraProvider theme={extendTheme({ direction: "rtl" })}> 
     <App />
   </ChakraProvider>
 );

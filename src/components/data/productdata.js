@@ -41,7 +41,7 @@ export const images = [
       rating: 4,
       ratingCount: 19,
       description:
-        'شاحن سيارة كهربائية منزلي بقوة 7.7 كيلوواط قادر على شحن مختلف أنواع السيارات الكهربائية. يتوفر بمنافذ شحن مختلفة. يوجد نسخة GB/T  والتي تستطيع شحن سيارات فولكس فاجن ID.4 و  ID.6 وأي سيارة صينية. ويوجد نسخة ال Type 2 القادرة على شحن السيارات الأوروبية مثل BMW، Mercedes، Audi وسيارات تسلا الخليجية (بمنفذ Type 2) . ويوجد نسخة من هذا الشاحن بمنفذ Type 1 وهو منفذ السيارات شحن السيارات الأمريكية مثل Ford و GMC.',
+        'شاحن سيارة كهربائية منزلي بقوة 7.7 كيلوواط قادر على شحن مختلف أنواع السيارات الكهربائية. يتوفر ثلاث نسخ من الشاحن؛ شاحن بمنفذ Type 2 للسيارات الأوروبية، شاحن بمنفذ GB/T للسيارات الصينية، ونسخة بمنفذ Type 1.',
       images,
       portType: 'type2',
       function: 'charger',
@@ -66,55 +66,51 @@ export const images = [
       
     {
       id: '2',
-      name: 'Portable EV Charger',
-      currency: 'AED',
+      name: 'شاحن سيارة كهربائية متنقل لسيارات فولكس فاجن ID4 و ID6',
+      currency: 'درهم',
       price: 1100,
       salePrice: 900,
-      flag: 'on-sale',
+      flag: 'تخفيض',
       imageUrl: 'https://iili.io/Hr78acB.md.png',
       rating: 5,
       ratingCount: 13,
-      description:
-        'Fast portable EV Charger with GBT port. This charger is compatible with all EVs with a GBT port which means it can support Volkswagen ID.4, ID.6., and Changan Vehicles.',
-      images,
+      description:'شاحن سيارة كهربائية متنقل بمنفذ GBT مما يعني أنه قادر على شحن سيارات ID.4 و ID.6 بسرعة وكفاءة. يأتي بشاشة LCD تبين حالة شحن بطارية السيارة، ويمكن تغيير أمبيرية الشحن.',
       portType: 'gbt',
       function: 'charger',
       portType2: 'none',
-      longDescription: ` The 7 kW 32 A Portable EV Charger with GBT Port is the perfect charging solution for your Volkswagen ID.4 and ID.6 electric cars. This versatile and efficient charger ensures a seamless and reliable charging experience wherever you go.
-
-      With its 7 kW power output and 32 A electric current, this charger provides a fast and powerful charging capability for your electric vehicle. Whether you need a quick top-up or a full charge, this charger has got you covered.
+      longDescription: `
+      شاحن السيارة الكهربائية المنزلي بقوة 7.7 كيلوواط هو منتج عالي الأداء يتيح لك شحن مجموعة متنوعة من السيارات الكهربائية بكل سهولة وفعالية. يأتي هذا الشاحن بمنافذ شحن متعددة لتلبية احتياجات مختلف السيارات.
       
-      The charger comes in a single-phase configuration, making it compatible with a wide range of power sources. It also features a 5-meter cable length, allowing flexibility in positioning your vehicle while charging.
+      تتوفر نسخة GB/T من هذا الشاحن، وتعتبر متوافقة مع سيارات فولكس فاجن ID.4 و ID.6 وأي سيارة صينية تستخدم هذا النوع من المنفذ. بفضل هذه النسخة، يمكنك الاعتماد على شاحن المنزل لشحن سيارتك فولكس فاجن أو أي سيارة صينية أخرى بكل سهولة وسرعة.
       
-      Choose between Type 2 or Type 1 charge connectors, depending on the specific requirements of your electric car. Additionally, an optional LCD screen is available, providing you with real-time charging information such as voltage, current, and charging status. The LCD display supports the English language for easy readability and convenience.
+      بالإضافة إلى ذلك، يتوفر أيضًا منفذ Type 2 لهذا الشاحن الذي يتوافق مع السيارات الأوروبية مثل BMW وMercedes وAudi، بالإضافة إلى سيارات تسلا الخليجية التي تستخدم منفذ Type 2. يمكنك الاستفادة من هذه النسخة لشحن سيارتك الأوروبية بسهولة وسرعة دون أي مشاكل توافق.
       
-      One of the standout features of this charger is its charging scheduling capability. Take advantage of off-peak hours and schedule your charging sessions accordingly, saving you money and reducing your carbon footprint.
+      وأخيرًا، هناك نسخة أخرى من هذا الشاحن تحتوي على منفذ Type 1، وهو منفذ يستخدمه السيارات الأمريكية مثل Ford وGMC. إذا كانت لديك سيارة أمريكية تستخدم منفذ Type 1، فإن هذا الشاحن سيكون الخيار المثالي لك لشحن سيارتك في المنزل بكل سهولة وراحة.
       
-      The charger is designed with safety and reliability in mind, featuring an industrial EU plug or NEMA 14-50P power connector, ensuring a secure and stable connection to the power source.
-      
-      With the 7 kW 32 A Portable EV Charger with GBT Port, you can enjoy the convenience of charging your ID.4 or ID.6 electric car at home, at work, or on the road. Experience efficient and hassle-free charging with this high-quality and feature-rich portable EV charger.`,
+      باختصار، شاحن السيارة الكهربائية المنزلي بقوة 7.7 كيلوواط يوفر لك حلاً مرنًا ومتعدد المنافذ لشحن سيارتك الكهربائية بكل يسر وسهولة، مهما كان نوعها أو منفذ الشحن الذي تستخدمه.`,
       availablePorts: 'GBT',
       illustration: 'https://sc04.alicdn.com/kf/H7398f992921f4b1dbc8b9334bf6cb5cah/257948432/H7398f992921f4b1dbc8b9334bf6cb5cah.jpg',
       illustration2: 'https://sc04.alicdn.com/kf/H5c9d3ea26a7348eeabc0f65ed7e52b82o/257948432/H5c9d3ea26a7348eeabc0f65ed7e52b82o.jpg',
-      cableLength: '5m',
+      cableLength: '5م',
+      power: '7.7 كيلوواط',
 
     },
     {
       id: '3',
-      name: 'Type 1 to Type 2 EV Charger Extension Cable',
+      name: 'توصيلة شاحن السيارة الكهربائية Type 2 إلى GBT',
       currency: 'AED',
       price: 550,
       imageUrl: 'https://iili.io/Hr7856Q.md.png',
       rating: 4,
       ratingCount: 20,
       description:
-        'With a sleek design and a captivating essence, this is a modern Classic made for every occasion.',
+        'باستخدام توصيلة شاحن السيارة يمكن شحن سيارات ID.4 و ID.6 من الشواحن العامة أو الشواحن التي لا تصل لمنفذ السيارة. ',
       images,
-      portType: 'type1',
+      portType: 'gbt',
       function: 'extensionCable',
       portType2: 'type2',
       longDescription:'This extension cable is compatible with all Type 1 and Type 2 EV chargers. It is available in 5m and 10m lengths. The cable is made of high-quality materials and is designed to withstand the elements. It is also equipped with a protective cap to keep the connector clean and dry when not in use. This extension cable is a must-have for any EV owner who wants to charge their electric cars at a charging station that is not within reach of their vehicle. It can be used for ADNOC charging stations, DEWA charging stations, and other charging stations in the UAE.',
-      availablePorts: 'Type 1, Type 2',
+      availablePorts: 'Type 2 to GBT',
       cableLength: '5m',
       illustration: 'https://sc01.alicdn.com/kf/Hbcac362e4fc04257b4f78a6c708814b4e.jpg',
       illustration2: 'https://sc01.alicdn.com/kf/Hf593487f26804ac9ab5ed67c310912283.jpg',
@@ -123,66 +119,61 @@ export const images = [
     },
     {
       id: '4',
-      name: 'Type 2 to Type 1 EV Adapter',
+      name: 'تحويلة شاحن سيارة كهربائية Type 2 إلى Type 1',
       currency: 'AED',
       price: 350,
       imageUrl: 'https://iili.io/Hr78091.md.jpg',
       rating: 5,
       ratingCount: 4,
       description:
-        'With a sleek design and a captivating essence, this is a modern Classic made for every occasion.',
+        'تحويلة شاحن السيارة الكهربائية من نوع Type 2 إلى Type 1 هي منتج مبتكر وعملي يتيح لك توصيل سيارتك الكهربائية بسهولة ويسر بشبكة الشحن التي تدعم منفذ Type 1. بفضل هذه التحويلة، يمكنك الاستفادة من شبكة الشحن الواسعة والمتاحة للسيارات الأمريكية بسيارتك التي تستخدم منفذ Type 2.',        
       images,
       portType: 'type2',
       function: 'adapter',
       portType2: 'type1',
-      longDescription: `Introducing the Type 2 to Type 1 EV Adapter - your ultimate solution for seamless and hassle-free charging compatibility. Designed with precision and reliability in mind, this adapter is a game-changer for electric vehicle (EV) owners who want to bridge the gap between Type 2 and Type 1 charging standards.
+      longDescription: `تحويلة شاحن السيارة الكهربائية من نوع Type 2 إلى Type 1 هي منتج يوفر حلاً مريحًا وفعالًا لأصحاب السيارات الكهربائية الذين يستخدمون منفذ شحن Type 1 ويرغبون في الاستفادة من شبكة الشحن الواسعة المتاحة لديهم.
 
-      The Type 2 to Type 1 EV Adapter is ingeniously engineered to ensure a secure and efficient connection between your Type 2 EV and Type 1 charging stations. No longer will you be limited by charging infrastructure or worry about compatibility issues. With this adapter, you can effortlessly tap into Type 1 charging networks and enjoy the convenience they offer.
+      تأتي هذه التحويلة بتصميم مبتكر يتيح لك توصيلها بمنفذ شحن Type 2 الخاص بسيارتك الكهربائية وتحويله إلى منفذ شحن Type 1 المتوافق مع السيارات الأمريكية مثل Ford و GMC وغيرها. بفضل هذه التحويلة، يمكنك الآن الوصول إلى شبكة الشحن التي تدعم منفذ Type 1 والتي تتوفر في العديد من المواقع والمحطات.
       
-      Crafted with utmost attention to detail, this adapter boasts exceptional build quality and durability. It is made using premium materials, ensuring that it can withstand the rigors of everyday use. Its ergonomic design guarantees a snug fit, eliminating any concerns about loose connections or interruptions during charging sessions. With this adapter, you can charge your Type 2 EV with confidence and peace of mind.
+      تحويلة شاحن السيارة من Type 2 إلى Type 1 توفر سهولة الوصول إلى الشحن السريع والموثوق لسيارتك الكهربائية. يمكنك الاستفادة من شبكة الشحن المتاحة للسيارات الأمريكية والتي توفر وقت شحن أسرع وتوافق مثالي مع سيارتك.
       
-      The Type 2 to Type 1 EV Adapter is incredibly versatile, offering you the freedom to charge your EV wherever Type 1 charging stations are available. Whether you're embarking on a road trip, visiting a new city, or charging at a friend's place, this adapter enables you to make the most of the Type 1 charging infrastructure without any hassle. It opens up a world of possibilities for Type 2 EV owners, ensuring they never have to worry about finding compatible charging stations again.
+      باستخدام هذه التحويلة، يصبح شحن سيارتك الكهربائية من نوع Type 2 أمرًا مريحًا وسهلًا، حتى إذا كانت سيارتك تستخدم منفذ Type 1. كما أنه يوفر لك مزيدًا من المرونة والتوافق مع شبكة الشحن المتاحة لديك، مما يجعل تجربة الشحن أكثر ملاءمة واحترافية.
       
-      Using the Type 2 to Type 1 EV Adapter couldn't be easier. Its plug-and-play design allows for quick and straightforward installation, making it accessible to both experienced EV owners and newcomers alike. The compact size of the adapter ensures easy portability, enabling you to carry it conveniently in your glove compartment or EV storage compartment.
-      
-      Don't let charging compatibility limitations hold you back. Upgrade your Type 2 EV with the Type 2 to Type 1 EV Adapter and unlock a world of charging possibilities. Say goodbye to range anxiety and embrace the future of EV charging with this innovative and indispensable adapter.
-      
-      Note: The Type 2 to Type 1 EV Adapter is specifically designed for Type 2 electric vehicles and is not compatible with other EV charging standards. Please refer to your EV's specifications to ensure compatibility before purchase.`,
+      باختصار، تحويلة شاحن السيارة الكهربائية من نوع Type 2 إلى Type 1 توفر لك إمكانية الاستفادة من شبكة شحن السيارات الأمريكية، حتى إذا كانت سيارتك تستخدم منفذ شحن Type 2.`,
         availablePorts: 'Type 2 to Type 1', 
         illustration: 'https://d1gymyavdvyjgt.cloudfront.net/drive/images/uploads/headers/ws_cropper/1_0x0_790x520_0x520_ev-connector-type-2.jpg', 
         illustration2: 'https://d1gymyavdvyjgt.cloudfront.net/drive/images/uploads/headers/ws_cropper/1_0x0_790x520_0x520_ev-connector-type-2.jpg',
     },
     {
       id: '5',
-      name: 'Type 1 to Tesla EV Adapter',
+      name: 'تحويلة شاحن سيارة كهربائية Type 1 إلى Tesla',
       price: 400,
-      currency: 'GBP',
+      currency: 'AED',
       imageUrl: 'https://iili.io/HrEn199.md.jpg',
       rating: 5,
       ratingCount: 4,
       description:
-        'With this Tesla adapter, you get the best of both worlds. You can charge your Tesla from a Type 1 charging station, and you can charge your Type 1 EV from a Tesla charging station. This adapter is compatible with all Tesla models.',
+        'باستخدام هذا ادابتر Type 1 إلى Tesla يمكن شحن سيارات تسلا باستخدام شواحن السيارات الأمريكية، Type 1.',
       images,
       portType: 'tesla',
       function: 'adapter',
-      portType2: 'type1',
-      longDescription: `Introducing the Type 1 to Tesla EV Adapter - your ultimate solution for effortless and seamless charging compatibility. Designed with precision and innovation, this adapter is a game-changer for Type 1 electric vehicle (EV) owners who want to tap into the world of Tesla charging infrastructure.
-
-      Engineered to perfection, the Type 1 to Tesla EV Adapter is meticulously crafted to ensure a secure and reliable connection between your Type 1 EV and Tesla charging stations. With this adapter in your possession, you can bid farewell to any concerns about compatibility and enjoy the convenience of accessing Tesla's expansive Supercharger network.
+      portType2: 'none',
+      availablePorts: 'Type 1 to Tesla',
+      illustration: 'https://m.media-amazon.com/images/I/617vCTgdlgL.jpg',
+      longDescription: `
+      تحويلة شاحن السيارة الكهربائية من نوع Type 1 إلى تسلا هي منتج يوفر حلاً مريحًا وفعالًا لأصحاب السيارات الكهربائية من تسلا الذين يستخدمون منفذ شحن Type 1 ويرغبون في الاستفادة من شبكة الشحن الواسعة المتاحة لديهم.
       
-      This adapter is a versatile companion, enabling Type 1 EV owners to connect effortlessly to the Tesla charging infrastructure. Whether you're embarking on a long road trip, exploring new destinations, or simply charging up at a local Tesla charging station, this adapter ensures that your Type 1 EV can make the most of the powerful and efficient Tesla charging technology.
+      تأتي هذه التحويلة بتصميم مبتكر يتيح لك توصيلها بمنفذ شحن Type 1 الخاص بسيارتك الكهربائية وتحويله إلى منفذ شحن متوافق مع تسلا. بفضل هذه التحويلة، يمكنك الآن الوصول إلى شبكة شحن تسلا الواسعة والمتاحة في العديد من المواقع، مثل محطات الشحن العامة أو محطات الشحن في المنزل التابعة لتسلا.
       
-      The Type 1 to Tesla EV Adapter boasts a robust build quality, incorporating premium materials that guarantee durability and longevity. Its ergonomic design ensures a snug fit, eliminating any worries of loose connections or interruptions during charging sessions. With this adapter by your side, you can enjoy peace of mind, knowing that your Type 1 EV is securely connected and charging efficiently.
+      تحويلة شاحن السيارة من Type 1 إلى تسلا توفر سهولة الوصول إلى الشحن السريع والموثوق لسيارتك الكهربائية. يمكنك الاستفادة من شبكة شحن تسلا الواسعة والتي توفر وقت شحن أسرع ومزايا إضافية مثل المراقبة عن بُعد وتحديثات البرامج عبر الهواء.
       
-      In addition to its practicality, the Type 1 to Tesla EV Adapter is incredibly user-friendly. Its intuitive plug-and-play design allows for quick and effortless installation, making it accessible to both seasoned EV owners and newcomers alike. The adapter's compact size ensures easy portability, allowing you to carry it conveniently in your glove compartment or EV storage compartment.
+      باستخدام هذه التحويلة، يصبح شحن سيارتك الكهربائية من تسلا أمرًا مريحًا وسهلًا، بغض النظر عن نوع منفذ الشحن الذي تستخدمه السيارة. كما أنه يوفر لك مزيدًا من المرونة والتوافق مع شبكة الشحن المتاحة لديك، مما يجعل تجربة الشحن أكثر ملاءمة واحترافية.
       
-      Don't let compatibility limitations hinder your EV charging experience. Upgrade your Type 1 EV with the Type 1 to Tesla EV Adapter and unlock a world of charging possibilities. Say goodbye to range anxiety and embrace the future of EV charging with this innovative and indispensable adapter.
-      
-      Note: The Type 1 to Tesla EV Adapter is specifically designed for Type 1 electric vehicles and is not compatible with other EV charging standards. Please refer to your EV's specifications to ensure compatibility before purchase.`
+      باختصار، تحويلة شاحن السيارة الكهربائية من نوع Type 1 إلى تسلا توفر لك إمكانية الاستفادة من شبكة شحن تسلا الواسعة والمتاحة، حتى إذا كانت سيارتك تستخدم منفذ شحن Type 1. هذا المنتج يجمع بين الملاءمة والمرونة لتلبية احتياجات شحن سيارتك الكهربائية بكل سهولة وفعالية.`
     },
     {
         id: '6',
-        name: 'The best Volkswagen ID4 & ID6 Wallbox EV Charger',
+        name: ' أفضل شاحن سيارات كهربائية لفولكس فاجنID.4 و ID.6',
         currency: 'AED',
         price: 1800,
         flag: 'new',
@@ -190,7 +181,7 @@ export const images = [
         rating: 4,
         ratingCount: 19,
         description:
-          'With this EV charger, you can fast charge your ID.4, ID.6, Changan cars, and any other EV with a GBT port. This charger is compatible with all EVs with a GBT port which means it can support vehicles that are made in China.',
+          'باستخدام هذا الشاحن، يمكن شحن سيارات فولكس فاجن ID.4 و ID.6 بسرعة وكفاءة. ويمكن لهذا الشاحن شحن سيارات Changan وأي سيارة بمنفذ GB/T. مثل BYD Han',
         images,
         portType: 'gbt',
         function: 'charger',

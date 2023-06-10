@@ -303,8 +303,15 @@ const NAV_ITEMS = [
           },
         ],
       },
+      {
+        label: 'أجهزة فحص السيارات الكهربائية',
+        href: '/products/ev-scanners',
+    
+      },
     ],
+   
   },
+
   {
     label: 'خدمات',
     href: '#',

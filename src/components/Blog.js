@@ -56,8 +56,8 @@ const ArticleList = () => {
   const colorModeValue = useColorModeValueWrapper('gray.700', 'gray.200');
 
   return (
-    <Container maxW={'7xl'} p="12">
-      <Heading as="h1">Learn More About EV Chargers</Heading>
+    <Container maxW={'7xl'} p="12" dir='rtl'>
+      <Heading as="h1">مدونة شواحن السيارات الكهربائية</Heading>
       {blogPosts.map((post) => (
         <Box
           marginTop={{ base: '1', sm: '5' }}
@@ -132,8 +132,7 @@ const ArticleList = () => {
         </Box>
       ))}
       <Heading as="h2" marginTop="5">
-        Latest articles
-      </Heading>
+آخر المقالات      </Heading>
       <Divider marginTop="5" />
       <Wrap spacing="30px" marginTop="5">
         <WrapItem width={{ base: '100%', sm: '45%', md: '45%', lg: '30%' }}>
@@ -160,7 +159,7 @@ const ArticleList = () => {
             </Link>
             <Heading fontSize="xl" marginTop="2">
               <Link to={'./the-best-places-to-buy-ev-chargers-in-dubai'} textDecoration="none" _hover={{ textDecoration: 'none' }}>
-                The Best Places to Buy EV Chargers in Dubai              </Link>
+                أفضل مكان لبيع شواحن السيارات الكهربائية في الإمارات             </Link>
             </Heading>
 
             <Text as="p" fontSize="md" marginTop="2">
@@ -174,9 +173,15 @@ const ArticleList = () => {
         </WrapItem>
       </Wrap>
       <VStack paddingTop="40px" spacing="2" alignItems="flex-start">
-        <Heading as="h2">MEV Charger Blog</Heading>
+        <Heading as="h2">مدونة شواحن السيارات الكهربائية</Heading>
         <Text as="p" fontSize="lg">
-          Welcome to the MEV Chargers Blog, your go-to destination for all things related to Electric Vehicle (EV) chargers. Whether you're a proud EV owner, an industry professional, or simply interested in the future of sustainable transportation, this blog is designed to provide you with valuable insights, updates, and expert advice on EV charging technologies, trends, and best practices. Join us as we delve into the world of EV chargers and explore the latest advancements shaping the electric mobility landscape.
+        مرحبًا بكم في مدونة شواحن السيارات الكهربائية!
+
+نحن سعداء جدًا بوجودكم هنا في هذه المدونة المخصصة لشواحن السيارات الكهربائية. سواء كنتم من ملاك السيارات الكهربائية أو تفكرون في الانتقال إلى هذه التكنولوجيا المبتكرة، فإننا هنا لمشاركة معلومات قيمة ونصائح حول السيارات الكهربائية وشواحنها.
+سنقوم بتوفير محتوى شامل يغطي أحدث التطورات في عالم الشواحن الكهربائية، بما في ذلك أنواع الشواحن المختلفة، ومواصفاتها، وكيفية اختيار الشاحن المناسب لسيارتك الكهربائية. سنوفر أيضًا معلومات حول تقنيات الشحن السريع والشبكات العامة للشحن وأفضل الممارسات للحفاظ على أداء مثالي لبطارية سيارتك.
+نحن نؤمن بأهمية القيادة النظيفة والمستدامة، وشواحن السيارات الكهربائية تلعب دورًا حاسمًا في تمكيننا من ذلك. لذا، دعونا نتعاون معًا لنوسع معرفتنا ونستكشف عالم الشواحن الكهربائية سويًا.
+نحن متحمسون لمشاركة المعرفة والنصائح والأفكار معكم، ونرحب بأسئلتكم ومشاركاتكم في التعليقات. فلنستعد لرحلة ممتعة في عالم شواحن السيارات الكهربائية ونعمل معًا نحو مستقبل أكثر نظافة واستدامة.
+
 
 
         </Text>

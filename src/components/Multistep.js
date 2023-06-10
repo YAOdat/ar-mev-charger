@@ -56,8 +56,7 @@ const Form1 = ({ onNext }) => {
   return (
     <>
       <Heading w="100%" textAlign={'center'} fontWeight="normal" mb="2%">
-        What are you looking for?
-      </Heading>
+عمَّ تبحث؟      </Heading>
       <RadioGroup mb={8} name="Step1" sx={{ mt: 8 }}>
         <Stack spacing={10} direction="row" justify="center">
           <Stack direction="column" align="center">
@@ -72,8 +71,7 @@ const Form1 = ({ onNext }) => {
               cursor={'pointer'}
             />
             <FormLabel htmlFor="first-name" fontWeight={'normal'}>
-              EV Charger
-            </FormLabel>
+شواحن سيارات كهربائية            </FormLabel>
           </Stack>
 
           <Stack direction="column" align="center">
@@ -87,7 +85,7 @@ const Form1 = ({ onNext }) => {
               cursor={'pointer'}
             />
             <FormLabel htmlFor="first-name" fontWeight={'normal'}>
-              Adapter
+              تحويلات
             </FormLabel>
           </Stack>
         </Stack>
@@ -99,23 +97,22 @@ const Form1 = ({ onNext }) => {
 
 const CarModal = ({ isOpen, onClose }) => {
   return (
-    <Modal isCentered isOpen={isOpen} onClose={onClose}>
+    <Modal isCentered isOpen={isOpen} onClose={onClose} dir="rtl">
       <ModalOverlay />
       <ModalContent>
-        <ModalHeader>What type of Tesla do you have?</ModalHeader>
+        <ModalHeader dir="rtl">ما نوع سيارة التسلا لديك؟</ModalHeader>
         <ModalCloseButton />
         <ModalBody>
-          <Text>Tesla Charging Port Type</Text>
+          <Text>نوع منفذ الشحن في سيارة التسلا</Text>
         </ModalBody>
         <ModalFooter>
             <Link to="/products/type2">
             <Button colorScheme="green" mr={3}>
-                GCC Tesla
-                <Img width="25px" src={Tesla} alt="Tesla" />
+تسلا خليجي                <Img width="25px" src={Tesla} alt="Tesla" />
             </Button>
             </Link>
             <Link to="/products/tesla_charger">
-            <Button colorScheme="green" color="white" _hover={{backgroundColor:"green.400"}}>US Tesla       <Img width="25px" src={Tesla} alt="Tesla" />
+            <Button colorScheme="green" color="white" _hover={{backgroundColor:"green.400"}}>تسلا أمريكي      <Img width="25px" src={Tesla} alt="Tesla" />
 </Button>
             </Link>
         </ModalFooter>
@@ -142,8 +139,7 @@ const Form2 = () => {
   return (
     <>
       <Heading w="100%" textAlign={'center'} fontWeight="normal" mb="2%">
-        Select Your Vehicle
-      </Heading>
+اختر نوع سيارتك      </Heading>
       <FormControl id="first-name" isRequired>
         <SimpleGrid columns={4} spacing={10}>
           {/* make the car brands as icons when clicking the icon move to the next step */}
@@ -189,7 +185,7 @@ const Form3 = () => {
   return (
     <>
       <Heading w="100%" textAlign={'center'} fontWeight="normal">
-Ask an expert      </Heading>
+سَلْ خبيرًا     </Heading>
       {/* Rest of your form code for Form3 */}
     </>
   );
@@ -235,7 +231,7 @@ export default function Multistep() {
                 w="7rem"
                 mr="5%"
               >
-                Back
+                السابق
               </Button>
               <Button
                 w="7rem"
@@ -244,7 +240,7 @@ export default function Multistep() {
                 colorScheme="green"
                 variant="outline"
               >
-                Next
+                التالي
               </Button>
             </Flex>
             {step === 3 && (
@@ -254,8 +250,7 @@ export default function Multistep() {
                 variant="solid"
                 onClick={() => alert('I will message you later.')}
               >
-                Help pls
-              </Button>
+اطلب مساعدة              </Button>
             )}
           </Flex>
         </ButtonGroup>
