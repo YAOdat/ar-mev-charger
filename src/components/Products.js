@@ -18,7 +18,7 @@ const Products = () => {
         {filteredProducts.map((product) => (
           <Box key={product.id} borderWidth="1px" borderRadius="md" overflow="hidden">
             <Link to={`/products/${product.id}`}>
-              <Image src={product.imageUrl} alt={product.name} />
+              <Image src={product.imageUrl? product.imageUrl : product.imageSource} alt={product.name} />
               {product.flag && (
                 <Badge
                   position="absolute"
