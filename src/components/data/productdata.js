@@ -46,7 +46,7 @@ export const images = [
       portType: 'type2',
       function: 'charger',
       portType2: 'gbt',
-      longDescription: `Are you tired of searching for different chargers to power up your electric vehicles? Look no further! Our revolutionary Electric Vehicle Charger is here to simplify your charging experience. With its versatile connectors and advanced features, it's the ultimate solution for charging a wide range of electric vehicles, including Volkswagen ID.4, ID.6, GCC Tesla, Al Damani, BMW, Mercedes, and many more.\n\nVersatile Connectors:\nThis charger comes equipped with three interchangeable connectors - Type 2, Type 1, and GBT. With this wide range of connectors, you can effortlessly charge various electric vehicle models, ensuring compatibility and convenience.\n\nAdvanced Features for Optimal Charging:\nOur Electric Vehicle Charger is designed with your safety and convenience in mind. It features a built-in circuit breaker, providing reliable protection against electrical surges and short circuits. You can rest easy knowing that your vehicle and charger are safeguarded during the charging process.\n\nInformative LCD Screen:\nStay informed about your charging progress with the charger's 4.3-inch LCD screen. This intuitive display provides real-time updates, displaying essential information such as live charging current, voltage, kW.h, time, and total meter value. Keep track of your charging status at a glance and plan your schedule accordingly.\n\nOptimal Cable Length:\nThe charger comes with a generous 3.5-meter cable length, giving you flexibility and freedom during the charging process. Say goodbye to inconveniently short cables and enjoy the convenience of charging your vehicle from a comfortable distance.\n\nUniversal Compatibility:\nWith its broad range of supported vehicle models, our Electric Vehicle Charger is your go-to solution for charging electric vehicles from various manufacturers. Whether you own a Volkswagen, Tesla, Al Damani, BMW, Mercedes, or other compatible models, this charger has got you covered.\n\nUpgrade Your Charging Experience:\nExperience the convenience, safety, and versatility of our Electric Vehicle Charger. With its multiple connectors, advanced protection features, informative LCD screen, and universal compatibility, it is the ideal charging companion for any electric vehicle owner. Take control of your charging process and power up your vehicle effortlessly.`,
+      longDescription: `شاحن سيارة كهربائية منزلي بقوة 7.7 كيلوواط قادر على شحن مختلف أنواع السيارات الكهربائية. يتوفر ثلاث نسخ من الشاحن؛ شاحن بمنفذ Type 2 للسيارات الأوروبية، شاحن بمنفذ GB/T للسيارات الصينية، ونسخة بمنفذ Type 1. يستطيع شحن سيارات Tesla, Volkswagen ID4, ID6, BYD, BMW, Audi, Mercedes, Volvo, Polestar, MG, Mini, Renault, Nissan, Peugeot, Citroen, DS, Opel, Vauxhall, Chevrolet, Cadillac, GMC, وغيرها الكثير.`,
       color: [
         { name: 'أسود', imageUrl: 'https://iili.io/Hr78TZb.md.webp' },
         { name: 'برتقالي', imageUrl: 'https://iili.io/HrtH9iF.md.webp'},
@@ -61,7 +61,7 @@ export const images = [
       availablePorts: 'Type 2, Type 1, GBT',
       power: '7.7 / 11 / 22 kW',
       metaDescription:
-      'Discover our Wallbox EV Charger with versatile connectors and advanced features. Safely and conveniently charge your electric vehicle with our reliable and high-performance charger. Suitable for a wide range of EV models.',
+      'شاحن سيارة كهربائية منزلي بقوة 7.7 كيلوواط قادر على شحن مختلف أنواع السيارات الكهربائية. يتوفر ثلاث نسخ من الشاحن؛ شاحن بمنفذ Type 2 للسيارات الأوروبية، شاحن بمنفذ GB/T للسيارات الصينية، ونسخة بمنفذ Type 1.',
     },
       
     {
@@ -186,19 +186,18 @@ export const images = [
         portType: 'gbt',
         function: 'charger',
         portType2: 'none',
-        longDescription: `Introducing the ultimate charging solution for Volkswagen ID4 and ID6 electric vehicles—the Volkswagen ID4 & ID6 Wallbox EV Charger. This state-of-the-art charging device is designed to provide seamless and efficient charging for your Volkswagen electric vehicle, ensuring you enjoy maximum convenience and optimal performance.
-
-        The Volkswagen ID4 & ID6 Wallbox EV Charger is available in three power options to cater to your specific charging needs. The first option is the impressive 22 kW power variant, which delivers lightning-fast charging speeds, enabling you to charge your ID4 or ID6 battery to its full capacity in no time. This high-power option is perfect for those who require rapid charging capabilities, reducing downtime and allowing you to hit the road swiftly.
+        longDescription: `
+        شاحن للسيارات الكهربائية المثالي لفولكس فاجن ID.4 و ID.6 هو جهاز عالي الجودة وفعال يوفر تجربة شحن سريعة وموثوقة لمركبتك الكهربائية. يتميز هذا الشاحن بالعديد من الميزات الرائعة التي تلبي احتياجاتك الشخصية وتجعل عملية الشحن أكثر سهولة وراحة.
         
-        The second power option is the 11 kW variant, which offers a balanced charging rate. It provides a commendable charging speed that efficiently replenishes your vehicle's battery while still being practical for everyday use. This option strikes a great balance between charging speed and power consumption, ensuring a reliable and efficient charging experience.
+        أحد أهم ميزات هذا الشاحن هو قدرته على توفير شحن سريع وفعال لمركبتك. بفضل تقنية الشحن السريع ، يمكنك شحن بطارية سيارتك بسرعة متناهية ، مما يوفر الكثير من الوقت ويسمح لك بالاستمتاع برحلاتك بأقصى قدر من الكفاءة.
         
-        For those seeking a more conservative charging solution without compromising on effectiveness, the Volkswagen ID4 & ID6 Wallbox EV Charger is also available in a 7 kW power option. This option suits users with lower power requirements, offering a slower yet steady charging rate that is suitable for overnight charging or longer parking durations. It is an ideal choice for residential settings or locations where charging time is not a critical factor.
+        يتميز هذا الشاحن بتصميمه المدمج والمحمول ، مما يجعله ملائمًا للاستخدام في المنزل أو في الأماكن العامة مثل محطات الشحن العامة. يمكنك حمله بسهولة في صندوق السيارة واستخدامه في أي وقت وفي أي مكان ترغب فيه.
         
-        Regardless of the power variant you choose, the Volkswagen ID4 & ID6 Wallbox EV Charger is designed to provide a safe and user-friendly charging experience. It is equipped with advanced safety features such as built-in surge protection and overheat protection, ensuring the utmost safety for both your vehicle and the charging infrastructure.
+        بالإضافة إلى ذلك ، يتميز الشاحن بواجهة سهلة الاستخدام ومريحة. يتضمن شاشة تعمل باللمس وأزرار مستخدم واضحة ، مما يتيح لك ضبط إعدادات الشحن ومراقبة تقدم الشحن بكل سهولة. يمكنك أيضًا توصيل الشاحن بتطبيق هاتفك المحمول عبر البلوتوث ، مما يتيح لك مراقبة عملية الشحن والحصول على إشعارات حول حالة الشحن أثناء التنقل.
         
-        Moreover, the Volkswagen ID4 & ID6 Wallbox EV Charger boasts a sleek and compact design, blending seamlessly into any environment. Its intuitive interface and easy-to-use features make it convenient for both experienced electric vehicle owners and those new to the world of electric mobility.
+        السلامة أيضًا هي اهتمام كبير في هذا الشاحن. يتميز بمجموعة واسعة من الإجراءات الأمنية مثل حماية من الحمل الزائد وحماية من الحرارة الزائدة والحماية من التيار الزائد ، مما يضمن سلامة الشحن ويحمي بطارية سيارتك من التلف.
         
-        With the Volkswagen ID4 & ID6 Wallbox EV Charger, you can enjoy the convenience and peace of mind that come with owning an electric vehicle. It's a reliable and efficient charging solution that perfectly complements the exceptional performance and sustainability of the Volkswagen ID4 and ID6 models. Say goodbye to range anxiety and embrace the future of driving with the Volkswagen ID4 & ID6 Wallbox EV Charger.`,
+        باختصار ، إن شاحن السيارات الكهربائي الأفضل لفولكس فاجن ID.4 و ID.6 هو جهاز عملي وقوي يوفر شحن سريع وآمن ومريح لمركبتك الكهربائية. ستستمتع بتجربة شحن ممتازة تجعل رحلاتك الكهربائية سهلة ومريحة.`,
         availablePorts: 'GBT',
         power: '7.7/ 11 / 22 kW',
         cableLength: '3.5m',
@@ -208,15 +207,14 @@ export const images = [
       },
       {
         id: '7',
-        name: 'TYPE 2 Wallbox EV Charger',
+        name: 'شاحن منزلي للسيارات الكهربائية Type 2', 
         currency: 'AED',
         price: 1800,
         flag: 'new',
         imageUrl: 'https://iili.io/HrjMhfn.md.webp',
         rating: 4,
         ratingCount: 14,
-        description:
-          'With EV charger you can charger any EV that was made in Europe, this includes all Tesla models that were made in Europe, Audi, BMW, Mercedes, Porsche and many more.',
+        description: "باستخدام هذا الشاحن، يمكنك شحن سيارتك الكهربائية بسرعة وسهولة في المنزل. يتميز هذا الشاحن بالعديد من الميزات الرائعة التي تجعل عملية الشحن أكثر سهولة وراحة  يتوفر فيه شاشة تبين حالة الشحن. يأتي الشاحن بمنفذ Type 2  والمتوافق مع العديد من السيارات الكهربائية الأوروبية مثل Tesla  الأوروبية، BMW، Audi، Mercedes Benz، وغيرها الكثير من السيارات التي تأتي بمنفذ Type 2.",
         images,
         portType: 'type2',
         function: 'charger',
@@ -297,7 +295,7 @@ export const images = [
             flag: 'new',
             imageUrl: require('../images/product-images/DCAdapter.webp'),
             rating: 5,
-            ratingCount: 3,
+            ratingCount: 4,
             description: 'Fast charging DC adapter for Volkswagen ID4 and ID6.',
             portType: 'type 2',
             function: 'adapter',
@@ -310,7 +308,102 @@ export const images = [
             weight: '2 kg',
             power: '~50 kW',
             cableLength: '-',
-        }
+        },
+        {
+          id:'12',
+          name: 'أدابتر سيارات فولكس فاجن ID4و ID6',
+          currency: 'AED',
+          price: 350,
+          flag: 'new',
+          imageSource: require('../images/product-images/GBTtoGBT.jpg'),
+          imageAlt: 'أدابتر سيارات فولكس فاجن ID4و ID6',
+          rating: 5,
+          ratingCount: 3,
+          description: 'اشحن سيارة volkswagen ID4/ID6 باستخدام شواحن السيارات الأوروبية Type 2 أو شواحن تسلا الخليجية.',
+          portType: 'gbt',
+          function: 'adapter',
+          longDescription: `
+          أدابتر GBT إلى GBT هو منتج مبتكر يمكنك من شحن سيارات فولكس فاجن ID.4 و ID.6 بسهولة وفعالية باستخدام شواحن سيارات تسلا الخليجية أو السيارات الأوروبية الشهيرة مثل Mercedes، BMW، Audi وغيرها. يُعد هذا الأدابتر حلاً مرنًا ومتوافقًا مع مجموعة واسعة من السيارات الكهربائية، مما يتيح لك الاستفادة من تكنولوجيا الشحن السريع بغض النظر عن نوع منفذ سيارتك.
+          
+          تتميز أدابتر GBT إلى GBT بتصميمه الأنيق والمتين، مما يجعله سهل الاستخدام ومثاليًا للاستخدام اليومي. بفضل موصل GBT المتوافق، يتم توصيل الأدابتر بسهولة مع سيارتك الكهربائية فولكس فاجن ID.4 أو ID.6. يمكنك ببساطة توصيل الأدابتر بشاحن تسلا الخليجي أو شاحن سيارة أوروبي متوافق ومن ثم توصيله بمنفذ شحن سيارتك للبدء في عملية الشحن.
+          
+          بفضل أدابتر GBT إلى GBT، لن تكون بحاجة إلى شراء شاحن جديد خاص بسيارتك، بل يمكنك الاستفادة من الشواحن المتوفرة بالفعل في منزلك أو في المحطات العامة للشحن. سيتيح لك هذا توفير الوقت والجهد والمال، مع الحفاظ على أداء الشحن السريع والموثوق في كل مرة تحتاج فيها إلى شحن سيارتك.
+          
+          باستخدام أدابتر GBT إلى GBT، ستكون قادرًا على الاستفادة من شبكة الشواحن الموجودة بالفعل، وبالتالي توسيع نطاق خيارات الشحن لديك وتعزيز راحة استخدام سيارتك الكهربائية. سواء كنت في رحلة طويلة أو في مدينة غريبة، فإن هذا المنتج سيوفر لك القدرة على شحن سيارتك بسهولة وموثوقية على مدار الساعة.
+          
+          مهما كانت سيارتك الكهربائية وأي نوع من شواحن السيارات تمتلكه، ستكون أدابتر GBT إلى GBT رفيقًا مثاليًا لشحن سيارتك بسرعة وسهولة، وتمنحك الثقة في التنقل بسيارتك الكهربائية دون أي قيود.`,
+          weight: '0.5 kg',
+          availablePorts: 'GBT',
+          current: '32 A',
+          power: '7.7 kW',
+          operatingTemperature: '-30°C to +50°C',
+          cableLength: '-',
+          illustration: require('../images/product-images/GBT2GBT.webp'),
+          illustration2: 'https://www.akyga.com/upl/app/products/images2/big-webp/dd106aec8f6ad2582c4bf459534ee3c0.webp.jpg',
+      },
+
+      {
+          id:'13',
+          name: 'شاحن سيارة كهربائية بقوة 22 كليوواط 3 فاز',
+          currency: 'AED',
+          price: 1850,
+          flag: 'new',
+          imageSource: require('../images/product-images/white-ev-charger.webp'),
+          imageAlt: 'شاحن سيارة كهربائية 3 فاز',
+          rating: 5,
+          ratingCount: 3,
+          description: 'شاحن سيارة كهربائية بمنفذ GBT يتناسب مع سيارات فولكس فاجن ID.4 و ID.6',
+          portType: 'gbt',
+          function: 'charger',
+          longDescription: 'شاحن سيارة كهربائية بمنفذ GBT يتناسب مع سيارات فولكس فاجن ID.4 و ID.6',
+          weight: '0.5 kg',
+          availablePorts: 'GBT, Type 2, Type 1',
+          current: '32 A',
+          power: '7.7 kW, 11 kW, 22 kW',
+          operatingTemperature: '-30°C to +50°C',
+          cableLength: '5m, 10m, 15m',
+          inputVoltage: 'AC220V±15%',
+          inputFrequency: '50Hz',
+          operatingTemperature:'-30℃C~+55℃',
+          color: [
+              { name: 'white', imageUrl: require('../images/product-images/white-ev-charger.webp') },
+              { name: 'black', imageUrl: require('../images/product-images/black-ev-charger.webp') },
+              { name: 'blue', imageUrl: require('../images/product-images/blue-ev-charger.webp') },
+              { name: 'gray', imageUrl: require('../images/product-images/gray-ev-charger.webp') },
+
+          ],
+          
+          illustration: require('../images/product-images/white-ev-charger.webp'),
+          illustration2: 'https://www.akyga.com/upl/app/products/images2/big-webp/dd106aec8f6ad2582c4bf459534ee3c0.webp.jpg',
+      },
+        {
+            id:'14',
+            name: 'XTool EV جهاز فحص سيارات تسلا الكهربائية', 
+            currency: 'AED',
+            price: 10250,
+            flag: 'new',
+            imageUrl: require('../images/product-images/tesla-ev-scanner.jpg'), 
+            rating: 5,
+            ratingCount: 1,
+            description: 'D9 EV Professional EV Smart Diagnostic System, a high-performance 9.7-inch tablet that supports Bluetooth communication, DoIP, and CAN-FD protocols. With online software updates and compatibility with most Tesla EV models, it offers comprehensive diagnostic functions including battery pack detection, Tesla diagnosis, ECU information reading, DTC clearing, live data analysis, and over 40 special functions. Plus, it provides IMMO support for added security. Stay ahead with the D9 EV and unlock the full potential of electric vehicle diagnostics. ',
+            longDescription: `Introducing the D9 EV Professional EV Smart Diagnostic System, the ultimate companion for all your electric vehicle diagnostic needs. Engineered for excellence, this powerful tablet boasts a 9.7-inch display, delivering high performance and durability to ensure a long-lasting diagnostic experience.
+
+            With its cutting-edge technology, the D9 EV system supports Bluetooth communication, allowing seamless connectivity with various devices. It goes above and beyond by supporting both the DoIP protocol and CAN-FD protocol, ensuring compatibility with a wide range of electric vehicle models.
+            
+            The D9 EV is your go-to solution for diagnosing electric vehicles, as it supports a vast majority of EV models currently available in the market. Stay up-to-date with the latest advancements in the industry, as all software, including the app, diagnostic software, and operating system, can be easily updated online. Experience convenience like never before!
+            
+            Equipped with an array of diagnostic functions, the D9 EV offers comprehensive support for all your diagnostic needs. From battery pack detection to specialized Tesla diagnosis, this system covers it all. Effortlessly access essential ECU information, effortlessly read and clear DTCs, and obtain real-time live data for a complete analysis of your EV's performance. Furthermore, take advantage of over 40 special functions, ensuring that no diagnostic challenge is left unanswered.
+            
+            For added security, the D9 EV also supports IMMO function, safeguarding your electric vehicle against unauthorized access. Rest easy knowing that your vehicle is protected by state-of-the-art diagnostic technology.
+            
+            In conclusion, the D9 EV Professional EV Smart Diagnostic System is your reliable companion for diagnosing and maintaining electric vehicles. Its high-performance tablet, versatile protocol support, and extensive diagnostic functions make it a valuable asset for professionals in the industry. Stay ahead of the game with this exceptional diagnostic system and ensure optimal performance for your electric vehicle fleet.`,
+            portType: 'none',
+            function: 'scanner',
+            illustration: 'https://www.midaevse.com/uploads/CCS2-GBT-Adapter.jpg',
+            illustration2: 'https://d.yixunpan.top/electway.com/wp-content/uploads/2021/03/img-5875.jpg',
+        
+        },
+
 
   ];
   
