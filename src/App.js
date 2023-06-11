@@ -23,6 +23,7 @@ import Emergency from './components/Emergency';
 import BlogPost from './components/BlogPost';
 import Blog from './components/Blog';
 import PopularBlogs from './components/PopularBlogs';
+import Links from './components/Links';
 import NotFound from './components/404';
 import ReactGA from 'react-ga';
 
@@ -207,6 +208,7 @@ function App() {
           <Route path="/blog" element={<Blog />} />
           <Route path="/blog/:id" element={<BlogPost />} />
           <Route path="/blog/the-best-places-to-buy-ev-chargers-in-dubai" element={<PopularBlogs />} />
+          <Route path="/links" element={<Links />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
         <FloatingWhatsApp
