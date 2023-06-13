@@ -21,6 +21,7 @@ import ProductPage from './components/ProductPage';
 import Services from './components/Services';
 import Installation from './components/Installation';
 import Emergency from './components/Emergency';
+import PostPage from './components/PostPage';
 import BlogPost from './components/BlogPost';
 import Blog from './components/Blog';
 import PopularBlogs from './components/PopularBlogs';
@@ -208,7 +209,7 @@ function App() {
           <Route path="/services/roadside-charging-service" element={<Emergency />} />
           <Route path='/services' element={<Services />} />
           <Route path="/blog" element={<Blog />} />
-          <Route path="/blog/:id" element={<BlogPost />} />
+          <Route path="/blog/:id" element={<PostPage />} />
           <Route path="/blog/the-best-places-to-buy-ev-chargers-in-dubai" element={<PopularBlogs />} />
           <Route path="/links" element={<Links />} />
           <Route path="*" element={<NotFound />} />
