@@ -11,6 +11,7 @@ import {
 
   
 } from '@chakra-ui/react';
+import Ad from './Ad'
 import { ProductCard } from './ProductCard'
 import { products } from './data/productdata'
 import { ProductGrid } from './ProductGrid'
@@ -93,6 +94,7 @@ export default function CallToActionWithAnnotation() {
       ))}
     </ProductGrid>
   </Box>
+  <Ad />
       
     </>
   );
