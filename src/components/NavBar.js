@@ -67,7 +67,7 @@ export default function WithSubnavigation() {
           alignItems="center"
         >
     <Link href="/">
-            <img src={Logo} alt="MEV Charger" width={80} />
+            <img src={Logo} alt="MEV Charger" width={80} title='MEV Charger logo' />
           </Link>
           <Flex display={{ base: 'none', md: 'flex' }} ml={10}>
             <DesktopNav />
@@ -97,7 +97,7 @@ export default function WithSubnavigation() {
           </Button>
 
           <Button as="a" href="https://mevcharger.com">
-          <Image src={Arabic2English} alt="Arabic to English" width={10} />
+          <Image src={Arabic2English} alt="Arabic to English" width={10} title='Arabic to English EV Chargers Translation' loading="eager"/>
           </Button>
 
 

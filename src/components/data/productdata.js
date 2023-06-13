@@ -225,7 +225,7 @@ export const images = [
       },
       {
         id: '8',
-        name: 'Tesla Wallbox EV Charger',
+        name: 'شاحن سيارة تسلا منزلي',
         currency: 'AED',
         price: 1800,
         flag: 'new',
@@ -366,10 +366,10 @@ export const images = [
           inputFrequency: '50Hz',
           operatingTemperature:'-30℃C~+55℃',
           color: [
-              { name: 'white', imageUrl: require('../images/product-images/white-ev-charger.webp') },
-              { name: 'black', imageUrl: require('../images/product-images/black-ev-charger.webp') },
-              { name: 'blue', imageUrl: require('../images/product-images/blue-ev-charger.webp') },
-              { name: 'gray', imageUrl: require('../images/product-images/gray-ev-charger.webp') },
+              { name: 'أبيض', imageUrl: require('../images/product-images/white-ev-charger.webp') },
+              { name: 'أسود', imageUrl: require('../images/product-images/black-ev-charger.webp') },
+              { name: 'أزرق', imageUrl: require('../images/product-images/blue-ev-charger.webp') },
+              { name: 'رمادي', imageUrl: require('../images/product-images/gray-ev-charger.webp') },
 
           ],
           
@@ -404,18 +404,62 @@ export const images = [
         
         },
 
+      { 
+          id:'15',
+          name: 'وصلة فحص سيارات تسلا الكهربائية',
+          currency: 'AED',
+          price: 1000,
+          salePrice: 750,
+          flag: 'new',
+          imageUrl: require('../images/product-images/tesla-obd2.png'),
+          rating: 5,
+          ratingCount: 1,
+          description: "وصلة فحص  تسلا قادرة على كشف أعطال مختلف موديلات سيارات تسلا. تأتي باشتراك سنتين مجاني.",
+          longDescription: `
+          وصلة فحص سيارات تسلا الكهربائية هي منتج مبتكر ومتطور يهدف إلى تسهيل عملية فحص وتشخيص الأعطال في مختلف موديلات سيارات تسلا. تتميز هذه الوصلة بحجمها الصغير وسهولة استخدامها، حيث يتم توصيلها بمنفذ OBD2 الموجود في سيارة تسلا.
+          
+          تأتي الوصلة مع اشتراك سنتين مجاني، مما يوفر قيمة إضافية للمستخدمين ويضمن توفر التحديثات والدعم الفني لفترة طويلة. يتم استخدام التطبيق المرافق المتوافق مع نظام أندرويد Android لتنفيذ عملية الفحص والتشخيص، والذي يتيح للمستخدم الوصول إلى واجهة سهلة الاستخدام ومفصلة لتحليل وفحص جميع نواحي السيارة.
+          
+          تتمتع هذه الوصلة بالقدرة على كشف أعطال متنوعة في السيارة، مثل الأخطاء الإلكترونية ومشاكل الأداء والنظام الكهربائي. توفر تقنية الوصلة القدرة على قراءة ومسح رموز الأخطاء المختلفة، وتعرض تقارير مفصلة وشاملة عن حالة السيارة ومكوناتها المختلفة.
+          
+          بفضل هذه الوصلة المبتكرة، يمكن لأصحاب سيارات تسلا الكهربائية الاستفادة من تشخيص دقيق وفوري لحالة سياراتهم، مما يعزز الصيانة الوقائية ويساعد في توفير الوقت والمال. تجمع هذه الوصلة بين التكنولوجيا العالية والسهولة في الاستخدام، مما يجعلها أداة قيمة لأي مالك لسيارة تسلا الكهربائية يسعى للحفاظ على أداء سيارته بأفضل حالة ممكنة.`,
+          portType: 'none',
+          function: 'scanner',
+          subscription: 'سنتين',
+          illustration: require('../images/product-images/tesla-thinkdiag.jpg'),
+
+
+
+      }
 
   ];
   
-
     export const blogPosts = [
         {
             id: '1',
-            title: 'How to charge your EV',
+            title: 'Volkswagen ID.4 Charging Time: How Long Does It Take to Charge from 0% to 100%?',            
             imageUrl: 'https://iili.io/H4Jw19e.md.png',
-            description: 'This is a description',
-            content: 'This is a content',
-            date: '2023-02-04',
+            description: `Discover the Volkswagen ID.4 Charging Time: How long does it take to charge from 0% to 100%? The Volkswagen ID.4 has emerged as one of the top electric vehicle offerings in 2021. In this comprehensive test, we drained the ID.4's battery and charged it to full capacity using a 150 kW DC fast charger. With an 82 kWh battery and a peak charging rate of 125 kW (which reached 131 kW in our test), the ID.4 achieved impressive charging speeds. It took only 12 minutes to charge up to 30% and 40% in just 16 minutes, adding 100 miles of driving range. At 80% state of charge, it replenished 200 miles in 40 minutes. We observed a remarkable average power intake of 110 kW, nearly 90% of its stated peak charging rate. Join us as we delve into the ID.4's charging capabilities and learn about potential upgrades to its maximum charge rate. Watch the video and share your thoughts on the ID.4's exceptional charging performance.`,
+            content: `The Volkswagen ID.4 has garnered considerable admiration as one of the most captivating electric vehicle offerings in 2021. In our pursuit of comprehensive testing, we recently conducted a DC fast charging experiment on an ID.4 First Edition, depleting its battery to zero and subsequently replenishing it to full capacity using an Electrify America 150 kW DC fast charger.
+
+            Equipped with an 82 kWh battery, with 77 kWh being usable, the ID.4 boasts a peak charging rate of 125 kW, though our examination revealed a peak rate of 131 kW. Remarkably, the ID.4 consistently maintained a charging speed of 123 kW or higher until it reached the 30% state of charge, taking a mere 12 minutes to achieve this milestone.
+            
+            Within 16 minutes, the ID.4 attained a 40% state of charge, restoring approximately 100 miles of driving range, based on the EPA's range rating of 250 miles. Alternatively, adhering to the InsideEVs 70-mph range test results, it required a brisk 17 minutes to achieve the same feat. Subsequently, the vehicle reached the 50% state of charge in 20 minutes, while the 80% state of charge was achieved within 40 minutes, consuming 67 kWh of energy. Notably, during the initial charging phase from 0% to 80%, the ID.4 displayed an average power intake of 110 kW, amounting to almost 90% (88% precisely) of its stated peak charging rate, demonstrating commendable efficiency.
+            
+            Upon reaching the 80% state of charge, the ID.4 had replenished an estimated 200 miles of driving range according to the EPA range rating. However, our range test results indicated an additional 5 minutes of charging was needed to reach an 85% state of charge (totaling 45 minutes) and restore the same 200 miles of range.
+            
+            Similar to all electric vehicles, the charge rate diminishes significantly once the state of charge reaches 80%, dropping from 69 kW at 80% SOC to a mere 41 kW at 90%. After one hour, the ID.4 attains a 97% state of charge and subsequently takes an additional 5 minutes to reach a full 100% charge.
+            
+            An intriguing observation during the charging session was that the charging station's display indicated 99% charge completion, whereas the ID.4's internal display confirmed a full 100% charge.
+            
+            Although we have previously conducted charging tests on the ID.4, we retested the vehicle for the sake of meticulous verification and to capture a complete recording. Duplicate testing ensures the reliability and accuracy of our results. Additionally, our colleague, Mark Kane, has compiled an insightful ID.4 DC fast charging analysis, incorporating data from Kyle and me, as well as other relevant sources, such as YouTube-based ID.4 charging DC fast charge recordings.
+            
+            While the ID.4 may not be the absolute fastest-charging EV, it undeniably stands out as one of the top contenders, particularly when considering its attractive starting price of $39,995 in the US. Our colleague Kyle recently embarked on an ID.4 road trip from Florida to Colorado and was immensely impressed by its charging speed. It is worth noting that Kyle is widely recognized as one of the most experienced EV road-trippers in our network.
+            
+            Moreover, the ID.4's charging capabilities are poised to improve further in the near future. We have received information indicating that Volkswagen plans to enhance the ID.4's maximum charge rate from 125 kW to 175 kW through an over-the-air (OTA) software update. However, the duration for which the vehicle can sustain this elevated charging rate remains uncertain. As we have emphasized on multiple occasions, the average power delivery holds greater significance than the peak power rate. Should this upgrade materialize, we will conduct another charging session with the updated ID.4 to document the results.
+            
+            We encourage you to watch the accompanying video and share your thoughts. Do you concur that the ID.4 exhibits exceptional charging capabilities? Alternatively, would an increase in the maximum charging rate to 175 kW alter your perception? Please leave your feedback in the comment section below.`,
+            date: '2023-05-04',
             contentImageUrl: 'https://iili.io/H4Jw19e.md.png',
             tags: ['Volkswagen', 'ID.4', 'ID.6', 'Charging', 'Charging Settings'],
             comments: [
@@ -442,8 +486,8 @@ export const images = [
 
         {
             id: '2',
-            title: 'How to turn slow charging mode in Volkswagen ID.4 and ID.6 off',
-            metaTitle: 'How to turn slow charging mode in Volkswagen ID.4 and ID.6 off',
+            title: 'كيفية إطفاء وضع الشحن البطيء في Volkswagen ID.4 و ID.6',
+            metaTitle: 'كيفية إطفاء وضع الشحن البطيء في Volkswagen ID.4 و ID.6',
             imageUrl: 'https://assets.volkswagen.com/is/image/volkswagenag/VW_NGW6_Showroom_ID4_Collage_Interior?Zml0PWNyb3AlMkMxJndpZD04MDAmaGVpPTUzMyZmbXQ9anBlZyZxbHQ9NzkmYmZjPW9mZiYyOTg5',
             description: 'Unlock Faster Charging: Troubleshoot Slow Charging for your ID.4 or ID.6. Learn how to deactivate the slow charging mode with simple steps and get back to efficient charging in no time.',
             content: `How to Turn Off Slow Charging Mode in Volkswagen ID.4 and ID.6: Setting Charging Current
