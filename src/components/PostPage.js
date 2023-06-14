@@ -27,17 +27,19 @@ console.log(colorMode)
   };
 
   return (
-    <article className="glass-body" id={`glass-body-${colorMode}`}>
+    <article className="glass-body" id={`glass-body-${colorMode}`} dir='rtl'>
     <div className="card" id={`card-${colorMode}`}>
       <a href="#">
         <h1 className="card-title" id={`card-title-${colorMode}`}>{post.title}</h1>
       </a>
       <div id={`card-content-${colorMode}`} dangerouslySetInnerHTML={{ __html: replaceYouTubeLinks(post.content) }}></div>
+      <a href={`/blog/${id}`}> 
       <img src={post.contentImageUrl} alt="Post Image" />
+      </a>
       <div className="blog-post-author-container">
         <br></br>
-        {post.author && <h3>Written by: {post.author}</h3>}
-        <h3>Published on: {post.date}</h3>
+        {post.author && <h3>الكاتب: {post.author}</h3>}
+        <h3>تم النشر بتاريخ: {post.date}</h3>
         <h3 className="blog-post-tags">Tags: {post.tags.join(', ')}</h3>
         {post.category && <h3>Category: {post.category}</h3>}
       </div>
