@@ -29,11 +29,11 @@
 	display: flex;
 	justify-content: center;
 	margin-top: 0;
-	font-weight: 600;
+	font-weight: 700;
 	margin-bottom: 0.5rem;
 	font-size: 1.2rem;
 	color: #48BB78;
-	text-shadow: black 0.01em 0.01em 0.01em;
+	text-shadow: rgba(0, 0, 0, 0.137) 0.01em 0.01em 0.01em;
 	color: linear-gradient(90deg, #36652d 0, #226627 58%);
   }
   
