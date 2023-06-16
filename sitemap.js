@@ -45,4 +45,4 @@ routes.forEach((route) => {
 
 const sitemapXml = sitemap.end({ prettyPrint: true });
 
-fs.writeFileSync('./public/sitemap.xml', sitemapXml, 'utf8');
+fs.writeFileSync('./public/sitemapfix.xml', sitemapXml, 'utf8');
