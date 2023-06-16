@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://ar.mevcharger.com/</loc>
   </url>
@@ -40,13 +37,13 @@
     <loc>https://ar.mevcharger.com/products/tesla</loc>
   </url>
   <url>
-    <loc>https://www.ar.mevcharger.com/products/gbt</loc>
+    <loc>https://ar.mevcharger.com/products/gbt</loc>
   </url>
   <url>
     <loc>https://ar.mevcharger.com/products/adapters</loc>
   </url>
   <url>
-    <loc>https://www.ar.mevcharger.com/products/adapters/ac</loc>
+    <loc>https://ar.mevcharger.com/products/adapters/ac</loc>
   </url>
   <url>
     <loc>https://ar.mevcharger.com/products/adapters/dc</loc>
@@ -73,7 +70,7 @@
     <loc>https://ar.mevcharger.com/products/4</loc>
   </url>
   <url>
-    <loc>https://www.ar.mevcharger.com/products/5</loc>
+    <loc>https://ar.mevcharger.com/products/5</loc>
   </url>
   <url>
     <loc>https://ar.mevcharger.com/products/6</loc>
