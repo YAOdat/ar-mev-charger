@@ -101,7 +101,7 @@ export default function WithSubnavigation() {
           </Button>
 
 
-          <Button onClick={toggleColorMode}>
+          <Button onClick={toggleColorMode} aria-label="Toggle color mode">
             <MoonIcon />
           </Button>
 

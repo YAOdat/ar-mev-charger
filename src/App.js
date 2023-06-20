@@ -208,7 +208,18 @@ function App() {
           <Route path="/services/ev-charger-installation" element={<Installation />} />
           <Route path="/services/roadside-charging-service" element={<Emergency />} />
           <Route path='/services' element={<Services />} />
-          <Route path="/blog" element={<Blog />} />
+          <Route path="/blog" element={              <Fragment>
+            <Helmet>
+                  <title>شواحن ميجا - مدونة الشواحن الكهربائية</title>
+                  <meta
+                    name="description"
+                    content="اقرأ مقالاتنا عن السيارات الكهربائية والشواحن الكهربائية والمزيد."
+                  />
+                </Helmet>
+<Blog />
+</Fragment>
+
+} />
           <Route path="/blog/:id" element={<PostPage />} />
           <Route path="/blog/the-best-places-to-buy-ev-chargers-in-dubai" element={<PopularBlogs />} />
           <Route path="/links" element={<Links />} />
