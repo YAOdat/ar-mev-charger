@@ -243,6 +243,12 @@ export default function Simple() {
                   <Td>{product.subscription}</Td>
                 </Tr>
               )}
+              {product.operatingTemperature && (
+                <Tr>
+                  <Td>درجة الحرارة التشغيلية</Td>
+                  <Td>{product.operatingTemperature}</Td>
+                </Tr>
+              )}
             </Tbody>
           </Table>
         </Box>

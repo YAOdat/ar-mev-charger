@@ -430,6 +430,33 @@ export const images = [
 
 
 
+      },
+      {
+        id: '16',
+        name: 'شاحن سيارة تسلا منزلي',
+        currency: 'AED',
+        price: 1750,
+        salePrice: 1600,
+        flag: 'new',
+        imageUrl: require('../images/product-images/teslatype2teison.jpg'),
+        rating: 5,
+        ratingCount: 1,
+        description: "شاحن سيارة تسلا منزلي يتميز بقدرته على شحن السيارة بسرعة عالية وبأمان تام. يأتي بمنفذ Type 2 المتوافق مع سيارات تسلا الخليجية ويمكن متابعة عملية الشحن من خلال الهاتف.        ",
+        longDescription: ` منتج شاحن سيارة تسلا المنزلي بمنفذ Type 2 هو جهاز شحن متطور وعالي الأداء مصمم خصيصًا لتلبية احتياجات ملاك السيارات الكهربائية تسلا في منطقة الخليج. يتميز هذا الشاحن بتوافقه مع سيارات تسلا الخليجية ويتيح لك شحن سيارتك بسرعة وكفاءة عالية في راحة منزلك.
+
+        يأتي هذا الشاحن بمنفذ Type 2 القياسي الذي يتوافق مع معيار الشحن الأوروبي المعروف أيضًا بـ "منفذ الشحن من الجانب الأمامي". يتيح لك هذا المنفذ توصيل الشاحن بسهولة بسيارتك تسلا الخليجية وبدء عملية الشحن بكل سهولة.
+        
+        يتميز الشاحن بتقنية الشحن السريع لتوفير أقصى كمية من الطاقة في أقل وقت ممكن. يعمل على تحويل التيار المتردد الوارد من مصدر الكهرباء المنزلي إلى تيار مستمر يمكن استخدامه لشحن بطارية سيارتك بكفاءة عالية.`,
+        portType: 'type2',
+        function: 'charger',
+        illustration: require('../images/product-images/telsaillutype2.jpg'),
+        power: '22KW/11KW/7.7KW',
+        cableLength: '4.5 متر',
+        availablePorts: 'Type 2',
+        operatingTemperature: '30° س إلى 50° س',
+        size: '228.5*228.5*100مم',
+
+     
       }
 
   ];
@@ -438,8 +465,8 @@ export const images = [
         {
             id: '1',
             title: 'كم تستغرق سيارة فولكس فاجن ID4 الكهربائية للشحن من 0% إلى 100%؟',           
-            imageUrl: 'https://iili.io/H4Jw19e.md.png',
-            description: `Discover the Volkswagen ID.4 Charging Time: How long does it take to charge from 0% to 100%? The Volkswagen ID.4 has emerged as one of the top electric vehicle offerings in 2021. In this comprehensive test, we drained the ID.4's battery and charged it to full capacity using a 150 kW DC fast charger. With an 82 kWh battery and a peak charging rate of 125 kW (which reached 131 kW in our test), the ID.4 achieved impressive charging speeds. It took only 12 minutes to charge up to 30% and 40% in just 16 minutes, adding 100 miles of driving range. At 80% state of charge, it replenished 200 miles in 40 minutes. We observed a remarkable average power intake of 110 kW, nearly 90% of its stated peak charging rate. Join us as we delve into the ID.4's charging capabilities and learn about potential upgrades to its maximum charge rate. Watch the video and share your thoughts on the ID.4's exceptional charging performance.`,
+            imageUrl: 'https://di-uploads-pod20.dealerinspire.com/southerngreenbriervolkswagen/uploads/2021/06/2021-VW-ID4-Chaqrging.jpg',
+            description: `اكتشف كم مدة من الوقت تستغرق سيارة فولكس فاجن ID4 حتى تشحن من 0% إلى 100% والعوامل المؤثرة في عملية الشحن.`,
             content: `انتشرت مؤخرًا سيارات فولكس فاجن الكهربائية ID4  وID6  بدول عديدة منها دول عربية مثل الأردن، الإمارات، ومصر. فكم هو الوقت المستغرق لشحن السيارة من 0% إلى 100%؟
             <br/>
             <br/>

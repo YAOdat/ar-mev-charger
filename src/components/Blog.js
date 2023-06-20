@@ -127,7 +127,7 @@ const ArticleList = () => {
                 ? `${post.description.slice(0, 165)}...`
                 : post.description}
             </Text>
-            <BlogAuthor name="MEV Charger" date={new Date(post.date)} />
+            <BlogAuthor name="شواحن ميجا" date={new Date(post.date)} />
           </Box>
         </Box>
       ))}
@@ -166,7 +166,7 @@ const ArticleList = () => {
               As the demand for electric vehicles (EVs) continues to rise, the need for reliable and efficient EV chargers is on the rise as well. Dubai, known for its commitment to sustainable living, has embraced the electric vehicle revolution with open arms. If you're an EV owner or planning to become one, it's crucial to have access to high-quality EV chargers. In this blog post, we will explore the two best places to buy EV chargers in Dubai
             </Text>
             <BlogAuthor
-              name="MEV Charger"
+              name="شواحن ميجا"
               date={new Date('2021-04-06T19:01:27Z')}
             />
           </Box>
