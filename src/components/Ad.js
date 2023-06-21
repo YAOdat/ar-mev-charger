@@ -22,15 +22,15 @@ const Banner = () => {
       dir='rtl'
     >
       <Box>
-        <chakra.h1 fontSize="4xl" lineHeight={1.2} fontWeight="bold"> أجهزة فحص للسيارات الكهربائية        </chakra.h1>
-        <chakra.h2
+        <chakra.h2 fontSize="4xl" lineHeight={1.2} fontWeight="bold"> أجهزة فحص للسيارات الكهربائية</chakra.h2>
+        <chakra.h3
           fontSize="2xl"
           lineHeight={1.2}
           fontWeight="bold"
           bgGradient="linear(to-l, #0ee948,#2563eb)"
           bgClip="text"
         >
-يتوفر أجهزة فحص سيارات تسلا  ID4 و ID6        </chakra.h2>
+يتوفر أجهزة فحص سيارات تسلا  ID4 و ID6        </chakra.h3>
       </Box>
       <Stack
         direction={{ base: 'column', sm: 'row' }}

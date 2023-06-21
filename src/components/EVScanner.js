@@ -23,16 +23,16 @@ const EVScanner = () => {
           </Link>
           <Box ml={4}>
             <Text fontWeight="bold">{product.name}</Text>
-            <Text>AED {product.price}</Text>
+            <Text>درهم {product.price}</Text>
             {product.salePrice && (
               <Text as="s" color="gray.500" ml={2}>
-                AED {product.salePrice}
+                درهم {product.salePrice}
               </Text>
             )}
             <Text>{product.description}</Text>
             <Link href="https://wa.me/971501679410">
               <Button colorScheme="green" width="half">
-                Order on WhatsApp
+                اطلب عبر الواتساب
               </Button>
             </Link>
           </Box>

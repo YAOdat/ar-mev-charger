@@ -20,7 +20,8 @@ import { Link } from 'react-router-dom';
 export default function CallToActionWithAnnotation() {
   return (
     <>
-     
+    <meta name="title" content="شواحن ميجا - شاحن سيارة كهربائية"/>
+     <meta name="description" content="أفضل شواحن السيارات الكهربائية. اشتر أفضل شاحن سيارة كهربائية بأفضل سعر في الإمارات. اشتر الآن وتعلم المزيد. بدءًا من 900 درهم. استعرض مجموعة المنتجات واختر الأنسب لك."/>
       <Container maxW={'3xl'} dir="rtl">
         <Stack
           as={Box}
@@ -29,6 +30,7 @@ export default function CallToActionWithAnnotation() {
           py={{ base: 20, md: 36 }}>
           <Heading
             fontWeight={600}
+            as='h1'
             fontSize={{ base: '2xl', sm: '4xl', md: '6xl' }}
             lineHeight={'110%'}>
             أفضل شواحن <br />

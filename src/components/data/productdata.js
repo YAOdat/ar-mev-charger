@@ -511,9 +511,9 @@ export const images = [
             metaTitle: 'كيفية إطفاء وضع الشحن البطيء في Volkswagen ID.4 و ID.6',
             imageUrl: 'https://assets.volkswagen.com/is/image/volkswagenag/VW_NGW6_Showroom_ID4_Collage_Interior?Zml0PWNyb3AlMkMxJndpZD04MDAmaGVpPTUzMyZmbXQ9anBlZyZxbHQ9NzkmYmZjPW9mZiYyOTg5',
             description: 'Unlock Faster Charging: Troubleshoot Slow Charging for your ID.4 or ID.6. Learn how to deactivate the slow charging mode with simple steps and get back to efficient charging in no time.',
-            content: `How to Turn Off Slow Charging Mode in Volkswagen ID.4 and ID.6: Setting Charging Current
+            content: `كيفية إطفاء وضع الشحن البطيء في سيارة فوكس واجن ID.4 و ID.6
 
-            Introduction:
+            المقدمة:
             Efficient charging is crucial for electric vehicle owners, as it minimizes charging times and ensures a smooth driving experience. In some cases, the charging current may be reduced by default, leading to slow charging. However, Volkswagen provides a convenient solution to this issue through its charging settings. In this blog post, we will explore the steps to turn off the slow charging mode in Volkswagen ID.4 and ID.6 by adjusting the charging current setting.
             
             Step 1: Access the Car's Settings:
