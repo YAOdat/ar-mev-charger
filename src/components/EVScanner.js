@@ -9,7 +9,9 @@ const EVScanner = () => {
   const flexDirection = useBreakpointValue({ base: 'column', md: 'row' });
 
   return (
-    <Box>
+    <Box dir='rtl'>
+      <title>أفضل أجهزة فحص للسيارات الكهربائية</title>
+      <meta name="description" content="يتوفر أجهزة فحص سيارات كهربائية لمختلف أنواع السيارات. أجهزة فحص سيارات فوكس واجن، أجهزة فحص سيارات تسلا الكهربائية"/>
       <Button colorScheme='green' m={2}>
         <Link href="/home">
           <Icon as={FaBackward} m={1}/>
