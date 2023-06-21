@@ -7,7 +7,7 @@ const Adapters = () => {
   const filteredProducts = products.filter((product) => product.function === 'adapter');
 
   return (
-    <Box>
+    <Box dir='rtl'>
       <Button colorScheme="green" m={2}>
         <Link href="/pick">
           <Icon as={FaBackward} m={1} />
@@ -21,17 +21,16 @@ const Adapters = () => {
           </Link>
           <Box ml={[0, 4]} mt={[4, 0]}>
             <Text fontWeight="bold">{product.name}</Text>
-            <Text>AED {product.price}</Text>
+            <Text>  {product.price} درهم</Text>
             {product.salePrice && (
               <Text as="s" color="gray.500" ml={2}>
-                AED {product.salePrice}
+                درهم {product.salePrice} 
               </Text>
             )}
             <Text>{product.description}</Text>
             <Link href="https://wa.me/971501679410">
               <Button colorScheme="green" width="half">
-                Order on WhatsApp
-              </Button>
+اطلب عبر واتساب              </Button>
             </Link>
           </Box>
         </Box>
