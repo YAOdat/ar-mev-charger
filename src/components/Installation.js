@@ -22,6 +22,7 @@ import {
   AlertIcon,
 } from '@chakra-ui/react';
 import { FaWhatsapp } from 'react-icons/fa';
+import { Helmet } from 'react-helmet';
 
 import UAE from '../components/images/Icon Images/united-arab-emirates.png';
 import Earth from '../components/images/Icon Images/earth.png';
@@ -48,7 +49,7 @@ const Form1 = ({ onNext }) => {
     return (
       <>
         <Heading w="100%" textAlign={'center'} fontWeight="normal" mb="2%">
-          Are you in the UAE?
+          هل أنت متواجد داخل الإمارات؟
         </Heading>
         <RadioGroup mb={8} name="Step1" sx={{ mt: 8 }}>
           <Stack spacing={10} direction="row" justify="center">
@@ -64,7 +65,7 @@ const Form1 = ({ onNext }) => {
                 cursor={'pointer'}
               />
               <FormLabel htmlFor="first-name" fontWeight={'normal'}>
-                Yes.
+                نعم.
               </FormLabel>
             </Stack>
   
@@ -80,7 +81,7 @@ const Form1 = ({ onNext }) => {
                 cursor={'pointer'}
               />
               <FormLabel htmlFor="first-name" fontWeight={'normal'}>
-                No.
+                لا.
               </FormLabel>
             </Stack>
           </Stack>
@@ -197,6 +198,11 @@ export default function Multistep() {
 
   return (
     <>
+        <Helmet>
+        <meta name="keywords" content="تركيب شواحن سيارات كهربائية في أبو ظبي" />
+        <meta name="keywords" content="تركيب شواحن سيارات كهربائية في دبي" />
+        <meta name="description" content="خدمة تركيب شواحن سيارات كهربائية في الإمارات" />
+      </Helmet>
       <Box
         borderWidth="1px"
         rounded="lg"
