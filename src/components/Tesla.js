@@ -9,7 +9,9 @@ const Tesla = () => {
   const flexDirection = useBreakpointValue({ base: 'column', md: 'row' });
 
   return (
-    <Box>
+    <Box dir='rtl'>
+      <title> شواحن سيارات تسلا الأمريكية - شاحن تسلا</title>
+      <meta name='description' content='اطلب أفضل شاحن لسيارة تسلا الخاصة بك بأفضل سعر في الإمارات ودبي'/> 
       <Button colorScheme='green' m={2}>
         <Link href="/pick">
           <Icon as={FaBackward} m={1}/>
@@ -21,15 +23,15 @@ const Tesla = () => {
           <Image src={product.imageUrl} alt={product.name} boxSize="300px" objectFit="cover" />
           <Box ml={4}>
             <Text fontWeight="bold">{product.name}</Text>
-            <Text>AED {product.price}</Text>
+            <Text> {product.price} درهم</Text>
             {product.salePrice && (
               <Text as="s" color="gray.500" ml={2}>
-                AED {product.salePrice}
+                 {product.salePrice} درهم
               </Text>
             )}
             <Text>{product.description}</Text>
-            <Link href="https://wa.me/971501679410">
-              <Button colorScheme="green" width="half">
+            <Link href="https://wa.me/971501679410" >
+              <Button colorScheme="green" width="half" mt={3}>
                 Order on WhatsApp
               </Button>
             </Link>

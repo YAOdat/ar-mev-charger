@@ -349,7 +349,7 @@ export const images = [
           currency: 'AED',
           price: 1850,
           flag: 'new',
-          imageSource: require('../images/product-images/white-ev-charger.webp'),
+          imageUrl: require('../images/product-images/white-ev-charger.webp'),
           imageAlt: 'شاحن سيارة كهربائية 3 فاز',
           rating: 5,
           ratingCount: 3,
