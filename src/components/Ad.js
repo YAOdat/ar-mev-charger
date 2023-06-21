@@ -51,14 +51,16 @@ const Banner = () => {
         >
 استكشف المنتجات       </Button>
         <Button
-          as={Link}
-          href="#"
           size="lg"
           rounded="md"
           mb={{ base: 2, sm: 0 }}
           bg={useColorModeValue('gray.200', 'gray.600')}
           _hover={{ bg: useColorModeValue('gray.300', 'gray.500') }}
           lineHeight={1}
+          onClick={() => {
+            window.open('https://www.teslascanner.com', '_blank');
+          }
+          }
         >
           تعلم أكثر
         </Button>
