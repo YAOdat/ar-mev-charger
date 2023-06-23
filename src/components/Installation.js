@@ -20,6 +20,7 @@ import {
   Stack,
   Alert,
   AlertIcon,
+  Input,
 } from '@chakra-ui/react';
 import { FaWhatsapp } from 'react-icons/fa';
 import { Helmet } from 'react-helmet';
@@ -28,27 +29,27 @@ import UAE from '../components/images/Icon Images/united-arab-emirates.png';
 import Earth from '../components/images/Icon Images/earth.png';
 
 
-const NotAvailableAlert = () => {
-  return (
-    <Alert status="warning">
-      <AlertIcon />
-      We are currently out of stock for Chademo chargers and adapters. Please check back later.
-    </Alert>
-  );
-};
-
 const Form1 = ({ onNext }) => {
     const handleClick = (value) => {
       if (value === 'UAE') {
         onNext();
       } else {
-        alert('Sorry, we only operate inside the UAE.');
+        alert('عذرًا، لا يمكننا تقديم الخدمة لك خارج الإمارات.');
       }
     };
   
     return (
       <>
-        <Heading w="100%" textAlign={'center'} fontWeight="normal" mb="2%">
+      <Helmet>
+  <title>تركيب شواحن سيارات كهربائية في الإمارات - اطلب الخدمة الآن</title>
+  <meta name="description" content="خدمة تركيب شواحن سيارات كهربائية في الإمارات" />
+  <meta name="keywords" content="تركيب شواحن سيارات كهربائية في أبو ظبي" />
+  <meta name="keywords" content="تركيب شواحن سيارات كهربائية في دبي" />
+  <meta name="keywords" content="تركيب شواحن سيارات كهربائية في الإمارات" />
+  <meta name="keywords" content="تركيب شاحن سيارات كهربائية"/>
+  <meta name="keywords" content="تركيب شاحن تسلا"/>
+</Helmet>
+        <Heading as='h1' w="100%" textAlign={'center'} fontWeight="normal" mb="2%">
           هل أنت متواجد داخل الإمارات؟
         </Heading>
         <RadioGroup mb={8} name="Step1" sx={{ mt: 8 }}>
@@ -57,7 +58,7 @@ const Form1 = ({ onNext }) => {
               <Img
                 width="100px"
                 src={UAE}
-                alt="UAE EV Charger"
+                alt="تركيب شواحن سيارات كهربائية"
                 value="UAE"
                 onClick={() => handleClick('UAE')}
                 _hover={{ transform: 'scale(1.15)' }}
@@ -91,85 +92,62 @@ const Form1 = ({ onNext }) => {
   };
   
   
-
-const Form2 = () => {
-  const { isOpen, onOpen, onClose } = useDisclosure();
-  const [showNotFoundAlert, setShowNotFoundAlert] = useState(false);
-  const [userLocation, setUserLocation] = useState(null);
-
-  const getLocation = () => {
-    if (navigator.geolocation) {
-      navigator.geolocation.getCurrentPosition(
-        (position) => {
-          const { latitude, longitude } = position.coords;
-          setUserLocation({ latitude, longitude });
-        },
-        (error) => {
-          console.error('Error getting location:', error);
-        }
-      );
-    } else {
-      console.error('Geolocation is not supported by this browser.');
-    }
+  const Form2 = () => {
+    const { isOpen, onOpen, onClose } = useDisclosure();
+    const [location, setLocation] = useState('');
+    const [showNotFoundAlert, setShowNotFoundAlert] = useState(false);
+  
+    const handleSendLocation = () => {
+      if (!location) {
+        setShowNotFoundAlert(true);
+        return;
+      }
+  
+      const message = `السلام عليكم، أنا متواجد في ${location} وأريد تركيب شاحن سيارة كهربائية.`;
+      const whatsappLink = `https://wa.me/+971505968453?text=${encodeURIComponent(
+        message
+      )}`;
+  
+      window.open(whatsappLink, '_blank');
+    };
+  
+    return (
+      <>
+        <Button
+          leftIcon={<FaWhatsapp />}
+          colorScheme="green"
+          onClick={onOpen}
+        >
+          Send Location on WhatsApp
+        </Button>
+        {showNotFoundAlert && (
+          <Alert status="warning">
+            <AlertIcon />
+            Please enter your location or address.
+          </Alert>
+        )}
+        <Modal isOpen={isOpen} onClose={onClose}>
+          <ModalOverlay />
+          <ModalContent dir="rtl">
+            <ModalHeader>اكتب موقعك</ModalHeader>
+            <ModalCloseButton />
+            <ModalBody>
+              <Input
+                placeholder="ادخل موقعك أو عنوانك هنا"
+                value={location}
+                onChange={(e) => setLocation(e.target.value)}
+              />
+            </ModalBody>
+            <ModalFooter>
+              <Button colorScheme="green" onClick={handleSendLocation}>
+                إرسال
+              </Button>
+            </ModalFooter>
+          </ModalContent>
+        </Modal>
+      </>
+    );
   };
-
-  const sendLocationOnWhatsApp = () => {
-    if (!userLocation) {
-      console.error('Location is not available.');
-      return;
-    }
-
-    const { latitude, longitude } = userLocation;
-    const message = `Hey, here's my location: https://www.google.com/maps?q=${latitude},${longitude}`;
-    const whatsappLink = `https://wa.me/+971505968453?text=${encodeURIComponent(
-      message
-    )}`;
-
-    window.open(whatsappLink, '_blank');
-  };
-
-  const handleSendLocation = () => {
-    if (!navigator.geolocation) {
-      console.error('Geolocation is not supported by this browser.');
-      return;
-    }
-
-    getLocation();
-    onOpen();
-    
-  };
-
-  return (
-    <>
-      <Heading w="100%" textAlign={'center'} fontWeight="normal" mb="2%">
-        Send us your location
-      </Heading>
-      <Button
-        leftIcon={<FaWhatsapp />}
-        colorScheme="green"
-        onClick={sendLocationOnWhatsApp}
-      >
-        Send Location on WhatsApp
-      </Button>
-      {showNotFoundAlert && <NotAvailableAlert />}
-      <Modal isOpen={isOpen} onClose={onClose}>
-        <ModalOverlay />
-        <ModalContent>
-          <ModalHeader>Location Sent</ModalHeader>
-          <ModalCloseButton />
-          <ModalBody>
-            Your location has been sent on WhatsApp.
-          </ModalBody>
-          <ModalFooter>
-            <Button colorScheme="green" onClick={onClose}>
-              Close
-            </Button>
-          </ModalFooter>
-        </ModalContent>
-      </Modal>
-    </>
-  );
-};
 
 const Form3 = () => {
   return (
@@ -177,7 +155,6 @@ const Form3 = () => {
       <Heading w="100%" textAlign={'center'} fontWeight="normal">
         Ask an expert
       </Heading>
-      {/* Rest of your form code for Form3 */}
     </>
   );
 };

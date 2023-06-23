@@ -9,7 +9,7 @@ const Type2 = () => {
   const flexDirection = useBreakpointValue({ base: 'column', md: 'row' });
 
   return (
-    <Box>
+    <Box dir='rtl'>
       <Button colorScheme='green' m={2}>
         <Link href="/pick">
           <Icon as={FaBackward} m={1}/>
@@ -18,19 +18,21 @@ const Type2 = () => {
 
       {filteredProducts.map((product) => (
         <Box display="flex" flexDirection={flexDirection} alignItems="center" key={product.id} mb={5}>
-          <Image src={product.imageUrl} alt={product.name} boxSize="300px" objectFit="cover" />
+           <Link to={`/product/${product.id}`}>
+          <Image src={product.imageUrl} alt={product.name} boxSize="300px" objectFit="cover" ml={5}/>
+          </Link>
           <Box ml={4}>
-            <Text fontWeight="bold">{product.name}</Text>
-            <Text>AED {product.price}</Text>
+            <Text fontWeight="bold" mr={3}>{product.name}</Text>
+            <Text mr={3}> {product.price} درهم</Text>
             {product.salePrice && (
-              <Text as="s" color="gray.500" ml={2}>
-                AED {product.salePrice}
+              <Text as="s" color="gray.500" mx={2} mr={3}>
+                 {product.salePrice} درهم
               </Text>
             )}
-            <Text>{product.description}</Text>
+            <Text mr={3}>{product.description}</Text>
             <Link href="https://wa.me/971501679410">
-              <Button colorScheme="green" width="half">
-                Order on WhatsApp
+              <Button colorScheme="green" width="half" mt={2} ml={2}>
+                اطلب عبر الواتساب
               </Button>
             </Link>
           </Box>

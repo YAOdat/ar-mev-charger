@@ -182,7 +182,7 @@ export default function Simple() {
               );
             }}
           >
-            Order Now
+            اطلب الآن
           </Button>
         </Stack>
         <Box>
