@@ -11,15 +11,16 @@ function PostPage() {
   const { colorMode } = useColorMode();
 console.log(colorMode)
 
+
   const replaceYouTubeLinks = (content) => {
     const youtubeLinkRegex = /(https?:\/\/(?:www\.)?youtube\.com\/watch\?v=([a-zA-Z0-9_-]+))/g;
     const embeddedPlayerTemplate = '<iframe width="560" height="315" src="https://www.youtube.com/embed/$2" frameborder="0" allowfullscreen></iframe>';
-    const chargerLink = '<a href="https://mevcharger.com/products/chargers" target="_blank" rel="noopener noreferrer" style="color: green;" >charger</a>';
-
-    const paragraphs = content.split('\n\n'); // Split the content into paragraphs
+    const wbLink = '<a href="https://ar.mevcharger.com/products/1" target="_blank" rel="noopener noreferrer" style="color: #54c43d;" >الشاحن المنزلي</a>';
+    const portableLink = '<a href="https://ar.mevcharger.com/products/2" target="_blank" rel="noopener noreferrer" style="color: #54c43d;" >الشاحن المتنقل</a>';
+    const paragraphs = content.split('\n'); // Split the content into paragraphs
   
     const transformedContent = paragraphs.map((paragraph, index) => {
-      const replacedContent = paragraph.replace(youtubeLinkRegex, embeddedPlayerTemplate).replace(/charger/g, chargerLink);
+      const replacedContent = paragraph.replace(youtubeLinkRegex, embeddedPlayerTemplate).replace(/الشاحن المنزلي/g, wbLink).replace(/الشاحن المتنقل/g, portableLink);
       return `<p key="${index}">${replacedContent}</p>`; // Wrap each paragraph in <p> tags
     });
   
@@ -27,24 +28,27 @@ console.log(colorMode)
   };
 
   return (
+    <> 
+    <title>{post.title}</title>
+    <meta name="description" content={post.description} />
+    <meta name="keywords" content={post.tags.join('، ')} />
     <article className="glass-body" id={`glass-body-${colorMode}`} dir='rtl'>
     <div className="card" id={`card-${colorMode}`}>
       <a href="#">
         <h1 className="card-title" id={`card-title-${colorMode}`}>{post.title}</h1>
       </a>
       <div id={`card-content-${colorMode}`} dangerouslySetInnerHTML={{ __html: replaceYouTubeLinks(post.content) }}></div>
-      <a href={`/blog/${id}`}> 
-      <img src={post.contentImageUrl} alt="Post Image" />
-      </a>
+      <img src={post.contentImageUrl} alt={post.imageAlt? post.imageAlt : post.title} />
       <div className="blog-post-author-container">
         <br></br>
-        {post.author && <h3>الكاتب: {post.author}</h3>}
-        <h3>تم النشر بتاريخ: {post.date}</h3>
-        <h3 className="blog-post-tags">Tags: {post.tags.join(', ')}</h3>
+        {post.author && <h3>Written by: {post.author}</h3>}
+        <h3>Published on: {post.date}</h3>
+        <h3 className="blog-post-tags">Tags: {post.tags.join('، ')}</h3>
         {post.category && <h3>Category: {post.category}</h3>}
       </div>
     </div>
   </article>
+  </>
   );
 }
 
