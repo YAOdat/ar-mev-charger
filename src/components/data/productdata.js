@@ -55,7 +55,7 @@ export const images = [
       ],
       illustration: 'https://sc04.alicdn.com/kf/Hdd96b8e4bcd1443295106fcdd0e71dbaa/258300529/Hdd96b8e4bcd1443295106fcdd0e71dbaa.jpg',
       illustration2: 'https://sc04.alicdn.com/kf/H388808d6bbb5415ea6f2775c42e453caz/258300529/H388808d6bbb5415ea6f2775c42e453caz.jpg',
-      size: '340*285*147mm',
+      size: '340*285*147مم',
       weight: '4-4.5 KG',
       cableLength: '3.5m',
       availablePorts: 'Type 2, Type 1, GBT',
@@ -76,6 +76,7 @@ export const images = [
       ratingCount: 13,
       description:'شاحن سيارة كهربائية متنقل بمنفذ GBT مما يعني أنه قادر على شحن سيارات ID.4 و ID.6 بسرعة وكفاءة. يأتي بشاشة LCD تبين حالة شحن بطارية السيارة، ويمكن تغيير أمبيرية الشحن.',
       portType: 'gbt',
+      tags: ['شاحن سيارة كهربائية متنقل', 'ID4', 'ID6', 'فولكس فاجن'],
       function: 'charger',
       portType2: 'none',
       longDescription: `
@@ -104,17 +105,19 @@ export const images = [
       rating: 4,
       ratingCount: 20,
       description:
-        'باستخدام توصيلة شاحن السيارة يمكن شحن سيارات ID.4 و ID.6 من الشواحن العامة أو الشواحن التي لا تصل لمنفذ السيارة. ',
+        'باستخدام توصيلة GBT إلى Type 2 يمكن شحن سيارات ID4 أو ID6 أو تسلا وغيرها الكثير باستخدام شواحنهم الخاصة والتي لا يكفي طولها للوصول إلى منفذ السيارة. ',
       images,
       portType: 'gbt',
       function: 'extensionCable',
       portType2: 'type2',
       longDescription:'This extension cable is compatible with all Type 1 and Type 2 EV chargers. It is available in 5m and 10m lengths. The cable is made of high-quality materials and is designed to withstand the elements. It is also equipped with a protective cap to keep the connector clean and dry when not in use. This extension cable is a must-have for any EV owner who wants to charge their electric cars at a charging station that is not within reach of their vehicle. It can be used for ADNOC charging stations, DEWA charging stations, and other charging stations in the UAE.',
       availablePorts: 'Type 2 to GBT',
-      cableLength: '5m',
+      cableLength: '5م',
       illustration: 'https://sc01.alicdn.com/kf/Hbcac362e4fc04257b4f78a6c708814b4e.jpg',
       illustration2: 'https://sc01.alicdn.com/kf/Hf593487f26804ac9ab5ed67c310912283.jpg',
-      weight: '3.5kg',
+      weight: '3.5 كيلوغرام',
+      tags: ['شاحن سيارة كهربائية متنقل', 'ID4', 'ID6', 'فولكس فاجن'],
+
 
     },
     {
@@ -184,6 +187,7 @@ export const images = [
           'باستخدام هذا الشاحن، يمكن شحن سيارات فولكس فاجن ID.4 و ID.6 بسرعة وكفاءة. ويمكن لهذا الشاحن شحن سيارات Changan وأي سيارة بمنفذ GB/T. مثل BYD Han',
         images,
         portType: 'gbt',
+        tags: ['ID4', 'ID6', 'فولكس فاجن', 'شاحن منزلي'],
         function: 'charger',
         portType2: 'none',
         longDescription: `
@@ -232,6 +236,7 @@ export const images = [
         imageUrl: 'https://iili.io/HrkHE0b.md.png',
         rating: 4,
         ratingCount: 14,
+        tags: ['Tesla', 'تسلا', 'شاحن منزلي'],
         description:
           'This EV charger is compatible with all Tesla models. Also, it can charge type 1 EVs as the charger comes with a type 1 port and tesla adapter.',
         images,
@@ -294,6 +299,7 @@ export const images = [
             currency: 'AED',
             price: 7000,
             flag: 'new',
+            tags: ['شاحن سيارة كهربائية متنقل', 'ID4', 'ID6', 'فولكس فاجن'],
             imageUrl: require('../images/product-images/DCAdapter.webp'),
             rating: 5,
             ratingCount: 4,
@@ -308,7 +314,6 @@ export const images = [
             operatingTemperature: '-30°C to +50°C',
             weight: '2 kg',
             power: '~50 kW',
-            cableLength: '-',
         },
         {
           id:'12',

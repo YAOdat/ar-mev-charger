@@ -21,6 +21,7 @@ import { MdLocalShipping } from 'react-icons/md';
 import { useParams } from 'react-router-dom';
 import { products } from '../components/data/productdata.js';
 import { TransformWrapper, TransformComponent } from 'react-zoom-pan-pinch';
+import RelatedProducts from './RelatedProducts.js';
 
 export default function Simple() {
   const { id } = useParams();
@@ -58,7 +59,7 @@ export default function Simple() {
       </>
     ));
 
-  const metaDescription = `${product?.name} - AED ${product?.price}. ${product?.description}`;
+  const metaDescription = `${product?.name} - درهم ${product?.price}. ${product?.description}`;
 
   return (
     <Container maxW={'7xl'} dir='rtl'>
@@ -97,7 +98,7 @@ export default function Simple() {
               {product.name}
             </Heading>
             <Text fontWeight={400} fontSize={'2xl'}>
-              {`AED ${product.price} `}
+              {` ${product.price} درهم`}
             </Text>
           </Box>
           <Box>
@@ -253,6 +254,7 @@ export default function Simple() {
           </Table>
         </Box>
       </SimpleGrid>
+      <RelatedProducts />
     </Container>
   );
 }
