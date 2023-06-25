@@ -21,12 +21,60 @@ import {
   Alert,
   AlertIcon,
   Input,
+  Text
 } from '@chakra-ui/react';
 import { FaWhatsapp } from 'react-icons/fa';
 import { Helmet } from 'react-helmet';
 
 import UAE from '../components/images/Icon Images/united-arab-emirates.png';
 import Earth from '../components/images/Icon Images/earth.png';
+
+const BeforeForm = ({onNext}) => {
+
+  return (
+    <>
+    <Helmet>
+  <title>تركيب شواحن سيارات كهربائية في الإمارات - اطلب الخدمة الآن</title>
+  <meta name="description" content="خدمة تركيب شاحن سيارة كهربائية في الإمارات" />
+  <meta name="keywords" content="تركيب سيارات كهربائية في أبو ظبي" />
+  <meta name="keywords" content="تركيب شواحن سيارات كهربائية في دبي" />
+  <meta name="keywords" content="تركيب شواحن سيارات كهربائية في الشارقة" />
+  <meta name="keywords" content="تركيب شواحن سيارات كهربائية في الإمارات" />
+  <meta name="keywords" content="تركيب شاحن سيارات كهربائية"/>
+  <meta name="keywords" content="تركيب شاحن تسلا"/>
+</Helmet>
+      <Heading as='h1' w="100%" textAlign={'center'} fontWeight="normal" mb="2%">
+        خدمة تركيب شاحن سيارة كهربائية
+      </Heading>
+<Text dir='rtl'>
+تعتبر خدمة تركيب شواحن السيارات الكهربائية خدمة مهمة ومريحة لأصحاب السيارات الكهربائية. تهدف هذه الخدمة إلى تسهيل عملية شحن السيارة وتوفير الراحة والسلامة لمستخدمي السيارات الكهربائية.
+من خلال خدمة تركيب شاحن السيارة الكهربائية، يقوم فريق من الفنيين المهرة بتركيب شاحن السيارة في مكان مناسب وملائم، سواء في المنزل أو موقف السيارات الخاص بك أو حتى في مكان العمل. يتم اختيار الموقع الأمثل لتركيب الشاحن بناءً على احتياجاتك الشخصية وظروفك الفردية.
+
+  </Text>  
+  <br/>
+  <Text dir='rtl'>
+  يتم اتخاذ جميع التدابير اللازمة لضمان تركيب الشاحن بشكل آمن وفقًا للمعايير واللوائح القياسية. يتم تقديم الخدمة بواسطة فريق فني متخصص يتمتع بالخبرة والمهارة اللازمة لتنفيذ عملية التركيب بشكل صحيح وفعال.
+قبل تركيب الشاحن، يقوم الفنيون بتقييم الأسلاك الكهربائية ونظام التوزيع الحالي للتأكد من قدرته على التعامل مع متطلبات الشاحن الكهربائي. سيقوم الفريق أيضًا بتوصيل الشاحن بالشبكة الكهربائية وضمان وجود تيار كهربائي آمن ومستقر للشحن.
+  </Text>
+  <br/>
+  <Text dir='rtl' mb={2}>
+  بعد تركيب الشاحن، يتم اختباره وتشغيله للتأكد من أنه يعمل بشكل صحيح. سيوفر لك الفريق أيضًا التوجيه والتدريب اللازم لاستخدام الشاحن بفعالية وسهولة.
+</Text>
+      <Button
+        onClick={() =>  onNext()}
+        variant="outline" 
+        colorScheme="teal"
+        size="lg"
+        w="100%"
+        mt="2%"
+      >
+        اطلب الخدمة الآن  
+      </Button>
+      </>
+    );
+  };
+
+
 
 
 const Form1 = ({ onNext }) => {
@@ -117,9 +165,9 @@ const Form1 = ({ onNext }) => {
           leftIcon={<FaWhatsapp />}
           colorScheme="green"
           onClick={onOpen}
+          dir='rtl'
         >
-          Send Location on WhatsApp
-        </Button>
+أرسل موقعك عبر واتساب        </Button>
         {showNotFoundAlert && (
           <Alert status="warning">
             <AlertIcon />
@@ -188,11 +236,13 @@ export default function Multistep() {
         p={6}
         m="10px auto"
         as="form"
+        dir='rtl' 
       >
         <Progress colorScheme="green" hasStripe value={progress} mb="5%" mx="5%" isAnimated />
-        {step === 1 && <Form1 onNext={handleNext} />}
-        {step === 2 && <Form2 />}
-        {step === 3 && <Form3 />}
+        {step === 1 && <BeforeForm onNext={handleNext} /> }
+        {step === 2 && <Form1 onNext={handleNext} />}
+        {step === 3 && <Form2 />}
+        {step === 4 && <Form3 />}
         <ButtonGroup mt="5%" w="100%">
           <Flex w="100%" justifyContent="space-between">
             <Flex>
@@ -204,7 +254,7 @@ export default function Multistep() {
                 w="7rem"
                 mr="5%"
               >
-                Back
+                السابق
               </Button>
               <Button
                 w="7rem"
@@ -212,8 +262,9 @@ export default function Multistep() {
                 onClick={handleNext}
                 colorScheme="green"
                 variant="outline"
+                mx={2}
               >
-                Next
+                التالي
               </Button>
             </Flex>
             {step === 3 && (
