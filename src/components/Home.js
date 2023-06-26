@@ -22,6 +22,12 @@ export default function CallToActionWithAnnotation() {
     <>
     <meta name="title" content="شواحن ميجا - شاحن سيارة كهربائية"/>
      <meta name="description" content="أفضل شواحن السيارات الكهربائية. اشتر أفضل شاحن سيارة كهربائية بأفضل سعر في الإمارات. اشتر الآن وتعلم المزيد. بدءًا من 900 درهم. استعرض مجموعة المنتجات واختر الأنسب لك."/>
+     <meta name='keyword' content='شاحن ميجا'/>
+     <meta name="keyword" content="شاحن سيارة كهربائية"/>
+     <meta name="keyword" content="شاحن سيارة كهربائية في الإمارات"/>
+      <link rel="canonical" href="https://ar.mevcharger.com/"/>
+      <meta name="robots" content="index, follow"/>
+      <meta name="language" content="Arabic"/>
       <Container maxW={'3xl'} dir="rtl">
         <Stack
           as={Box}

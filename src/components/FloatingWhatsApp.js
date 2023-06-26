@@ -18,9 +18,9 @@ export function FloatingWhatsApp({
   phoneNumber = "971501679410",
   accountName = "Account Name",
   avatar = dummyAvatar,
-  statusMessage = "Typically replies within 15 minutes",
-  chatMessage = "Hello there! 🤝 \nHow can we help?",
-  placeholder = "Type a message..",
+  statusMessage = "يتم الرد عادة خلال 15 دقيقة",
+  chatMessage = "السلام عليكم🤝 \nكيف يمكننا مساعدتك؟",
+  placeholder = "اكتب رسالة...",
 
   allowClickAway = false,
   allowEsc = false,
@@ -163,6 +163,7 @@ export function FloatingWhatsApp({
         darkMode ? `${css.dark} ` : ""
       } ${className}`}
       style={style}
+      dir="rtl"
     >
       <div
         className={`${css.whatsappButton} ${buttonClassName}`}
@@ -182,6 +183,7 @@ export function FloatingWhatsApp({
       </div>
 
       <div
+      dir="rtl"
         className={`${css.whatsappChatBox} ${
           isOpen ? css.open : css.close
         } ${chatboxClassName}`}
@@ -189,11 +191,11 @@ export function FloatingWhatsApp({
         aria-hidden="true"
         style={{ height: isOpen ? chatboxHeight : 0, ...chatboxStyle }}
       >
-        <header className={css.chatHeader}>
-          <div className={css.avatar}>
+        <header className={css.chatHeader} dir="rtl">
+          <div className={css.avatar} dir="rtl">
             <img src={avatar} width="60" height="60" alt="whatsapp-avatar" />
           </div>
-          <div className={css.status}>
+          <div className={css.status} dir="rtl">
             <span className={css.statusTitle}>{accountName}</span>
             <span className={css.statusSubtitle}>{statusMessage}</span>
           </div>
@@ -201,6 +203,7 @@ export function FloatingWhatsApp({
             className={css.close}
             onClick={handleClose}
             aria-hidden="true"
+            dir="rtl"
           >
             <CloseSVG />
           </div>
@@ -209,9 +212,10 @@ export function FloatingWhatsApp({
         <div
           className={css.chatBody}
           style={{ backgroundImage: `url(${darkMode ? darkBG : lightBG})` }}
+          dir="rtl"
         >
           {isDelay ? (
-            <div className={css.chatBubble}>
+            <div className={css.chatBubble} dir="rtl">
               <div className={css.typing}>
                 <div className={css.dot} />
                 <div className={css.dot} />
@@ -233,8 +237,8 @@ export function FloatingWhatsApp({
           )}
         </div>
 
-        <footer className={css.chatFooter}>
-          <form onSubmit={handleSubmit}>
+        <footer className={css.chatFooter} dir="rtl">
+          <form onSubmit={handleSubmit} dir="rtl">
             <input
               className={css.input}
               placeholder={placeholder}

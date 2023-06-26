@@ -35,7 +35,7 @@ const SocialButton = ({ children, label, href }) => {
 };
 
 export default function SmallWithSocial() {
-  const ogTitle = 'MEV Charger - Best EV Chargers in UAE';
+  const ogTitle = 'شاحن ميجا - شواحن للسيارات الكهربائية';
   const ogDescription = 'Find the best EV chargers in UAE at the best prices. We offer a wide range of EV chargers for home and commercial use.';
   const ogImage = '/og-image.jpg';
   const ogUrl = 'https://ar.mevchargers.com/';

@@ -6,6 +6,7 @@ import SocialMedia from './images/socialmedia.png';
 function Links() {
   return (
     <div className="links-main-container">
+      <meta name='description' content='Social Media EV Chargers Community'/>
       <div className="links-container">
         <div className="glass-rect">
           <nav className="links-nav-bar">

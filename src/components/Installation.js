@@ -171,7 +171,7 @@ const Form1 = ({ onNext }) => {
         {showNotFoundAlert && (
           <Alert status="warning">
             <AlertIcon />
-            Please enter your location or address.
+            الرجاء كتابة العنوان قبل الإرسال.
           </Alert>
         )}
         <Modal isOpen={isOpen} onClose={onClose}>
