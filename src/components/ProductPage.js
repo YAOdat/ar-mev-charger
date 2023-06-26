@@ -23,7 +23,7 @@ import { products } from '../components/data/productdata.js';
 import { TransformWrapper, TransformComponent } from 'react-zoom-pan-pinch';
 import RelatedProducts from './RelatedProducts.js';
 
-export default function Simple() {
+export default function ProductPage() {
   const { id } = useParams();
   const product = products.find((product) => product.id === id);
 
@@ -63,6 +63,19 @@ export default function Simple() {
 
   return (
     <Container maxW={'7xl'} dir='rtl'>
+      <Helmet>
+        <title>{product.name}</title>
+        <meta name='description' content={metaDescription} />
+        <meta property='og:title' content={product.name} />
+        <meta property='og:description' content={metaDescription} />
+        <meta property='og:image' content={product.imageUrl} />
+        <meta property='og:url' content={window.location.href} />
+        <meta name='twitter:title' content={product.name} />
+        <meta name='twitter:description' content={metaDescription} />
+        <meta name='twitter:image' content={product.imageUrl} />
+        <meta name='twitter:card' content='summary_large_image' />
+        <meta name='keywords' content={product.tags} />
+      </Helmet>
       <SimpleGrid
         columns={{ base: 1, lg: 2 }}
         spacing={{ base: 8, md: 10 }}
