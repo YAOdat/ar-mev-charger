@@ -28,7 +28,7 @@ export default function ProductPage() {
   const product = products.find((product) => product.id === id);
 
   let encodedMessage = encodeURIComponent(
-    `Hi, I would like to order ${product?.name} for AED ${product?.price}`
+    `مرحبًا، أودُّ طلب ${product?.name} بسعر ${product?.price}`
   );
 
   const [selectedColor, setSelectedColor] = useState(
@@ -110,9 +110,16 @@ export default function ProductPage() {
             >
               {product.name}
             </Heading>
-            <Text fontWeight={400} fontSize={'2xl'}>
-              {` ${product.price} درهم`}
-            </Text>
+            <Text fontWeight={400} fontSize="2xl">
+        {product.salePrice ? (
+          <Flex>
+            <Text as="s">{`${product.price} درهم`}</Text>
+            <Text pr={4}>{`${product.salePrice} درهم`}</Text>
+          </Flex>
+        ) : (
+          `${product.price} درهم`
+        )}
+      </Text>
           </Box>
           <Box>
             <Text color={'gray.500'} fontSize={'xl'}>

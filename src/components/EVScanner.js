@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Image, Text, Button, Link, Icon, useBreakpointValue } from '@chakra-ui/react';
+import { Box, Image, Text, Button, Link, Icon, useBreakpointValue, Flex } from '@chakra-ui/react';
 import { products } from './data/productdata';
 import { FaBackward } from 'react-icons/fa';
 
@@ -25,12 +25,15 @@ const EVScanner = () => {
           </Link>
           <Box ml={4}>
             <Text fontWeight="bold">{product.name}</Text>
-            <Text>درهم {product.price}</Text>
-            {product.salePrice && (
-              <Text as="s" color="gray.500" ml={2}>
-                درهم {product.salePrice}
-              </Text>
-            )}
+            {product.salePrice ? (
+          <Flex>
+            <Text as="s">{`${product.price} درهم`}</Text>
+            <Text pr={4}>{`${product.salePrice} درهمًا`}</Text>
+          </Flex>
+        ) : (
+          `${product.price} درهمًا`
+        )}
+           
             <Text>{product.description}</Text>
             <Link href="https://wa.me/971501679410">
               <Button colorScheme="green" width="half">
