@@ -35,8 +35,8 @@ export default function WithSubnavigation() {
   const location = useLocation(); 
 
   const handleLanguageSwitch = () => {
-    const currentPath = location.pathname;
-    const newUrl = currentPath.replace('https://www.', 'https://ar.'); // Replace www with ar in the URL
+    const currentUrl = window.location.href;
+    const newUrl = currentUrl.replace('https://ar.', 'https://www.'); // Replace www with ar in the URL
     window.location.href = newUrl;
   };
   
@@ -103,7 +103,7 @@ export default function WithSubnavigation() {
             <Icon as={BsWhatsapp} w={5} h={5} />
           </Button>
 
-          <Button as="a" onClick={handleLanguageSwitch}>
+          <Button onClick={handleLanguageSwitch}>
           <Image src={Arabic2English} alt="Arabic to English" width={10} title='Arabic to English EV Chargers Translation' loading="eager"/>
           </Button>
 
