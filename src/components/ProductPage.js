@@ -16,6 +16,7 @@ import {
   Th,
   Td,
   Link,
+  Image,
 } from '@chakra-ui/react';
 import { MdLocalShipping } from 'react-icons/md';
 import { useParams } from 'react-router-dom';
@@ -210,7 +211,10 @@ export default function ProductPage() {
           <Text color={'gray.500'} fontSize={'xl'} mt={8}>
             {renderedDescription}
           </Text>
-          <img src={product.illustration} alt={product.name} />
+          <Image src={product.illustration} alt={product.name} />
+          {product.illustration2 && (
+          <Image src={product.illustration2} alt={product.name} my={2}/>
+          )}
               <Heading as="h2" size="md" my={2}>
                 الخصائص:
               </Heading>
