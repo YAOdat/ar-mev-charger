@@ -24,7 +24,7 @@ import {
   ChevronLeftIcon,
   MoonIcon,
 } from '@chakra-ui/icons';
-
+import { useLocation } from 'react-router-dom';
 import { BsWhatsapp } from 'react-icons/bs';
 import Logo from './images/mevchargerslogo.png';
 import Arabic2English from './images/Icon Images/ArabicToEnglish.png';
@@ -32,7 +32,14 @@ import Arabic2English from './images/Icon Images/ArabicToEnglish.png';
 export default function WithSubnavigation() {
   const { isOpen, onToggle } = useDisclosure();
   const { colorMode, toggleColorMode } = useColorMode();
+  const location = useLocation(); 
 
+  const handleLanguageSwitch = () => {
+    const currentPath = location.pathname;
+    const newUrl = currentPath.replace('https://www.', 'https://ar.'); // Replace www with ar in the URL
+    window.location.href = newUrl;
+  };
+  
   return (
     <Box dir='rtl'>
       <Flex
@@ -96,7 +103,7 @@ export default function WithSubnavigation() {
             <Icon as={BsWhatsapp} w={5} h={5} />
           </Button>
 
-          <Button as="a" href="https://mevcharger.com">
+          <Button as="a" onClick={handleLanguageSwitch}>
           <Image src={Arabic2English} alt="Arabic to English" width={10} title='Arabic to English EV Chargers Translation' loading="eager"/>
           </Button>
 
