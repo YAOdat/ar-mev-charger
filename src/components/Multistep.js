@@ -40,6 +40,7 @@ import Jaguar from '../components/images/Brands/Jaguar-Logo.png';
 import Porsche from '../components/images/Brands/Porsche.png';
 import Changan from '../components/images/Brands/Changan-Logo.png';
 import Ford from '../components/images/Brands/Ford.png';
+import { Helmet } from 'react-helmet';
 
 const NotAvailableAlert = () => {
   return (
@@ -55,6 +56,12 @@ const Form1 = ({ onNext }) => {
 
   return (
     <>
+        <Helmet>
+          <title>اختر شاحن سيارة كهربائية بنفسك</title>
+          <meta name="description" content="لست بحاجة لمعرفة عميقة لاختيار شاحن سيارة كهربائية، يمكنك استخدام الأداة هذه لمساعدتك في اختيار الشاحن المناسب لسيارتك الكهربائية"/>
+          </Helmet>
+          
+
       <Heading w="100%" textAlign={'center'} fontWeight="normal" mb="2%">
 عمَّ تبحث؟      </Heading>
       <RadioGroup mb={8} name="Step1" sx={{ mt: 8 }}>
