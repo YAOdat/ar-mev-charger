@@ -3,6 +3,7 @@ import './glass.css';
 import { useParams } from 'react-router-dom';
 import { blogPosts } from './data/productdata';
 import {useColorMode} from "@chakra-ui/react";
+import { Helmet } from 'react-helmet';
 
 
 function PostPage() {
@@ -29,9 +30,11 @@ console.log(colorMode)
 
   return (
     <> 
+    <Helmet> 
     <title>{post.title}</title>
     <meta name="description" content={post.description} />
     <meta name="keywords" content={post.tags.join('، ')} />
+    </Helmet>
     <article className="glass-body" id={`glass-body-${colorMode}`} dir='rtl'>
     <div className="card" id={`card-${colorMode}`}>
       <a href="#">

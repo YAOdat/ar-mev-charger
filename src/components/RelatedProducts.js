@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { products } from '../components/data/productdata.js';
-import { Box, Heading, Flex, Text } from '@chakra-ui/react';
+import { Box, Heading, Flex, Text, Image } from '@chakra-ui/react';
 
 const RelatedProducts = () => {
   // Get the current product's tags from the URL
@@ -23,8 +23,8 @@ const RelatedProducts = () => {
       <Flex flexWrap="wrap" alignContent={'center'} justifyContent={'right'}>
         {relatedProducts.map(product => (
             <Link to={`/products/${product.id}`}>
-          <Box key={product.id} flexBasis={{ base: '50%', md: '25%' }}  m={2} border='1px' borderColor='gray.200'>
-            <img src={product.imageUrl} alt={product.name} width="200px" height="200px" />
+          <Box key={product.id} flexBasis={{ base: '50%', md: '25%' }}  m={2} border='1px' borderColor='gray.200' maxWidth={250} maxHeight={350}>
+          <Image src={product.imageUrl} alt={product.name} width="100%" height="225px" />
             {product.name}
             <Flex>
             <Text fontSize="5xl" fontWeight="900">

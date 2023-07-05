@@ -95,6 +95,7 @@ const Form1 = ({ onNext }) => {
   <meta name="keywords" content="تركيب شواحن سيارات كهربائية في دبي" />
   <meta name="keywords" content="تركيب شواحن سيارات كهربائية في الإمارات" />
   <meta name="keywords" content="تركيب شاحن سيارات كهربائية"/>
+  <meta name="keywords" content="تركيب شاحن سيارة كهربائية"/>
   <meta name="keywords" content="تركيب شاحن تسلا"/>
 </Helmet>
         <Heading as='h1' w="100%" textAlign={'center'} fontWeight="normal" mb="2%">
