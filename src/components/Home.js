@@ -11,6 +11,7 @@ import {
 
   
 } from '@chakra-ui/react';
+import Ad from './Ad'
 import { ProductCard } from './ProductCard'
 import { products } from './data/productdata'
 import { ProductGrid } from './ProductGrid'
@@ -19,7 +20,14 @@ import { Link } from 'react-router-dom';
 export default function CallToActionWithAnnotation() {
   return (
     <>
-     
+    <meta name="title" content="شواحن ميجا - شاحن سيارة كهربائية"/>
+     <meta name="description" content="أفضل شواحن السيارات الكهربائية. اشتر أفضل شاحن سيارة كهربائية بأفضل سعر في الإمارات. اشتر الآن وتعلم المزيد. بدءًا من 900 درهم. استعرض مجموعة المنتجات واختر الأنسب لك."/>
+     <meta name='keyword' content='شاحن ميجا'/>
+     <meta name="keyword" content="شاحن سيارة كهربائية"/>
+     <meta name="keyword" content="شاحن سيارة كهربائية في الإمارات"/>
+      <link rel="canonical" href="https://ar.mevcharger.com/"/>
+      <meta name="robots" content="index, follow"/>
+      <meta name="language" content="Arabic"/>
       <Container maxW={'3xl'} dir="rtl">
         <Stack
           as={Box}
@@ -28,6 +36,7 @@ export default function CallToActionWithAnnotation() {
           py={{ base: 20, md: 36 }}>
           <Heading
             fontWeight={600}
+            as='h1'
             fontSize={{ base: '2xl', sm: '4xl', md: '6xl' }}
             lineHeight={'110%'}>
             أفضل شواحن <br />
@@ -93,6 +102,7 @@ export default function CallToActionWithAnnotation() {
       ))}
     </ProductGrid>
   </Box>
+  <Ad />
       
     </>
   );

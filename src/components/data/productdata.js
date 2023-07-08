@@ -35,7 +35,7 @@ export const images = [
       id: '1',
       name: 'شاحن سيارة كهربائية منزلي',
       currency: 'درهم',
-      price: 1800,
+      price: 1700,
       flag: 'جديد',
       imageUrl: 'https://iili.io/Hr78TZb.md.webp',
       rating: 4,
@@ -55,9 +55,10 @@ export const images = [
       ],
       illustration: 'https://sc04.alicdn.com/kf/Hdd96b8e4bcd1443295106fcdd0e71dbaa/258300529/Hdd96b8e4bcd1443295106fcdd0e71dbaa.jpg',
       illustration2: 'https://sc04.alicdn.com/kf/H388808d6bbb5415ea6f2775c42e453caz/258300529/H388808d6bbb5415ea6f2775c42e453caz.jpg',
-      size: '340*285*147mm',
+      size: '340*285*147مم',
       weight: '4-4.5 KG',
       cableLength: '3.5m',
+      tags: ['شاحن منزلي', 'شاحن تسلا', 'شاحن ID4', 'ID4', 'ID6', 'Tesla'],
       availablePorts: 'Type 2, Type 1, GBT',
       power: '7.7 / 11 / 22 kW',
       metaDescription:
@@ -76,6 +77,7 @@ export const images = [
       ratingCount: 13,
       description:'شاحن سيارة كهربائية متنقل بمنفذ GBT مما يعني أنه قادر على شحن سيارات ID.4 و ID.6 بسرعة وكفاءة. يأتي بشاشة LCD تبين حالة شحن بطارية السيارة، ويمكن تغيير أمبيرية الشحن.',
       portType: 'gbt',
+      tags: ['شاحن سيارة كهربائية متنقل', 'ID4', 'ID6', 'فولكس فاجن'],
       function: 'charger',
       portType2: 'none',
       longDescription: `
@@ -104,17 +106,19 @@ export const images = [
       rating: 4,
       ratingCount: 20,
       description:
-        'باستخدام توصيلة شاحن السيارة يمكن شحن سيارات ID.4 و ID.6 من الشواحن العامة أو الشواحن التي لا تصل لمنفذ السيارة. ',
+        'باستخدام توصيلة GBT إلى Type 2 يمكن شحن سيارات ID4 أو ID6 أو تسلا وغيرها الكثير باستخدام شواحنهم الخاصة والتي لا يكفي طولها للوصول إلى منفذ السيارة. ',
       images,
       portType: 'gbt',
       function: 'extensionCable',
       portType2: 'type2',
       longDescription:'This extension cable is compatible with all Type 1 and Type 2 EV chargers. It is available in 5m and 10m lengths. The cable is made of high-quality materials and is designed to withstand the elements. It is also equipped with a protective cap to keep the connector clean and dry when not in use. This extension cable is a must-have for any EV owner who wants to charge their electric cars at a charging station that is not within reach of their vehicle. It can be used for ADNOC charging stations, DEWA charging stations, and other charging stations in the UAE.',
       availablePorts: 'Type 2 to GBT',
-      cableLength: '5m',
+      cableLength: '5م',
       illustration: 'https://sc01.alicdn.com/kf/Hbcac362e4fc04257b4f78a6c708814b4e.jpg',
       illustration2: 'https://sc01.alicdn.com/kf/Hf593487f26804ac9ab5ed67c310912283.jpg',
-      weight: '3.5kg',
+      weight: '3.5 كيلوغرام',
+      tags: ['شاحن سيارة كهربائية متنقل', 'ID4', 'ID6', 'فولكس فاجن'],
+
 
     },
     {
@@ -125,6 +129,7 @@ export const images = [
       imageUrl: 'https://iili.io/Hr78091.md.jpg',
       rating: 5,
       ratingCount: 4,
+      tags: ['تسلا', 'فورد', 'GMC', 'تطويلة'],
       description:
         'تحويلة شاحن السيارة الكهربائية من نوع Type 2 إلى Type 1 هي منتج مبتكر وعملي يتيح لك توصيل سيارتك الكهربائية بسهولة ويسر بشبكة الشحن التي تدعم منفذ Type 1. بفضل هذه التحويلة، يمكنك الاستفادة من شبكة الشحن الواسعة والمتاحة للسيارات الأمريكية بسيارتك التي تستخدم منفذ Type 2.',        
       images,
@@ -151,6 +156,7 @@ export const images = [
       currency: 'AED',
       imageUrl: 'https://iili.io/HrEn199.md.jpg',
       rating: 5,
+      tags: ['تسلا','محول'],
       ratingCount: 4,
       description:
         'باستخدام هذا ادابتر Type 1 إلى Tesla يمكن شحن سيارات تسلا باستخدام شواحن السيارات الأمريكية، Type 1.',
@@ -184,6 +190,7 @@ export const images = [
           'باستخدام هذا الشاحن، يمكن شحن سيارات فولكس فاجن ID.4 و ID.6 بسرعة وكفاءة. ويمكن لهذا الشاحن شحن سيارات Changan وأي سيارة بمنفذ GB/T. مثل BYD Han',
         images,
         portType: 'gbt',
+        tags: ['ID4', 'ID6', 'فولكس فاجن', 'شاحن منزلي'],
         function: 'charger',
         portType2: 'none',
         longDescription: `
@@ -214,6 +221,7 @@ export const images = [
         imageUrl: 'https://iili.io/HrjMhfn.md.webp',
         rating: 4,
         ratingCount: 14,
+        tags: ['تسلا','Type2','شاحن منزلي'],
         description: "باستخدام هذا الشاحن، يمكنك شحن سيارتك الكهربائية بسرعة وسهولة في المنزل. يتميز هذا الشاحن بالعديد من الميزات الرائعة التي تجعل عملية الشحن أكثر سهولة وراحة  يتوفر فيه شاشة تبين حالة الشحن. يأتي الشاحن بمنفذ Type 2  والمتوافق مع العديد من السيارات الكهربائية الأوروبية مثل Tesla  الأوروبية، BMW، Audi، Mercedes Benz، وغيرها الكثير من السيارات التي تأتي بمنفذ Type 2.",
         images,
         portType: 'type2',
@@ -225,13 +233,14 @@ export const images = [
       },
       {
         id: '8',
-        name: 'Tesla Wallbox EV Charger',
+        name: 'شاحن سيارة تسلا منزلي',
         currency: 'AED',
         price: 1800,
         flag: 'new',
         imageUrl: 'https://iili.io/HrkHE0b.md.png',
         rating: 4,
         ratingCount: 14,
+        tags: ['Tesla', 'تسلا', 'شاحن منزلي'],
         description:
           'This EV charger is compatible with all Tesla models. Also, it can charge type 1 EVs as the charger comes with a type 1 port and tesla adapter.',
         images,
@@ -250,6 +259,7 @@ export const images = [
         imageUrl: 'https://iili.io/HregvLP.md.png',
         rating: 4,
         ratingCount: 14,
+        tags: ['Tesla', 'تسلا', 'محول'],
         description:
           'باستخدام هذا ادابتر GBT إلى تسلا يمكنك شحن سيارة تسلا باستخدام شواحن سيارات فولكس فاجن ID4 و ID6',
         images,
@@ -265,21 +275,23 @@ export const images = [
       },
         {
         id: '10',
-        name: 'Portable 7.7kW Electric Cars Charger',
+        name: 'شاحن متنقل للسيارات الكهربائية بقوة 7.7 كيلوواط',
         currency: 'AED',
         price: 1000,
         flag: 'new',
+        tags: ['ID6','ID4','شاحن متنقل'],
         imageUrl: 'https://iili.io/H4JwlS9.md.png',
         rating: 4,
         ratingCount: 14,
         description:
-            'With this EV charger you can charge any EV car, this includes all Tesla models that were made in Europe, Audi, BMW, Mercedes, Porsche, Hunda, Kia, ID.4 and ID.6 and many more.',
+            'باستخدام هذا الشاحن يمكنك شحن أي سيارة كهربائية إذ يتوفر هذا الشاحن بأنواع مختلفة ذات منافذ مختلفة منفذ للسيارات الصينية GBT لسيارات فولكس فاجن ومنفذ Type 2 لسيارات تسلا الأوروبية والسيارات الأوروبية ومنفذ للسيارات الأمريكية Type 1 مثل Ford.',
         images,
         portType: 'type2',
         function: 'charger',
         portType2: 'gbt',
         current: '32 A',
-        longDescription: 'This is a long description',
+        illustration: 'https://5.imimg.com/data5/SELLER/Default/2023/5/307083654/FF/PV/RN/76621520/portable-electric-car-charger-iec-62196-2-cee-single-phase-32a-7-3kw-mahindra-e20plus-ev-charger-500x500.png',
+        longDescription: 'شاحن ميجا لشحن السيارات الكهربائية بقوة 7.7 كيلوواط قادر على شحن جميع السيارات الكهربائية بناءً على منفذ الشحن الذي تشتريه. يتوفر بنسخة Type 2 للسيارات الأوربية وسيارات تسلا الخليجي وأيضًا يتوفر بنسخة GBT للسيارات الصينية مثل VW ID4 ID6, Changan, BYD Han. ويوجد نسخة بمنفذ Type 1 للسيارات الأمريكية مثل Ford, Chevrolate, GMC. كما يمكن استخدام الشاحن مع ادابتر التسلا لشحن سيارات تسلا الأمريكية باستخدام هذا الشاحن.',
         ports: [
             { type: 'Type 2', image: 'https://iili.io/H4Jw19e.md.png' },
             { type: 'GBT', image: 'https://iili.io/H4Jwcc7.md.png' },
@@ -289,17 +301,18 @@ export const images = [
 
         {
             id:'11',
-            name: 'CCS2 to GBT DC Adapter',
+            name: 'ادابتر الشحن السريع DC CCS2 to GBT',
             currency: 'AED',
             price: 7000,
             flag: 'new',
+            tags: ['CCS2 to GBT', 'ID4', 'ID6', 'فولكس فاجن'],
             imageUrl: require('../images/product-images/DCAdapter.webp'),
             rating: 5,
             ratingCount: 4,
-            description: 'Fast charging DC adapter for Volkswagen ID4 and ID6.',
+            description: 'وصلة الشحن السريع لشواحن DC سيارات فولس فاجن ID4 و ID6 CCS2 إلى GBT. يمكنك من شحن سيارات ID4 و ID6 باستخدام شواحن DC ذات منفذ السيارات الكهربائية الأوروبية CCS2 مثل Tesla الخليجي, BMW, Mercedes وغيرها الكثير.',
             portType: 'type 2',
             function: 'adapter',
-            longDescription: 'Fast Charging DC Adapter designed exclusively for the Volkswagen ID.4 and ID.6 models, and Changan. Engineered to deliver unparalleled efficiency and convenience, this adapter takes the hassle out of recharging your VW electric vehicle and any car with GBT charging port. You can charger your GBT car with type2 tesla charger like EU Tesla, BMW, Audi, Mercedes, Porsche, and many more electric vehicles with Type 2 charging port.',
+            longDescription: 'باستخدام ادابتر DC CCS2 to GBT يمكن لصاحب سيارة VW ID4 و ID6 باستخدام شواحن السيارات الأوروبية السريعة. كما يمكن شحن أي سيارة كهربائية ذات منفذ GBT مثل Changan.',
             illustration: 'https://www.midaevse.com/uploads/CCS2-GBT-Adapter.jpg',
             illustration2: 'https://d.yixunpan.top/electway.com/wp-content/uploads/2021/03/img-5875.jpg',
             availablePorts: 'GBT',
@@ -307,7 +320,6 @@ export const images = [
             operatingTemperature: '-30°C to +50°C',
             weight: '2 kg',
             power: '~50 kW',
-            cableLength: '-',
         },
         {
           id:'12',
@@ -315,9 +327,10 @@ export const images = [
           currency: 'AED',
           price: 350,
           flag: 'new',
-          imageSource: require('../images/product-images/GBTtoGBT.jpg'),
+          imageUrl: require('../images/product-images/GBTtoGBT.jpg'),
           imageAlt: 'أدابتر سيارات فولكس فاجن ID4و ID6',
           rating: 5,
+          tags: ['محول'],
           ratingCount: 3,
           description: 'اشحن سيارة volkswagen ID4/ID6 باستخدام شواحن السيارات الأوروبية Type 2 أو شواحن تسلا الخليجية.',
           portType: 'gbt',
@@ -348,7 +361,8 @@ export const images = [
           currency: 'AED',
           price: 1850,
           flag: 'new',
-          imageSource: require('../images/product-images/white-ev-charger.webp'),
+          tags: ['شاحن'],
+          imageUrl: require('../images/product-images/white-ev-charger.webp'),
           imageAlt: 'شاحن سيارة كهربائية 3 فاز',
           rating: 5,
           ratingCount: 3,
@@ -364,12 +378,11 @@ export const images = [
           cableLength: '5m, 10m, 15m',
           inputVoltage: 'AC220V±15%',
           inputFrequency: '50Hz',
-          operatingTemperature:'-30℃C~+55℃',
           color: [
-              { name: 'white', imageUrl: require('../images/product-images/white-ev-charger.webp') },
-              { name: 'black', imageUrl: require('../images/product-images/black-ev-charger.webp') },
-              { name: 'blue', imageUrl: require('../images/product-images/blue-ev-charger.webp') },
-              { name: 'gray', imageUrl: require('../images/product-images/gray-ev-charger.webp') },
+              { name: 'أبيض', imageUrl: require('../images/product-images/white-ev-charger.webp') },
+              { name: 'أسود', imageUrl: require('../images/product-images/black-ev-charger.webp') },
+              { name: 'أزرق', imageUrl: require('../images/product-images/blue-ev-charger.webp') },
+              { name: 'رمادي', imageUrl: require('../images/product-images/gray-ev-charger.webp') },
 
           ],
           
@@ -381,6 +394,7 @@ export const images = [
             name: 'XTool EV جهاز فحص سيارات تسلا الكهربائية', 
             currency: 'AED',
             price: 10250,
+            tags: ['scanner'],
             flag: 'new',
             imageUrl: require('../images/product-images/tesla-ev-scanner.jpg'), 
             rating: 5,
@@ -404,19 +418,202 @@ export const images = [
         
         },
 
+      { 
+          id:'15',
+          name: 'وصلة فحص سيارات تسلا الكهربائية',
+          currency: 'AED',
+          price: 1000,
+          salePrice: 750,
+          flag: 'new',
+          tags: ['scanner', 'Tesla', 'تسلا'],
+          imageUrl: require('../images/product-images/tesla-obd2.png'),
+          rating: 5,
+          ratingCount: 3,
+          description: "وصلة فحص  تسلا قادرة على كشف أعطال مختلف موديلات سيارات تسلا. تأتي باشتراك سنتين مجاني.",
+          longDescription: `
+          وصلة فحص سيارات تسلا الكهربائية هي منتج مبتكر ومتطور يهدف إلى تسهيل عملية فحص وتشخيص الأعطال في مختلف موديلات سيارات تسلا. تتميز هذه الوصلة بحجمها الصغير وسهولة استخدامها، حيث يتم توصيلها بمنفذ OBD2 الموجود في سيارة تسلا.
+          
+          تأتي الوصلة مع اشتراك سنتين مجاني، مما يوفر قيمة إضافية للمستخدمين ويضمن توفر التحديثات والدعم الفني لفترة طويلة. يتم استخدام التطبيق المرافق المتوافق مع نظام أندرويد Android لتنفيذ عملية الفحص والتشخيص، والذي يتيح للمستخدم الوصول إلى واجهة سهلة الاستخدام ومفصلة لتحليل وفحص جميع نواحي السيارة.
+          
+          تتمتع هذه الوصلة بالقدرة على كشف أعطال متنوعة في السيارة، مثل الأخطاء الإلكترونية ومشاكل الأداء والنظام الكهربائي. توفر تقنية الوصلة القدرة على قراءة ومسح رموز الأخطاء المختلفة، وتعرض تقارير مفصلة وشاملة عن حالة السيارة ومكوناتها المختلفة.
+          
+          بفضل هذه الوصلة المبتكرة، يمكن لأصحاب سيارات تسلا الكهربائية الاستفادة من تشخيص دقيق وفوري لحالة سياراتهم، مما يعزز الصيانة الوقائية ويساعد في توفير الوقت والمال. تجمع هذه الوصلة بين التكنولوجيا العالية والسهولة في الاستخدام، مما يجعلها أداة قيمة لأي مالك لسيارة تسلا الكهربائية يسعى للحفاظ على أداء سيارته بأفضل حالة ممكنة.`,
+          portType: 'none',
+          function: 'scanner',
+          subscription: 'سنتين',
+          illustration: require('../images/product-images/tesla-thinkdiag.jpg'),
+
+      },
+      {
+        id: '16',
+        name: 'شاحن سيارة كهربائية متنقل متوافق مع مختلف السيارات الكهربائية ',
+        currency: 'AED',
+        price: 950,
+        tags: ['شاحن متنقل'],
+        flag: 'new',
+        imageUrl: require('../images/product-images/Portable-EV-Charger.webp'),
+        rating: 5,
+        ratingCount: 2,
+        description: 'شاحن سيارة كهربائية متنقل يأتي بعدة نسخ ليتوافق مع جميع السيارات الكهربائية مثل ID4, ID6, BMW, Toyota, Mercedes, Tesla وغيرها الكثير من السيارات الكهربائية المختلفة.',
+        longDescription: `
+الشاحن المتنقل للسيارات الكهربائية هو منتج مبتكر يلبي احتياجات العديد من السائقين في الإمارات والسعودية. يتميز هذا الشاحن بتوافره بعدة منافذ لضمان التوافق مع مجموعة متنوعة من السيارات الكهربائية.
+        يحتوي هذا الشاحن المتنقل على منفذ GBT الذي يتوافق مع سيارات مثل ID4 وID6، بالإضافة إلى أي سيارة تُصنع في الصين. يتيح هذا المنفذ لأصحاب هذه السيارات الاستفادة من الشاحن المتنقل وشحنها بسهولة وفاعلية.
+        بالإضافة إلى ذلك، يتوفر هناك نسخة أخرى من الشاحن المتنقل تحتوي على منفذ Type 2، وهو متوافق مع سيارات تسلا القادمة من أوروبا وسيارات أودي وBMW وبورش وغيرها من السيارات الأوروبية. هذا المنفذ يوفر السهولة والملاءمة لأصحاب هذه السيارات لشحنها في أي مكان تقريبًا.
+        وأخيرًا، يتميز الشاحن المتنقل بنسخة تحتوي على منفذ Type 1، وهو المناسب للسيارات الأمريكية مثل شيرفوليه وGMC وأي سيارة قادمة من أمريكا. يسهل هذا المنفذ على أصحاب السيارات الأمريكية الاستفادة من الشاحن المتنقل وشحن سياراتهم بكل سهولة.
+        بفضل هذه المنافذ المتعددة، يمكن للمستخدمين الآن الاستمتاع بمرونة في استخدام الشاحن المتنقل وشحن سياراتهم في أي وقت وفي أي مكان. سواء كنت تمتلك سيارة صينية، أوروبية أو أمريكية، يوفر الشاحن المتنقل للسيارات الكهربائية الحلا المثالي لاحتياجات الشحن اليومية.  `,
+        portType: 'none',
+        function: 'charger',
+        illustration: 'https://s.alicdn.com/@sc04/kf/H5a75a6fea3e54154843908d7ba6fee199.jpg_720x720q50.jpgc',
+        power: '7.7 كيلوواط',
+        current: '32 أمبير',
+        cableLength: '3.5م',
+        availablePorts: 'Type 1, Type 2, GBT',
+      },
+      {
+        id: '17',
+        name: 'شاحن سيارة تسلا منزلي',
+        currency: 'AED',
+        price: 1750,
+        salePrice: 1600,
+        tags: ['شاحن منزلي', 'Tesla', 'تسلا'],
+        flag: 'new',
+        imageUrl: require('../images/product-images/teslatype2teison.jpg'),
+        rating: 5,
+        ratingCount: 1,
+        description: "شاحن سيارة تسلا منزلي يتميز بقدرته على شحن السيارة بسرعة عالية وبأمان تام. يأتي بمنفذ Type 2 المتوافق مع سيارات تسلا الخليجية ويمكن متابعة عملية الشحن من خلال الهاتف.        ",
+        longDescription: ` منتج شاحن سيارة تسلا المنزلي بمنفذ Type 2 هو جهاز شحن متطور وعالي الأداء مصمم خصيصًا لتلبية احتياجات ملاك السيارات الكهربائية تسلا في منطقة الخليج. يتميز هذا الشاحن بتوافقه مع سيارات تسلا الخليجية ويتيح لك شحن سيارتك بسرعة وكفاءة عالية في راحة منزلك.
+
+        يأتي هذا الشاحن بمنفذ Type 2 القياسي الذي يتوافق مع معيار الشحن الأوروبي المعروف أيضًا بـ "منفذ الشحن من الجانب الأمامي". يتيح لك هذا المنفذ توصيل الشاحن بسهولة بسيارتك تسلا الخليجية وبدء عملية الشحن بكل سهولة.
+        
+        يتميز الشاحن بتقنية الشحن السريع لتوفير أقصى كمية من الطاقة في أقل وقت ممكن. يعمل على تحويل التيار المتردد الوارد من مصدر الكهرباء المنزلي إلى تيار مستمر يمكن استخدامه لشحن بطارية سيارتك بكفاءة عالية.`,
+        portType: 'type2',
+        function: 'charger',
+        illustration: require('../images/product-images/telsaillutype2.jpg'),
+        power: '22KW/11KW/7.7KW',
+        cableLength: '4.5 متر',
+        availablePorts: 'Type 2',
+        operatingTemperature: '30° س إلى 50° س',
+        size: '228.5*228.5*100مم',
+
+     
+      },
+      {
+        id: '18',
+        name: 'شاحن سيارة نيسان ليف',
+        currency: 'AED',
+        price: 1600,
+        salePrice: 1500,
+        tags: ['شاحن ', 'Nissan', 'نيسان'],
+        flag: 'new',
+        imageUrl: require('../images/product-images/mega_ev_charger.png'),
+        rating: 5,
+        ratingCount: 1,
+        description: "شاحن سيارة نيسان ليف منزلي يتميز بقدرته على شحن السيارة بسرعة وأمان تام. يأتي بمنفذ Type 1 أو منفذ Type 2 ليتوافق مع جميع موديلات سيارة نيسان ليف الكهربائية. ",
+        longDescription: `
+        شاحن سيارة نيسان ليف المنزلي هو منتج عالي الجودة والأداء الذي يمنحك إمكانية شحن سيارتك الكهربائية بسرعة وأمان تام. يتميز هذا الشاحن بتصميمه المتقن وقدرته على تلبية احتياجات جميع موديلات سيارة نيسان ليف.
+        
+        يتوفر الشاحن بخيارين للتوافق مع السيارة الكهربائية الخاصة بك. يمكنك اختيار منفذ Type 1 أو منفذ Type 2 حسب موديل سيارتك النيسان ليف. هذا يعني أنه بغض النظر عن الإصدار الذي تمتلكه، ستتمكن من استخدام الشاحن بكل سهولة ويسر.
+        
+        يعمل الشاحن بالتيار المتردد AC ويتميز بقوة شحن تصل إلى 7.7 كيلوواط، ويوجد نسخة أخرى بقوة شحن تصل إلى 11 كيلوواط بتقنية 3 فاز. هذا يعني أنه يمكنك الاستفادة من سرعة الشحن العالية التي يوفرها الشاحن لشحن بطارية سيارتك بشكل سريع وفعال.
+        
+        بفضل تقنيته المتقدمة، يتميز الشاحن بالأمان التام أثناء عملية الشحن. يحتوي على آلية حماية متعددة لحماية البطارية من التيار الزائد أو الأمور الأخرى التي قد تؤثر على سلامة الشحن. هذا يمنحك راحة البال أثناء استخدام الشاحن في المنزل دون الحاجة إلى القلق بشأن سلامة السيارة أو البطارية.
+        
+        باختصار، شاحن سيارة نيسان ليف المنزلي هو منتج موثوق وقوي يوفر شحن سريع وآمن لسيارتك الكهربائية. بفضل توافقه مع مختلف موديلات سيارة نيسان ليف وقوته العالية، ستكون قادرًا على الاستمتاع بأداء موثوق ومريح مع شاحن السيارة هذا في راحة منزلك.
+
+`,
+        portType: '',
+        function: 'charger',
+        illustration: require('../images/product-images/mega-charger.png'),
+        availablePorts: 'Type 1/Type 2',
+        power: '7.7/11 كيلوواط',
+        cableLength: '5 متر',
+        size: '43*42*13سم',
+
+
+      },
+      {
+        id: '19',
+        name: 'وصلة فحص سيارات فولكس فاجن ID4و ID6 OBD11',
+        currency: 'AED',
+        price: 1000,
+        tags: ['وصلة ', 'Volkswagen', 'فولكس فاجن'],
+        flag: 'new',
+        imageUrl: require('../images/product-images/obd11.jpg'),
+        rating: 5,
+        ratingCount: 1,
+        description: "باستخدام وصلة OBDEleven يمكن فحص وتشخيص وحتى برمجة سيارات فوكس فاجن الكهربائية ID4 و ID6 وغيرهما الكثير من السيارات.",
+        longDescription: `تعمل وصلة OBDEleven بالبلوتوث حيث يتم توصيل القطعة في منفذ OBD في السيارة ومن ثم يتم شبك القطعة بالهاتف عبر البلوتوث. يوجد تطبيق على الهواتف المحمولة خاص بهذه القطعة يمكنك من خلاله فحص وتشخيص وبرمجة سيارتك بكل سهولة ويسر. 
+
+        وصلة OBD11 قادرة على كشف الأعطال في السيارة ومسحها وتستطيع أيضًا عرض البيانات الحية Live Data للمركبة الكهربائية.
+        ميزات القطعة لمجموعة فولكس فاجن (VAG):
+        - إجراء عمليات التشخيص المتقدمة - امسح جميع وحدات التحكم المتاحة واقرأ رموز المشاكل وقم بمسحها ومشاركتها.
+        - قم بتخصيص ميزات الراحة في سيارتك وإعادة تذكيرات الخدمة باستخدام تطبيقات بنقرة واحدة (تطبيقات ترميز السيارة المعدة مسبقًا).
+        - برمجة المركبات ذات الميزات الاحترافية يدويًا - تعديل وظائف السيارة المختلفة باستخدام الترميز والتكيف.
+        - عرض واختبار البيانات الحية من وحدات التحكم الخاصة بك في الوقت الفعلي مثل سرعة المحرك ودرجة حرارة سائل التبريد ودرجة حرارة الزيت وما إلى ذلك.
+        
+        كيفية استخدام OBDEleven:
+        الخطوة 1: قم بتوصيل جهاز OBDeleven بمنفذ OBD-II في سيارتك.
+        
+        الخطوة 2: قم بتنزيل تطبيق OBDeleven من Google Play أو Apple Store أو AppGallery.
+        
+        الخطوة 3: قم بتوصيل جهازك بهاتفك الذكي عبر البلوتوث.
+        `,
+        function: 'scanner',
+        illustration: 'https://obdeleven.com/img/cms/OneClickApps-VAG-2.jpg',
+        illustration2: 'https://obdeleven.com/img/cms/History.jpg',
+        subscription: 'سنة واحدة',
+
+      },
+      {
+        id: '20',
+        name: 'ادابتر سيارة تسلا للشحن السريع - Type 2 to Tesla Adapter',
+        currency: 'AED',
+        price: 1000,
+        flag: 'new',
+        imageUrl: require('../images/product-images/Type2Tesla.png'),
+        rating: 5,
+        ratingCount: 2,
+        description: "باستخدام هذ الادابتر يمكنك شحن سيارة تسلا الأمريكية باستخدام الشواحن العامة وشواحن تسلا الخليجية ذات منفذ Type 2. يدعم هذا المحول الشحن السريع DC Charging.",
+        longDescription: `محول شاحن سيارة تسلا من منفذ تسلا الأمريكي إلى منفذ تسلا الخليجي.
+        هذا المحول (ادابتر) هو منتج مبتكر يمكنك من شحن سيارتك الكهربائية من طراز تسلا بكل سهولة ومرونة. يعمل هذا المحول على توفير توافق واسع مع شواحن السيارات العامة وشواحن تسلا الخليجية التي تحتوي على منفذ Type 2.
+        باستخدام هذا المحول، لن تعد بحاجة للقلق بشأن توافر شواحن تسلا الخاصة بك في المنطقة التي تزورها أو تعيش فيها. بفضل التوافق بين الشواحن العامة ذات منفذ Type 2 في غالبها مع سيارة تسلا ذات منفذ تسلا الأمريكي Supercharger.
+        يتميز هذا المحول بدعمه للشحن السريع بتقنيةDC Charging، مما يعني أنه يمكنك الحصول على شحن سريع لبطارية سيارتك بكفاءة عالية. سواء كنت في رحلة طويلة وتحتاج إلى شحن سريع أو ترغب في استخدام السيارة بأقصى سرعة ممكنة، فإن هذا المحول سيمنحك تجربة شحن مريحة وفعالة.
+        باستخدام هذا المحول الذكي لشحن سيارة تسلا، ستتمتع بحرية ومرونة أكبر في استخدام سيارتك الكهربائية في أي مكان وزمان. ستتمتع بالشحن السريع والفعال وستحافظ على قوة بطارية سيارتك على مدار الساعة، وتجعل تجربة القيادة الكهربائية أكثر راحة وملاءمة.
+        `,
+        function: 'adapter',
+        illustration: require('../images/product-images/TeslaAdapterT2.jpg'),
+        power: '150 كيلوواط',
+        availablePorts: 'Type 2 to Tesla Supercharger',
+        tags: ['ادابتر ', 'ادابتر تسلا', 'تسلا', 'شحن سريع'],
+
+
+      }
+     
+
 
   ];
   
-
     export const blogPosts = [
         {
             id: '1',
-            title: 'How to charge your EV',
-            imageUrl: 'https://iili.io/H4Jw19e.md.png',
-            description: 'This is a description',
-            content: 'This is a content',
-            date: '2023-02-04',
-            contentImageUrl: 'https://iili.io/H4Jw19e.md.png',
+            title: 'كم تستغرق سيارة فولكس فاجن ID4 الكهربائية للشحن من 0% إلى 100%؟',           
+            imageUrl: 'https://di-uploads-pod20.dealerinspire.com/southerngreenbriervolkswagen/uploads/2021/06/2021-VW-ID4-Chaqrging.jpg',
+            description: `اكتشف كم مدة من الوقت تستغرق سيارة فولكس فاجن ID4 حتى تشحن من 0% إلى 100% والعوامل المؤثرة في عملية الشحن.`,
+            content: `انتشرت مؤخرًا سيارات فولكس فاجن الكهربائية ID4  وID6  بدول عديدة منها دول عربية مثل الأردن، الإمارات، ومصر. فكم هو الوقت المستغرق لشحن السيارة من 0% إلى 100%؟
+            <br/>
+            <br/>
+            
+            للإجابة عن هذا السؤال لابد من الأخذ بعين الاعتبار أمور عدة، أهمها الشاحن. الشواحن لا تعطي طاقة للسيارة بنفس المقدر، كل شاحن يعطي كمية مختلفة عن الشواحن الأخرى، ويوجد نوعين رئيسيين من الشواحن. شواحن الAC  ذات التيار المتردد، وشواحن ال  DC  ذات التيار المباشر. سيارة الفولكس فاجن ID4 لا تستقبل أكثر من 11 كيلوواط  في الساعة للشحن باستخدام التيار المتردد. لكنها تستقبل ما يقارب 130 كيلوواط في الساعة من التيار المباشر DC.
+            <br/>
+            <br/>
+            
+            سعة بطارية الفولكس فاجن ID4  هي 82 كيلوواط  منها 77 كيلوواط قابلة للاستخدام. من سبق يعني أنه باستخدام شاحن بقوة 7.3 كيلوواط. مهم أن نعلم أيضًا أن شحن سيارة ID4  الكهربائية ما بين 20% إلى 80% يكون أسرع من خارج هذه النسبة. لهذا ينصح بعدم ترك نسبة شحن السيارة تكون دون 20%. كما ينصح المصنع مُلاك السيارة بعدم شحنها فوق 80% بل ينصح بجعل الحد الأقصى للشحن 80% من خلال إعدادات الشحن، وذلك للمحافظة على صحة بطارية السيارة على المدى الطويل.
+            <br/>
+            <br/>
+            مما سبق، حتى يتم شحن سيارة ID4 من 20% إلى 80% يستغرق ذلك 6 ساعات تقريبًا. أما شحنها من 0% إلى 100% فقد يستغرق 11 ساعة ونصف. طبعا ذلك باستخدام شاحن بقوة 7.3 كيلوواط. يجب ملاحظة أن هذه الأرقام تعتمد على معلومات محددة لسيارة فولكس فاجن ID4 وقد تختلف في الموديلات الأخرى أو في التحديثات المستقبلية. من المهم أن يكون لدى مالكي السيارات الكهربائية وعملاء فولكس فاجن معلومات دقيقة حول شبكة الشواحن المتاحة في منطقتهم وعوامل أخرى تؤثر على وقت الشحن.
+            `,
+            date: '2023-05-04',
+            contentImageUrl: 'https://admin.energy5.com/assets/6f0711cb-e1b1-4e10-beb7-cd5196a21226',
             tags: ['Volkswagen', 'ID.4', 'ID.6', 'Charging', 'Charging Settings'],
             comments: [
                 {
@@ -442,13 +639,13 @@ export const images = [
 
         {
             id: '2',
-            title: 'How to turn slow charging mode in Volkswagen ID.4 and ID.6 off',
-            metaTitle: 'How to turn slow charging mode in Volkswagen ID.4 and ID.6 off',
+            title: 'كيفية إطفاء وضع الشحن البطيء في Volkswagen ID.4 و ID.6',
+            metaTitle: 'كيفية إطفاء وضع الشحن البطيء في Volkswagen ID.4 و ID.6',
             imageUrl: 'https://assets.volkswagen.com/is/image/volkswagenag/VW_NGW6_Showroom_ID4_Collage_Interior?Zml0PWNyb3AlMkMxJndpZD04MDAmaGVpPTUzMyZmbXQ9anBlZyZxbHQ9NzkmYmZjPW9mZiYyOTg5',
             description: 'Unlock Faster Charging: Troubleshoot Slow Charging for your ID.4 or ID.6. Learn how to deactivate the slow charging mode with simple steps and get back to efficient charging in no time.',
-            content: `How to Turn Off Slow Charging Mode in Volkswagen ID.4 and ID.6: Setting Charging Current
+            content: `كيفية إطفاء وضع الشحن البطيء في سيارة فوكس واجن ID.4 و ID.6
 
-            Introduction:
+            المقدمة:
             Efficient charging is crucial for electric vehicle owners, as it minimizes charging times and ensures a smooth driving experience. In some cases, the charging current may be reduced by default, leading to slow charging. However, Volkswagen provides a convenient solution to this issue through its charging settings. In this blog post, we will explore the steps to turn off the slow charging mode in Volkswagen ID.4 and ID.6 by adjusting the charging current setting.
             
             Step 1: Access the Car's Settings:
@@ -493,6 +690,103 @@ export const images = [
 
     ]
         },
+        {
+            id: '3',
+            title: 'أسعار شواحن السيارات الكهربائية في السعودية',
+            metaTitle: 'أسعار شواحن السيارات الكهربائية في السعودية',
+            imageUrl: require('../images/blog-images/Saudi-Arabia-EV-Charger.png'),
+            description: 'تعرف على أسعار شواحن السيارات الكهربائية في المملكة العربية السعودية',
+            content: `عندما يتعلق الأمر بأسعار شواحن السيارات الكهربائية في المملكة العربية السعودية، هناك عدة عوامل تؤثر في التكلفة، بما في ذلك قوة الشاحن وسرعته وجودة المواد المستخدمة في التصنيع. سأقوم بشرح نوعين شائعين من الشواحن: الشاحن المتنقل والشاحن المنزلي.
+            
+            </h2>  الشاحن المتنقل <h2> 
+            يُعد الشاحن المتنقل خيارًا مريحًا لأولئك الذين يحتاجون إلى شحن سياراتهم الكهربائية أثناء التنقل. يتميز الشاحن المتنقل بحجمه الصغير وقابليته للحمل، مما يتيح للمستخدمين شحن سياراتهم في أماكن مختلفة مثل المواقف العامة ومحطات الشحن العامة والفنادق. يعمل الشاحن المتنقل عادة عن طريق توصيله بمصدر طاقة قياسي مثل منفذ طاقة المنزل (القابس العادي).
+            بالنسبة لأسعار الشواحن المتنقلة في المملكة العربية السعودية، فإنها تتفاوت حسب العلامة التجارية والمواصفات. على سبيل المثال، يمكن أن تتراوح أسعار الشواحن المتنقلة بين 900 ريال و 1200 ريال، وذلك بناءً على القوة وسرعة الشحن والجودة العامة للشاحن.
+            الشاحن المنزلي
+            
+             يُعد الشاحن المنزلي خيارًا شائعًا لملاك السيارات الكهربائية الذين يرغبون في شحن سياراتهم في راحة منازلهم. يتم تركيب الشاحن المنزلي في موقع ثابت في المنزل، مثل المرآب أو موقف السيارات الخاص بهم. وعادة ما يتم توصيله بشبكة الكهرباء المنزلية.
+            يعد الشاحن المنزلي أكثر قوة وكفاءة من الشواحن المتنقلة، مما يتيح شحن البطارية بسرعة أكبر. يختلف سعر الشاحن المنزلي أيضًا حسب الماركة والمواصفات، حيث يمكن أن يتراوح سعره بين 1300 ريال و 1800 ريال. يعتمد السعر أيضًا على القوة وسرعة الشحن وجودة المواد المستخدمة في التصنيع.
+            باختصار، عند شراء شاحن لسيارتك الكهربائية في المملكة العربية السعودية، ينبغي أن تأخذ في الاعتبار قوة الشاحن وسرعته وجودة المواد المستخدمة. سواء اخترت الشاحن المتنقل أو الشاحن المنزلي، يتوجب عليك أن تنظر في الميزات والسعر وتقيم احتياجاتك الشخصية لاختيار الشاحن المناسب لك.
+            
+            
+            `,
+            date: '2023-05-04',
+            contentImageUrl: require('../images/blog-images/Jeddah-EV-Charger.png'),
+            imageAlt: 'شاحن ميجا للسيارات الكهربائية',
+            tags: ['شاحن سيارة كهربائية', 'شاحن سيارة كهربائية السعودية', 'أسعار شواحن السيارات الكهربائية', 'شاحن ميجا', 'شواحن سيارات كهربائية في السعودية'],
+            comments: [
+                {
+                    id: '1',
+                    name: 'John Doe',
+                    comment: 'This is a comment',
+                    date: '2021-09-01',
+                },
+              ]
+        },
+        {
+          id: '4',
+          title: 'أنواع شواحن السيارات الكهربائية',
+          metaTitle: 'تعرف على أنواع شواحن السيارات الكهربائية',
+          description:'تختلف أنواع شواحن السيارات الكهربائية باختلاف المنفذ، نوع التيار، وطريقة استخدامها. تعرف على المزيد حول أنواع شواحن السيارة الكهربائية.',
+          imageUrl: require('../images/blog-images/ev-charger-types.png'),
+          metaDescription: 'يوجد أنواع مختلفة لشواحن السيارات الكهربائية تختلف باختلاف منفذ الشحن وطريقة الاستخدام لهذا الشاحن. في هذا المقال نوضح أكثر عن نوع كل شاحن سيارة كهربائية.',
+          content: `
+          <p> تعتبر السيارات الكهربائية من الحلول المبتكرة والمستدامة في مجال النقل، ومع تزايد اعتماد الناس عليها، أصبحت شواحن السيارات الكهربائية أمرًا هامًا للحفاظ على قدرة البطارية وضمان تشغيل السيارة بكفاءة. توجد العديد من أنواع شواحن السيارات الكهربائية المختلفة، وتختلف باختلاف منفذ الشحن والتيار المستخدم في عملية الشحن وطريقة الاستخدام للشاحن. في هذه المقالة، سنوضح المزيد عن أنواع الشواحن المختلفة ووظائفها.</p>
+          <p>تعتبر الشواحن للسيارات الكهربائية متنوعة وتختلف وفقًا لعدة عوامل:</p>
+<h2><strong>من حيث طريقة الاستخدام:</strong></h2>
+<ul>
+  <li>الشواحن المنزلية</li>
+  <p>وهي الشواحن التي عادة ما يتم تركيبها في مكان ثابت حول المنزل. تستقبل هذه الشواحن الكهرباء من المنزل وتكون أكثر متانة من الشواحن المتنقلة.</p>
+ <img src=${(require('../images/blog-images/wallbox-ev-charger-blog.png'))} width="350" height="160" alt="شاحن سيارة كهربائية منزلي ثابت" />
+ <p>يُسمى بالإنجليزية Wallbox لأنه عادة يتم تثبيته في الحائط ويكون على شكل صندوق. عادة ما توفر هذه الشواحن شحنًا بطيئًا نسبيًا نظرًا لاستخدام الكهرباء المنزلية والتي عادة ما تكون 1 فاز. فيعتبر هذا الشاحن مناسب للشحن في أوقات الراحة في المنزل.</p>
+  <li>الشواحن المتنقلة</li>
+  <p>الشواحن المتنقلة يمكن أخذها في السيارة لاستخدامها في الأماكن العامة والتي يتوفر فيها قابس ملائم مع الشاحن. يجب على كل مالك سيارة كهربائية أن يوفر شاحن متنقل في سيارته الكهربائية لحالات الطوارئ وللحفاظ على مستوى شحن البطارية.  يمكن استخدام الشاحن المتنقل في المحلات التجارية مثل المولات ومحطات الشحن، كما يمكن استخدامه في البيت إذا توفر القابس المناسب.</p>
+</ul>
+<h2><strong>من حيث التيار:</strong></h2>
+<ul>
+  <li>الشواحن بتيار متردد (AC)</li>
+  <p> هذا النوع من الشواحن يُستخدم لتحويل التيار المتردد AC القادم من مصادر الطاقة إلى تيار مناسب لشحن البطارية. هذه الشواحن تعتبر بطيئة مقارنة بشواحن التيار المستمر DC والسبب في ذلك أن البطاريات تستقبل فقط التيار المستمر DC فيتوجب على السيارة تحويل التيار من متردد إلى مستمر، عملية التحويل هذه تؤخر عملية الشحن. من ناحية أخرى فإن سعر شاحن التيار المتردد AC ذو سعر أقل بكثير من شاحن التيار المستمر DC، وأيضًا شاحن التيار المستمر يتطلب جهد Voltage أعلى مما يتطلب بُنية تحتية أقوى. </p>
+  <li>الشواحن بتيار مستمر (DC)</li>
+  <p> توفر شواحن السيارات الكهربائية ذات التيار المستمر شحنًا أسرع وأكثر كفاءة للسيارة الكهربائية بسبب استخدام التيار المستمر DC. يوفر هذا النوع من الشواحن قوة تصل إلى 350 كيلوواط في الساعة مما يعني أنها قادر على شحن السيارة الكهربائية بشكل كامل بمدة تترواح بين 15 دقيقة إلى ساعة بناءً على قوة الشاحن ومواصفات السيارة الكهربائية لديك. </p>
+</ul>
+<h2><strong>من حيث المنفذ:</strong></h2>
+<p> يختلف منفذ الشحن من سيارة كهربائية لأخرى، ولكن عمومًا يعتمد الأمر على منطقة تصنيع السيارة الكهربائية، فمثلًا، السيارات التي تُصنع في الصين لها منفذ مختلف عن السيارات التي تصنع في أمريكا بغض النظر عن ماركة السيارة أو الشركة المصنعة لها. ومعظم السيارات لها منفذين للشحن، أحدهما للشحن باستخدام شواحن التيار المتردد، والآخر للشحن باستخدام شواحن التيار المستمر. </p>
+<h3>للشواحن بتيار متردد:</h3>
+<ul>
+  <li>شاحن بمنفذ Type 1</li>
+  <p> يُسمى أيضًا منفذ J أو SAE J1772 يتوفر هذا المنفذ في السيارات الأمريكية وبعض السيارات الكورية واليابنية يتكون المنفذ من 5 دبابيس كما هو مبين في الصورة في الأسفل، ويكون أصغر مقارنةً مع غيره من المنافذ. يتواجد هذا المنفذ في السيارات التي تُصنع في أمريكا، بغض النظر عن الشركة المصنعة فيتواجد في سيارات شيفروليه، GMC، فورد، وأي سيارة واردة من أمريكا مثل Mercedes  الأمريكية.  </p>
+  <img src=${(require('../images/blog-images/Type1-Port.jpg'))} width="350" height="160" alt="شاحن سيارة كهربائية منزلي ثابت" />
+  <li>شاحن بمنفذ Type 2</li>
+  <p> يُسمى أيضًا Mennekes وهو منفذ السيارات الأوروبية والخليجية  يتكون من 7 دبابيس كما في الصورة. أي سيارة تُصدر من أوروبا تحمل في الغالب منفذ الشحن هذا ويتضمن ذلك سيارات تسلا الأوروبية، والسيارات الأوروبية مثل BMW, Mercedes, Audi, Porsche وغيرها الكثير من الماركات. من المتوقع أن يتم اعتماد هذا المنفذ ليكون المنفذ العالمي المُوحد. </p>
+  <img src=${(require('../images/blog-images/Type2-Port.jpg'))} width="350" height="160" alt="شاحن سيارة كهربائية منزلي ثابت" />
+  <li>شاحن بمنفذ  GB/T (غوانغدونغ باووان تايب)</li>
+  <p> يعتبر هذا المنفذ المنفذ المعتمد والقياسي في الصين، فأي سيارة تُصنع في الصين تأتي بهذا المنفذ وهذا يشمل سيارات VW ID4, ID6 القادمة من الصين، وأيضًا يشمل سيارات   Changanو BYD وحتى سيارات تسلا وتويوتا المُصنعة في الصين. </p>
+  <img src=${(require('../images/blog-images/GBT-Port.png'))} width="350" height="160" alt="شاحن سيارة كهربائية منزلي ثابت" />
+
+  </ul>
+<p>للشواحن بتيار مستمر:</p>
+<ul>
+  <li>شاحن بمنفذ  GBT</li>
+  <p> قد ذكرنا أن كل سيارة تحتوي على منفذين واحد للتيار المستمر وواحد للتيار المتردد. فهذا الشاحن هو لنفس السيارة إلا أنه بتيار مستمر DC أي أنه أسرع بكثير من شاحن GBT ذو التيار المتردد. فهو للسيارات القادمة من الصين وتُشحن السيارة به من خلال منفذ DC GB/T في السيارة. </p> 
+  <li>شاحن بمنفذ  CHAdeMO</li>
+  <p> أما منفذ CHAdeMO فهو منفذ التيار المتردد DC للسيارات اليابنية والكورية. </p>
+  <li>شاحن بمنفذ  CCS1 (Combined Charging System)</li>
+  <p> منفذ CCS1 هو التيار المستمر للسيارات الأمريكية مثل Ford, GMC, Chevrolet وغيرها من السيارات التي تأتي من أمريكا. </p>
+  <li>شاحن بمنفذ  CCS2 (Combined Charging System)</li>
+  <p> أخيرًا، الشواحن بمنفذ CCS2 هي للسيارات الأوروبية والخليجية وهذه الشواحن هي الأكثر انتشارًا في المنطقة العربية. يتوافق هذا الشاحن مع سيارات تسلا الخليجية والسيارات القادمة من أوروبا مثل BMW, Mercedes, Audi وأي سيارة تُصدر من أوروبا.  </p>
+</ul>
+          `,
+          date: '2023-07-04',
+          contentImageUrl: require('../images/blog-images/Jeddah-EV-Charger.png'),
+          imageAlt: 'شاحن ميجا للسيارات الكهربائية',
+          tags: ['أنواع شواحن السيارات الكهربائية', 'شاحن سيارة كهربائية'],
+         
+        },
+
+
+
+
+       
+
 
     ]
 

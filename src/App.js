@@ -21,6 +21,7 @@ import ProductPage from './components/ProductPage';
 import Services from './components/Services';
 import Installation from './components/Installation';
 import Emergency from './components/Emergency';
+import PostPage from './components/PostPage';
 import BlogPost from './components/BlogPost';
 import Blog from './components/Blog';
 import PopularBlogs from './components/PopularBlogs';
@@ -38,7 +39,7 @@ function App() {
     <BrowserRouter>
       <Fragment>
         <Helmet>
-          <title>شواحن ميجا - شواحن سيارات كهربائية</title>
+          <title>شاحن ميجا - شواحن سيارات كهربائية</title>
           <meta
             name="description"
             content="شواحن ميجا هي شركة رائدة في مجال تزويد شواحن السيارات الكهربائية منتجاتها. نحن ملتزمون بتعزيز حلول النقل المستدامة ودعم الانتقال العالمي نحو السيارات الكهربائية."
@@ -161,7 +162,7 @@ function App() {
             element={
               <Fragment>
                 <Helmet>
-                  <title>شواحن سيارات تسلا – شواحن ميجا</title>
+                  <title>شواحن سيارات تسلا – شاحن ميجا</title>
                   <meta
                     name="description"
                     content="جد أفضل شاحن لسيارة تسلا الخاصة بك. تتوفر مجموعة واسعة من الشواحن المتنقل والثابتة لسيارات تسلا. ويتوفر أيضًا أدابتر تسلا كي تستطيع شحن التسلا بشواحن أكثر."
@@ -207,8 +208,19 @@ function App() {
           <Route path="/services/ev-charger-installation" element={<Installation />} />
           <Route path="/services/roadside-charging-service" element={<Emergency />} />
           <Route path='/services' element={<Services />} />
-          <Route path="/blog" element={<Blog />} />
-          <Route path="/blog/:id" element={<BlogPost />} />
+          <Route path="/blog" element={              <Fragment>
+            <Helmet>
+                  <title>شواحن ميجا - مدونة الشواحن الكهربائية</title>
+                  <meta
+                    name="description"
+                    content="اقرأ مقالاتنا عن السيارات الكهربائية والشواحن الكهربائية والمزيد."
+                  />
+                </Helmet>
+<Blog />
+</Fragment>
+
+} />
+          <Route path="/blog/:id" element={<PostPage />} />
           <Route path="/blog/the-best-places-to-buy-ev-chargers-in-dubai" element={<PopularBlogs />} />
           <Route path="/links" element={<Links />} />
           <Route path="*" element={<NotFound />} />

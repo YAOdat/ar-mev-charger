@@ -33,7 +33,7 @@ const routes = [
   '/products/11',
 ];
 
-const baseUrl = 'https://www.ar.mevcharger.com';
+const baseUrl = 'https://ar.mevcharger.com';
 
 const sitemap = create({ version: '1.0', encoding: 'UTF-8' })
   .ele('urlset', { xmlns: 'http://www.sitemaps.org/schemas/sitemap/0.9' });
@@ -45,4 +45,4 @@ routes.forEach((route) => {
 
 const sitemapXml = sitemap.end({ prettyPrint: true });
 
-fs.writeFileSync('./public/sitemap.xml', sitemapXml, 'utf8');
+fs.writeFileSync('./public/sitemapfix.xml', sitemapXml, 'utf8');

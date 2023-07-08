@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Image, Text, Button, Link, Icon, useBreakpointValue } from '@chakra-ui/react';
+import { Box, Image, Text, Button, Link, Icon, useBreakpointValue, Flex } from '@chakra-ui/react';
 import { products } from './data/productdata';
 import { FaBackward } from 'react-icons/fa';
 
@@ -9,7 +9,9 @@ const EVScanner = () => {
   const flexDirection = useBreakpointValue({ base: 'column', md: 'row' });
 
   return (
-    <Box>
+    <Box dir='rtl'>
+      <title>أفضل أجهزة فحص للسيارات الكهربائية</title>
+      <meta name="description" content="يتوفر أجهزة فحص سيارات كهربائية لمختلف أنواع السيارات. أجهزة فحص سيارات فوكس واجن، أجهزة فحص سيارات تسلا الكهربائية"/>
       <Button colorScheme='green' m={2}>
         <Link href="/home">
           <Icon as={FaBackward} m={1}/>
@@ -23,16 +25,19 @@ const EVScanner = () => {
           </Link>
           <Box ml={4}>
             <Text fontWeight="bold">{product.name}</Text>
-            <Text>AED {product.price}</Text>
-            {product.salePrice && (
-              <Text as="s" color="gray.500" ml={2}>
-                AED {product.salePrice}
-              </Text>
-            )}
+            {product.salePrice ? (
+          <Flex>
+            <Text as="s">{`${product.price} درهم`}</Text>
+            <Text pr={4}>{`${product.salePrice} درهمًا`}</Text>
+          </Flex>
+        ) : (
+          `${product.price} درهمًا`
+        )}
+           
             <Text>{product.description}</Text>
             <Link href="https://wa.me/971501679410">
               <Button colorScheme="green" width="half">
-                Order on WhatsApp
+                اطلب عبر الواتساب
               </Button>
             </Link>
           </Box>

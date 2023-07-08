@@ -20,35 +20,86 @@ import {
   Stack,
   Alert,
   AlertIcon,
+  Input,
+  Text
 } from '@chakra-ui/react';
 import { FaWhatsapp } from 'react-icons/fa';
+import { Helmet } from 'react-helmet';
 
 import UAE from '../components/images/Icon Images/united-arab-emirates.png';
 import Earth from '../components/images/Icon Images/earth.png';
 
+const BeforeForm = ({onNext}) => {
 
-const NotAvailableAlert = () => {
   return (
-    <Alert status="warning">
-      <AlertIcon />
-      We are currently out of stock for Chademo chargers and adapters. Please check back later.
-    </Alert>
-  );
-};
+    <>
+    <Helmet>
+  <title>تركيب شواحن سيارات كهربائية في الإمارات - اطلب الخدمة الآن</title>
+  <meta name="description" content="خدمة تركيب شاحن سيارة كهربائية في الإمارات" />
+  <meta name="keywords" content="تركيب سيارات كهربائية في أبو ظبي" />
+  <meta name="keywords" content="تركيب شواحن سيارات كهربائية في دبي" />
+  <meta name="keywords" content="تركيب شواحن سيارات كهربائية في الشارقة" />
+  <meta name="keywords" content="تركيب شواحن سيارات كهربائية في الإمارات" />
+  <meta name="keywords" content="تركيب شاحن سيارات كهربائية"/>
+  <meta name="keywords" content="تركيب شاحن تسلا"/>
+</Helmet>
+      <Heading as='h1' w="100%" textAlign={'center'} fontWeight="normal" mb="2%">
+        خدمة تركيب شاحن سيارة كهربائية
+      </Heading>
+<Text dir='rtl'>
+تعتبر خدمة تركيب شواحن السيارات الكهربائية خدمة مهمة ومريحة لأصحاب السيارات الكهربائية. تهدف هذه الخدمة إلى تسهيل عملية شحن السيارة وتوفير الراحة والسلامة لمستخدمي السيارات الكهربائية.
+من خلال خدمة تركيب شاحن السيارة الكهربائية، يقوم فريق من الفنيين المهرة بتركيب شاحن السيارة في مكان مناسب وملائم، سواء في المنزل أو موقف السيارات الخاص بك أو حتى في مكان العمل. يتم اختيار الموقع الأمثل لتركيب الشاحن بناءً على احتياجاتك الشخصية وظروفك الفردية.
+
+  </Text>  
+  <br/>
+  <Text dir='rtl'>
+  يتم اتخاذ جميع التدابير اللازمة لضمان تركيب الشاحن بشكل آمن وفقًا للمعايير واللوائح القياسية. يتم تقديم الخدمة بواسطة فريق فني متخصص يتمتع بالخبرة والمهارة اللازمة لتنفيذ عملية التركيب بشكل صحيح وفعال.
+قبل تركيب الشاحن، يقوم الفنيون بتقييم الأسلاك الكهربائية ونظام التوزيع الحالي للتأكد من قدرته على التعامل مع متطلبات الشاحن الكهربائي. سيقوم الفريق أيضًا بتوصيل الشاحن بالشبكة الكهربائية وضمان وجود تيار كهربائي آمن ومستقر للشحن.
+  </Text>
+  <br/>
+  <Text dir='rtl' mb={2}>
+  بعد تركيب الشاحن، يتم اختباره وتشغيله للتأكد من أنه يعمل بشكل صحيح. سيوفر لك الفريق أيضًا التوجيه والتدريب اللازم لاستخدام الشاحن بفعالية وسهولة.
+</Text>
+      <Button
+        onClick={() =>  onNext()}
+        variant="outline" 
+        colorScheme="teal"
+        size="lg"
+        w="100%"
+        mt="2%"
+      >
+        اطلب الخدمة الآن  
+      </Button>
+      </>
+    );
+  };
+
+
+
 
 const Form1 = ({ onNext }) => {
     const handleClick = (value) => {
       if (value === 'UAE') {
         onNext();
       } else {
-        alert('Sorry, we only operate inside the UAE.');
+        alert('عذرًا، لا يمكننا تقديم الخدمة لك خارج الإمارات.');
       }
     };
   
     return (
       <>
-        <Heading w="100%" textAlign={'center'} fontWeight="normal" mb="2%">
-          Are you in the UAE?
+      <Helmet>
+  <title>تركيب شواحن سيارات كهربائية في الإمارات - اطلب الخدمة الآن</title>
+  <meta name="description" content="خدمة تركيب شواحن سيارات كهربائية في الإمارات" />
+  <meta name="keywords" content="تركيب شواحن سيارات كهربائية في أبو ظبي" />
+  <meta name="keywords" content="تركيب شواحن سيارات كهربائية في دبي" />
+  <meta name="keywords" content="تركيب شواحن سيارات كهربائية في الإمارات" />
+  <meta name="keywords" content="تركيب شاحن سيارات كهربائية"/>
+  <meta name="keywords" content="تركيب شاحن سيارة كهربائية"/>
+  <meta name="keywords" content="تركيب شاحن تسلا"/>
+</Helmet>
+        <Heading as='h1' w="100%" textAlign={'center'} fontWeight="normal" mb="2%">
+          هل أنت متواجد داخل الإمارات؟
         </Heading>
         <RadioGroup mb={8} name="Step1" sx={{ mt: 8 }}>
           <Stack spacing={10} direction="row" justify="center">
@@ -56,7 +107,7 @@ const Form1 = ({ onNext }) => {
               <Img
                 width="100px"
                 src={UAE}
-                alt="UAE EV Charger"
+                alt="تركيب شواحن سيارات كهربائية"
                 value="UAE"
                 onClick={() => handleClick('UAE')}
                 _hover={{ transform: 'scale(1.15)' }}
@@ -64,7 +115,7 @@ const Form1 = ({ onNext }) => {
                 cursor={'pointer'}
               />
               <FormLabel htmlFor="first-name" fontWeight={'normal'}>
-                Yes.
+                نعم.
               </FormLabel>
             </Stack>
   
@@ -80,7 +131,7 @@ const Form1 = ({ onNext }) => {
                 cursor={'pointer'}
               />
               <FormLabel htmlFor="first-name" fontWeight={'normal'}>
-                No.
+                لا.
               </FormLabel>
             </Stack>
           </Stack>
@@ -90,85 +141,62 @@ const Form1 = ({ onNext }) => {
   };
   
   
-
-const Form2 = () => {
-  const { isOpen, onOpen, onClose } = useDisclosure();
-  const [showNotFoundAlert, setShowNotFoundAlert] = useState(false);
-  const [userLocation, setUserLocation] = useState(null);
-
-  const getLocation = () => {
-    if (navigator.geolocation) {
-      navigator.geolocation.getCurrentPosition(
-        (position) => {
-          const { latitude, longitude } = position.coords;
-          setUserLocation({ latitude, longitude });
-        },
-        (error) => {
-          console.error('Error getting location:', error);
-        }
-      );
-    } else {
-      console.error('Geolocation is not supported by this browser.');
-    }
+  const Form2 = () => {
+    const { isOpen, onOpen, onClose } = useDisclosure();
+    const [location, setLocation] = useState('');
+    const [showNotFoundAlert, setShowNotFoundAlert] = useState(false);
+  
+    const handleSendLocation = () => {
+      if (!location) {
+        setShowNotFoundAlert(true);
+        return;
+      }
+  
+      const message = `السلام عليكم، أنا متواجد في ${location} وأريد تركيب شاحن سيارة كهربائية.`;
+      const whatsappLink = `https://wa.me/+971505968453?text=${encodeURIComponent(
+        message
+      )}`;
+  
+      window.open(whatsappLink, '_blank');
+    };
+  
+    return (
+      <>
+        <Button
+          leftIcon={<FaWhatsapp />}
+          colorScheme="green"
+          onClick={onOpen}
+          dir='rtl'
+        >
+أرسل موقعك عبر واتساب        </Button>
+        {showNotFoundAlert && (
+          <Alert status="warning">
+            <AlertIcon />
+            الرجاء كتابة العنوان قبل الإرسال.
+          </Alert>
+        )}
+        <Modal isOpen={isOpen} onClose={onClose}>
+          <ModalOverlay />
+          <ModalContent dir="rtl">
+            <ModalHeader>اكتب موقعك</ModalHeader>
+            <ModalCloseButton />
+            <ModalBody>
+              <Input
+                placeholder="ادخل موقعك أو عنوانك هنا"
+                value={location}
+                onChange={(e) => setLocation(e.target.value)}
+              />
+            </ModalBody>
+            <ModalFooter>
+              <Button colorScheme="green" onClick={handleSendLocation}>
+                إرسال
+              </Button>
+            </ModalFooter>
+          </ModalContent>
+        </Modal>
+      </>
+    );
   };
-
-  const sendLocationOnWhatsApp = () => {
-    if (!userLocation) {
-      console.error('Location is not available.');
-      return;
-    }
-
-    const { latitude, longitude } = userLocation;
-    const message = `Hey, here's my location: https://www.google.com/maps?q=${latitude},${longitude}`;
-    const whatsappLink = `https://wa.me/+971505968453?text=${encodeURIComponent(
-      message
-    )}`;
-
-    window.open(whatsappLink, '_blank');
-  };
-
-  const handleSendLocation = () => {
-    if (!navigator.geolocation) {
-      console.error('Geolocation is not supported by this browser.');
-      return;
-    }
-
-    getLocation();
-    onOpen();
-    
-  };
-
-  return (
-    <>
-      <Heading w="100%" textAlign={'center'} fontWeight="normal" mb="2%">
-        Send us your location
-      </Heading>
-      <Button
-        leftIcon={<FaWhatsapp />}
-        colorScheme="green"
-        onClick={sendLocationOnWhatsApp}
-      >
-        Send Location on WhatsApp
-      </Button>
-      {showNotFoundAlert && <NotAvailableAlert />}
-      <Modal isOpen={isOpen} onClose={onClose}>
-        <ModalOverlay />
-        <ModalContent>
-          <ModalHeader>Location Sent</ModalHeader>
-          <ModalCloseButton />
-          <ModalBody>
-            Your location has been sent on WhatsApp.
-          </ModalBody>
-          <ModalFooter>
-            <Button colorScheme="green" onClick={onClose}>
-              Close
-            </Button>
-          </ModalFooter>
-        </ModalContent>
-      </Modal>
-    </>
-  );
-};
 
 const Form3 = () => {
   return (
@@ -176,7 +204,6 @@ const Form3 = () => {
       <Heading w="100%" textAlign={'center'} fontWeight="normal">
         Ask an expert
       </Heading>
-      {/* Rest of your form code for Form3 */}
     </>
   );
 };
@@ -197,6 +224,11 @@ export default function Multistep() {
 
   return (
     <>
+        <Helmet>
+        <meta name="keywords" content="تركيب شواحن سيارات كهربائية في أبو ظبي" />
+        <meta name="keywords" content="تركيب شواحن سيارات كهربائية في دبي" />
+        <meta name="description" content="خدمة تركيب شواحن سيارات كهربائية في الإمارات" />
+      </Helmet>
       <Box
         borderWidth="1px"
         rounded="lg"
@@ -205,11 +237,13 @@ export default function Multistep() {
         p={6}
         m="10px auto"
         as="form"
+        dir='rtl' 
       >
         <Progress colorScheme="green" hasStripe value={progress} mb="5%" mx="5%" isAnimated />
-        {step === 1 && <Form1 onNext={handleNext} />}
-        {step === 2 && <Form2 />}
-        {step === 3 && <Form3 />}
+        {step === 1 && <BeforeForm onNext={handleNext} /> }
+        {step === 2 && <Form1 onNext={handleNext} />}
+        {step === 3 && <Form2 />}
+        {step === 4 && <Form3 />}
         <ButtonGroup mt="5%" w="100%">
           <Flex w="100%" justifyContent="space-between">
             <Flex>
@@ -221,7 +255,7 @@ export default function Multistep() {
                 w="7rem"
                 mr="5%"
               >
-                Back
+                السابق
               </Button>
               <Button
                 w="7rem"
@@ -229,8 +263,9 @@ export default function Multistep() {
                 onClick={handleNext}
                 colorScheme="green"
                 variant="outline"
+                mx={2}
               >
-                Next
+                التالي
               </Button>
             </Flex>
             {step === 3 && (

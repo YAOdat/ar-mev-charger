@@ -1,6 +1,9 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import { blogPosts } from "./data/productdata";
+import { Box, Heading, Text, UnorderedList, ListItem, Image, Link } from '@chakra-ui/react';
+import AlMuhandes from '../components/images/Al-Muhandes.webp';
+import Location from './Maps';
 
 export default function BlogPost() {
   const { id } = useParams();
