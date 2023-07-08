@@ -22,7 +22,6 @@ import Services from './components/Services';
 import Installation from './components/Installation';
 import Emergency from './components/Emergency';
 import PostPage from './components/PostPage';
-import BlogPost from './components/BlogPost';
 import Blog from './components/Blog';
 import PopularBlogs from './components/PopularBlogs';
 import Links from './components/Links';
@@ -32,7 +31,7 @@ import ReactGA from 'react-ga';
 
 function App() {
   
-  ReactGA.initialize('G-09GTV1PCZ7');
+  ReactGA.initialize('G-HMP176XHH7');
   ReactGA.pageview(window.location.pathname + window.location.search);
 
   return (
