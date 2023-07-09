@@ -2,6 +2,7 @@ import React from 'react';
 import { Box, Image, Text, Button, Link, Icon, useBreakpointValue } from '@chakra-ui/react';
 import { products } from './data/productdata';
 import { FaBackward } from 'react-icons/fa';
+import { Helmet } from 'react-helmet';
 
 const Tesla = () => {
   const filteredProducts = products.filter((product) => product.portType === 'tesla' || product.portType2 === 'tesla');
@@ -10,8 +11,12 @@ const Tesla = () => {
 
   return (
     <Box dir='rtl'>
+      <Helmet> 
       <title> شواحن سيارات تسلا الأمريكية - شاحن تسلا</title>
       <meta name='description' content='اطلب أفضل شاحن لسيارة تسلا الخاصة بك بأفضل سعر في الإمارات ودبي'/> 
+      <meta name='keywords' content='شاحن سيارة تسلا, شاحن سيارة كهربائية, شاحن سيارة, شاحن تسلا, شاحن تسلا الامريكية'/>
+      <link rel='canonical' href='https://ar.mevcharger.com/products/tesla_charger' />
+      </Helmet>
       <Button colorScheme='green' m={2}>
         <Link href="/pick">
           <Icon as={FaBackward} m={1}/>
