@@ -21,6 +21,7 @@ const Banner = () => {
       p={{ base: 8, md: 16 }}
       dir='rtl'
     >
+
       <Box>
         <chakra.h2 fontSize="4xl" lineHeight={1.2} fontWeight="bold"> أجهزة فحص للسيارات الكهربائية</chakra.h2>
         <chakra.h3

@@ -76,6 +76,7 @@ export default function ProductPage() {
         <meta name='twitter:image' content={product.imageUrl} />
         <meta name='twitter:card' content='summary_large_image' />
         <meta name='keywords' content={product.tags} />
+        <link rel='canonical' href={window.location.href} />
       </Helmet>
       <SimpleGrid
         columns={{ base: 1, lg: 2 }}

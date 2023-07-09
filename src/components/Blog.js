@@ -15,7 +15,7 @@ import {
 } from '@chakra-ui/react';
 import { blogPosts } from './data/productdata';
 import { Link } from 'react-router-dom';
-
+import { Helmet } from 'react-helmet';
 
 const useColorModeValueWrapper = (lightValue, darkValue) => {
   const colorMode = useColorModeValue('light', 'dark');
@@ -39,6 +39,9 @@ const BlogTags = (props) => {
 const BlogAuthor = (props) => {
   return (
     <HStack marginTop="2" spacing="2" display="flex" alignItems="center">
+      <Helmet>
+        <title>مدونة السيارات الكهربائية | شاحن ميجا</title>     
+      </Helmet>
       <Image
         borderRadius="full"
         boxSize="40px"
