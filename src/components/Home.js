@@ -17,7 +17,7 @@ import { products } from './data/productdata'
 import { ProductGrid } from './ProductGrid'
 import { Link } from 'react-router-dom';
 
-export default function CallToActionWithAnnotation() {
+export default function Home() {
   return (
     <>
     <meta name="title" content="شواحن ميجا - شاحن سيارة كهربائية"/>
@@ -25,6 +25,7 @@ export default function CallToActionWithAnnotation() {
      <meta name='keyword' content='شاحن ميجا'/>
      <meta name="keyword" content="شاحن سيارة كهربائية"/>
      <meta name="keyword" content="شاحن سيارة كهربائية في الإمارات"/>
+     <meta name='keyword' content='شاحن سيارة كهربائية'/>
       <link rel="canonical" href="https://ar.mevcharger.com/"/>
       <meta name="robots" content="index, follow"/>
       <meta name="language" content="Arabic"/>
