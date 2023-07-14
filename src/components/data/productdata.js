@@ -179,7 +179,7 @@ export const images = [
     },
     {
         id: '6',
-        name: ' أفضل شاحن سيارات كهربائية لفولكس فاجنID.4 و ID.6',
+        name: ' شاحن سيارات كهربائية لسيارة ID4 و ID6 فوكس فاجن',
         currency: 'AED',
         price: 1800,
         flag: 'new',
@@ -339,7 +339,7 @@ export const images = [
           imageUrl: require('../images/product-images/GBTtoGBT.jpg'),
           imageAlt: 'ادابتر سيارات فولكس فاجن ID4و ID6',
           rating: 5,
-          tags: ['محول'],
+          tags: ['محول', 'ادابتر id4', 'ادابتر id6', 'id4 شحن سريع'],
           ratingCount: 3,
           description: 'اشحن سيارة volkswagen ID4/ID6 باستخدام شواحن السيارات الأوروبية Type 2 أو شواحن تسلا الخليجية.',
           portType: 'gbt',
@@ -512,7 +512,7 @@ export const images = [
         currency: 'AED',
         price: 1600,
         salePrice: 1500,
-        tags: ['شاحن ', 'Nissan', 'نيسان'],
+        tags: ['شاحن ', 'Nissan', 'نيسان', 'شاحن نيسان ليف', 'شاحن نيسان ليف للبيع', 'شاحن نيسان ليف منزلي'],
         flag: 'new',
         imageUrl: require('../images/product-images/mega_ev_charger.png'),
         rating: 5,
@@ -545,7 +545,7 @@ export const images = [
         name: 'وصلة فحص سيارات فولكس فاجن ID4و ID6 OBD11',
         currency: 'AED',
         price: 1000,
-        tags: ['وصلة ', 'Volkswagen', 'فولكس فاجن'],
+        tags: ['وصلة ', 'Volkswagen', 'فولكس فاجن', 'obd11 vw', 'obd11'],
         flag: 'new',
         imageUrl: require('../images/product-images/obd11.jpg'),
         rating: 5,
@@ -568,8 +568,8 @@ export const images = [
         الخطوة 3: قم بتوصيل جهازك بهاتفك الذكي عبر البلوتوث.
         `,
         function: 'scanner',
-        illustration: 'https://obdeleven.com/img/cms/OneClickApps-VAG-2.jpg',
-        illustration2: 'https://obdeleven.com/img/cms/History.jpg',
+        illustration: 'https://obdeleven.com/_next/image?url=https%3A%2F%2Fobdeleven.com%2Fsylius_media%2Fmedia%2Fimage%2Fae%2F85%2F96260c79a8b2f1f6bbba7d013960.png&w=2048&q=75',
+        illustration2: 'https://obdeleven.com/_next/image?url=https%3A%2F%2Fobdeleven.com%2Fsylius_shop_api_original%2Fsylius_media%2F10%2Ff4%2F22659af32a77fa56c30911f72371.jpg&w=1920&q=75',
         subscription: 'سنة واحدة',
 
       },
@@ -790,7 +790,6 @@ export const images = [
           tags: ['أنواع شواحن السيارات الكهربائية', 'شاحن سيارة كهربائية'],
          
         },
-
 
 
 
