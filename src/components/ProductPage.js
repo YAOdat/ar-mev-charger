@@ -113,15 +113,15 @@ export default function ProductPage() {
               {product.name}
             </Heading>
             <Text fontWeight={400} fontSize="2xl">
-        {product.salePrice ? (
-          <Flex>
-            <Text as="s">{`${product.price} درهم`}</Text>
-            <Text pr={4}>{`${product.salePrice} درهم`}</Text>
-          </Flex>
-        ) : (
-          `${product.price} درهم`
-        )}
-      </Text>
+              {product.salePrice ? (
+                <Flex>
+                  <Text as="s">{`${product.price} درهم`}</Text>
+                  <Text pr={4}>{`${product.salePrice} درهم`}</Text>
+                </Flex>
+              ) : (
+                `${product.price} درهم`
+              )}
+            </Text>
           </Box>
           <Box>
             <Text color={'gray.500'} fontSize={'xl'}>
@@ -214,11 +214,11 @@ export default function ProductPage() {
           </Text>
           <Image src={product.illustration} alt={product.name} />
           {product.illustration2 && (
-          <Image src={product.illustration2} alt={product.name} my={2}/>
+            <Image src={product.illustration2} alt={product.name} my={2} />
           )}
-              <Heading as="h2" size="md" my={2}>
-                الخصائص:
-              </Heading>
+          <Heading as="h2" size="md" my={2}>
+            الخصائص:
+          </Heading>
           <Table variant="striped" colorScheme="gray">
             <Thead>
               <Tr>
