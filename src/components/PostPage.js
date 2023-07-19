@@ -10,7 +10,6 @@ function PostPage() {
   const { id } = useParams();
   const post = blogPosts.find((post) => post.id === id);
   const { colorMode } = useColorMode();
-console.log(colorMode)
 
 
   const replaceYouTubeLinks = (content) => {

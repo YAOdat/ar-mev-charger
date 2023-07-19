@@ -22,7 +22,12 @@ const Tesla = () => {
           <Icon as={FaBackward} m={1}/>
         </Link>
       </Button>
-
+      <Text my={2}>
+        يتوفر شواحن سيارات كهربائية لمختلف موديلات تسلا. يتوفر شاحن تسلا موديل Y, شاحن تسلا موديل X, وتسلا موديل 3. اطلب شاحن تسلا الخاص بك الآن بأفضل سعر في الإمارات ودبي.
+      </Text>
+      <Text>
+        يوجد شواحن تسلا الأمريكية، وشواحن تسلا الخليجية. يتوفر خدمة توصيل لجميع الإمارات بما في ذلك دبي، الشارقة، أبو ظبي، عجمان، رأس الخيمة، الفجيرة. اطلب شاحن تسلا الخاص بك الآن.
+      </Text>
       {filteredProducts.map((product) => (
         <Box display="flex" flexDirection={flexDirection} alignItems="center" key={product.id} mb={5}>
           <Image src={product.imageUrl} alt={product.name} boxSize="300px" objectFit="cover" />
