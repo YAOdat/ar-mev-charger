@@ -21,7 +21,6 @@ export const ProductCard = (props) => {
 
   const handleViewDetails = () => {
     window.scrollTo(0, 0)
-    console.log(`Navigating to product with ID: ${id}`);
   };
 
 
