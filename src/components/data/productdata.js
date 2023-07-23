@@ -501,7 +501,7 @@ export const images = [
         power: '22KW/11KW/7.7KW',
         cableLength: '4.5 متر',
         availablePorts: 'Type 2',
-        operatingTemperature: '30° س إلى 50° س',
+        operatingTemperature: '-30° س إلى 50° س',
         size: '228.5*228.5*100مم',
 
      
@@ -631,18 +631,7 @@ export const images = [
                     comment: 'This is a comment',
                     date: '2021-09-01',
                 },
-                {
-                    id: '2',
-                    name: 'John Doe',
-                    comment: 'This is a comment',
-                    date: '2021-09-01',
-                },
-                {
-                    id: '3',
-                    name: 'John Doe',
-                    comment: 'This is a comment',
-                    date: '2021-09-01',
-                },
+             
             ]
         },
 
@@ -683,18 +672,7 @@ export const images = [
                     comment: 'This is a comment',
                     date: '2021-09-01',
                 },
-                {
-                    id: '2',
-                    name: 'John Doe',
-                    comment: 'This is a comment',
-                    date: '2021-09-01',
-                },
-                {
-                    id: '3',
-                    name: 'John Doe',
-                    comment: 'This is a comment',
-                    date: '2021-09-01',
-                },
+            
 
 
     ]
@@ -723,12 +701,7 @@ export const images = [
             imageAlt: 'شاحن ميجا للسيارات الكهربائية',
             tags: ['شاحن سيارة كهربائية', 'شاحن سيارة كهربائية السعودية', 'أسعار شواحن السيارات الكهربائية', 'شاحن ميجا', 'شواحن سيارات كهربائية في السعودية'],
             comments: [
-                {
-                    id: '1',
-                    name: 'John Doe',
-                    comment: 'This is a comment',
-                    date: '2021-09-01',
-                },
+              
               ]
         },
         {
