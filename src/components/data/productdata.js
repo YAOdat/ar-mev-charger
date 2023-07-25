@@ -1,35 +1,3 @@
-export const images = [
-    {
-      id: '01',
-      src: 'https://images.unsplash.com/photo-1602024242516-fbc9d4fda4b6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80',
-      alt: 'Awesome watch',
-    },
-    {
-      id: '02',
-      src: 'https://images.unsplash.com/photo-1451290337906-ac938fc89bce?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1777&q=80',
-      alt: 'Awesome watch',
-    },
-    {
-      id: '03',
-      src: 'https://images.unsplash.com/photo-1568010434570-74e9ba7126bc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80',
-      alt: 'Awesome watch',
-    },
-    {
-      id: '04',
-      src: 'https://images.unsplash.com/photo-1569411032431-07598b0012c2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80',
-      alt: 'Awesome watch',
-    },
-    {
-      id: '05',
-      src: 'https://images.unsplash.com/photo-1565440962783-f87efdea99fd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=936&q=80',
-      alt: 'Awesome watch',
-    },
-    {
-      id: '06',
-      src: 'https://images.unsplash.com/photo-1548169874-53e85f753f1e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1420&q=80',
-      alt: 'Awesome watch',
-    },
-  ]
   export const products = [
     {
       id: '1',
@@ -41,9 +9,7 @@ export const images = [
       rating: 4,
       ratingCount: 19,
       description:
-        'شاحن سيارة كهربائية منزلي بقوة 7.7 كيلوواط قادر على شحن مختلف أنواع السيارات الكهربائية. يتوفر ثلاث نسخ من الشاحن؛ شاحن بمنفذ Type 2 للسيارات الأوروبية، شاحن بمنفذ GB/T للسيارات الصينية، ونسخة بمنفذ Type 1.',
-      images,
-      portType: 'type2',
+        'شاحن سيارة كهربائية منزلي بقوة 7.7 كيلوواط قادر على شحن مختلف أنواع السيارات الكهربائية. يتوفر ثلاث نسخ من الشاحن؛ شاحن بمنفذ Type 2 للسيارات الأوروبية، شاحن بمنفذ GB/T للسيارات الصينية، ونسخة بمنفذ Type 1.',      portType: 'type2',
       function: 'charger',
       portType2: 'gbt',
       longDescription: `شاحن سيارة كهربائية منزلي بقوة 7.7 كيلوواط قادر على شحن مختلف أنواع السيارات الكهربائية. يتوفر ثلاث نسخ من الشاحن؛ شاحن بمنفذ Type 2 للسيارات الأوروبية، شاحن بمنفذ GB/T للسيارات الصينية، ونسخة بمنفذ Type 1. يستطيع شحن سيارات Tesla, Volkswagen ID4, ID6, BYD, BMW, Audi, Mercedes, Volvo, Polestar, MG, Mini, Renault, Nissan, Peugeot, Citroen, DS, Opel, Vauxhall, Chevrolet, Cadillac, GMC, وغيرها الكثير.`,
@@ -107,7 +73,6 @@ export const images = [
       ratingCount: 20,
       description:
         'باستخدام توصيلة GBT إلى Type 2 يمكن شحن سيارات ID4 أو ID6 أو تسلا وغيرها الكثير باستخدام شواحنهم الخاصة والتي لا يكفي طولها للوصول إلى منفذ السيارة. ',
-      images,
       portType: 'gbt',
       function: 'extensionCable',
       portType2: 'type2',
@@ -118,8 +83,6 @@ export const images = [
       illustration2: 'https://sc01.alicdn.com/kf/Hf593487f26804ac9ab5ed67c310912283.jpg',
       weight: '3.5 كيلوغرام',
       tags: ['شاحن سيارة كهربائية متنقل', 'ID4', 'ID6', 'فولكس فاجن'],
-
-
     },
     {
       id: '4',
@@ -132,7 +95,6 @@ export const images = [
       tags: ['تسلا', 'فورد', 'GMC', 'تطويلة'],
       description:
         'تحويلة شاحن السيارة الكهربائية من نوع Type 2 إلى Type 1 هي منتج مبتكر وعملي يتيح لك توصيل سيارتك الكهربائية بسهولة ويسر بشبكة الشحن التي تدعم منفذ Type 1. بفضل هذه التحويلة، يمكنك الاستفادة من شبكة الشحن الواسعة والمتاحة للسيارات الأمريكية بسيارتك التي تستخدم منفذ Type 2.',        
-      images,
       portType: 'type2',
       function: 'adapter',
       portType2: 'type1',
@@ -160,7 +122,6 @@ export const images = [
       ratingCount: 4,
       description:
         'باستخدام هذا ادابتر Type 1 إلى Tesla يمكن شحن سيارات تسلا باستخدام شواحن السيارات الأمريكية، Type 1.',
-      images,
       portType: 'tesla',
       function: 'adapter',
       portType2: 'none',
@@ -188,7 +149,6 @@ export const images = [
         ratingCount: 19,
         description:
           'باستخدام هذا الشاحن، يمكن شحن سيارات فولكس فاجن ID.4 و ID.6 بسرعة وكفاءة. ويمكن لهذا الشاحن شحن سيارات Changan وأي سيارة بمنفذ GB/T. مثل BYD Han',
-        images,
         portType: 'gbt',
         tags: ['ID4', 'ID6', 'فولكس فاجن', 'شاحن منزلي'],
         function: 'charger',
@@ -231,7 +191,6 @@ export const images = [
         واحدة من أبرز مزايا هذا الشاحن هي وجود منفذ Type 2، وهو المنفذ القياسي المستخدم في العديد من السيارات الكهربائية الأوروبية. هذا يعني أنه يمكن استخدامه مع سيارات من العلامات التجارية المشهورة مثل تيسلا الأوروبية، وبي أم دبليو، وأودي، ومرسيدس بنز، بالإضافة إلى العديد من السيارات الأخرى التي تتوفر بمنفذ Type 2.
         
         بفضل هذا الشاحن المنزلي للسيارات الكهربائية Type 2، يمكنك الاستفادة من مزايا الشحن في المنزل بكل راحة وسهولة. إنه حلاً مريحًا وعمليًا لملاك السيارات الكهربائية الذين يرغبون في شحن سياراتهم في المنزل بدون أي تعقيدات. بسعره المناسب البالغ 1800 درهم، يعتبر هذا الشاحن خيارًا مثاليًا للأفراد الذين يبحثون عن حل شحن فعال وسهل الاستخدام لسياراتهم الكهربائية.`,
-        images,
         portType: 'type2',
         function: 'charger',
         portType2: 'none',
@@ -252,7 +211,6 @@ export const images = [
         tags: ['Tesla', 'تسلا', 'شاحن منزلي'],
         description:
           'This EV charger is compatible with all Tesla models. Also, it can charge type 1 EVs as the charger comes with a type 1 port and tesla adapter.',
-        images,
         portType: 'type1',
         function: 'charger',
         portType2: 'tesla',
@@ -271,7 +229,6 @@ export const images = [
         tags: ['Tesla', 'تسلا', 'محول'],
         description:
           'باستخدام هذا ادابتر GBT إلى تسلا يمكنك شحن سيارة تسلا باستخدام شواحن سيارات فولكس فاجن ID4 و ID6',
-        images,
         portType: 'gbt',
         function: 'adapter',
         portType2: 'tesla',
@@ -294,7 +251,6 @@ export const images = [
         ratingCount: 14,
         description:
             'باستخدام هذا الشاحن يمكنك شحن أي سيارة كهربائية إذ يتوفر هذا الشاحن بأنواع مختلفة ذات منافذ مختلفة منفذ للسيارات الصينية GBT لسيارات فولكس فاجن ومنفذ Type 2 لسيارات تسلا الأوروبية والسيارات الأوروبية ومنفذ للسيارات الأمريكية Type 1 مثل Ford.',
-        images,
         portType: 'type2',
         function: 'charger',
         portType2: 'gbt',
@@ -307,7 +263,6 @@ export const images = [
             { type: 'Type 1', image: 'https://iili.io/H4JwlS9.md.png' },
         ]
         },
-
         {
             id:'11',
             name: 'ادابتر الشحن السريع DC CCS2 to GBT',
@@ -363,7 +318,6 @@ export const images = [
           illustration: require('../images/product-images/GBT2GBT.webp'),
           illustration2: 'https://www.akyga.com/upl/app/products/images2/big-webp/dd106aec8f6ad2582c4bf459534ee3c0.webp.jpg',
       },
-
       {
           id:'13',
           name: 'شاحن سيارة كهربائية بقوة 22 كليوواط 3 فاز',
@@ -503,7 +457,6 @@ export const images = [
         availablePorts: 'Type 2',
         operatingTemperature: '-30° س إلى 50° س',
         size: '228.5*228.5*100مم',
-
      
       },
       {
@@ -607,7 +560,7 @@ export const images = [
         imageUrl: require('../images/product-images/New-Mega-Charger.png'),
         rating: 5,
         ratingCount: 1,
-        description: "الشاحن الكهربائي لسيارات مرسيدس بنز هو حلاً حديثًا مصمم خصيصًا لمالكي سيارات مرسيدس بنز الكهربائية. يتميز بتصميم أنيق ومدمج، ويوفر توافقًا شاملاً مع جميع طرازات EQS وEQC وEQA وEQB. يتيح الشاحن شحن البطارية بسهولة وأمان، ويتميز بمواد متينة مقاومة للحرارة العالية وحماية ممتازة من العوامل البيئية المختلفة. هذا الشاحن هو اختيار مثالي للاستخدام المنزلي ويساهم في دعم مرسيدس بنز للتنقل المستدام والمبتكر.        ",
+        description: "الشاحن الكهربائي لسيارات مرسيدس بنز هو الشاحن الأفضل مصمم خصيصًا لمالكي سيارات مرسيدس بنز الكهربائية. يتميز بتصميم أنيق ومدمج، ويوفر توافقًا شاملاً مع جميع طرازات EQS وEQC وEQA وEQB. يتيح الشاحن شحن البطارية بسهولة وأمان، ويتميز بمواد متينة مقاومة للحرارة العالية وحماية ممتازة من العوامل البيئية المختلفة. هذا الشاحن هو اختيار مثالي للاستخدام المنزلي ويساهم في دعم مرسيدس بنز للتنقل المستدام والمبتكر.        ",
         longDescription: `
         شاحن سيارات مرسيدس بنز الكهربائي هو حلاً للشحن حديث المستوى تم تصميمه خصيصًا لأصحاب سيارات مرسيدس بنز الكهربائية، بما في ذلك طرازات EQS وEQC وEQA وEQB الشهيرة المجهزة بمنفذ الشحن من النوع 2. بفضل تصميمه الأنيق والمدمج، يمثل هذا الشاحن خليطًا مثاليًا من الأناقة والوظائف العالية، مما يجعله خيارًا مثاليًا للاستخدام المنزلي.
         
@@ -634,11 +587,39 @@ export const images = [
         portType: 'type2',
         availablePorts: 'Type 2',
         power: '7.7/11 كيلوواط',
+            },
 
-      }
-     
+        {
+          id: '22',
+          name: 'ادابتر CCS2 إلى CCS1 لشحن السيارات الأمريكية',
+          currency: 'AED',
+          price: 1350,
+          tags: ['ادابتر ', 'CCS2', 'CCS1', 'شاحن CCS1', 'شاحن CCS2', 'شاحن CCS1 للبيع', 'شاحن CCS2 للبيع', 'شاحن CCS1 منزلي', 'شاحن CCS2 منزلي', 'شاحن Ford سريع', 'محول CCS2 إلى CCS1', 'CCS2 to CCS1 Adapter'],
+          flag: 'new',
+          imageUrl: require('../images/product-images/CCS2toCCS1.png'),
+          rating: 5,
+          ratingCount: 1,
+          description: "يمكنك هذا المحول من شحن السيارات الأمريكية مثل فورد وشيفرولية  Ford, Chevrolate, GMC باستخدام الشواحن العامة السريعة ذات منفذ CCS2",
+          longDescription: `يعتبر محول CCS2 إلى CCS1 للسيارات الأمريكية في الخليج منتجًا مبتكرًا وفعالًا يهدف إلى توفير الامتثال والتوافق بين السيارات الأمريكية الشهيرة مثل فورد، شيفروليه، GMC، جيب، كاديلاك وغيرها، مع شواحن الكهرباء العامة السريعة في المنطقة.
+
+          يتيح هذا المحول لملاك السيارات الأمريكية استخدام الشواحن العامة ذات منفذ CCS2 الشهير، التي تشمل شواحن تسلا الخليجية وشواحن DEWA ذات المنفذ السريع CCS2. بفضل هذا المحول المبتكر، لم يعد هناك حاجة للقلق بشأن توافق المنافذ أو العدم القدرة على الشحن بسبب تباين المعايير.
+          
+          يتميز المحول بالمتانة والأداء العالي، مما يسمح للسائقين بشحن سياراتهم بسرعة وسهولة في أماكن الشحن العامة المتاحة عبر المنطقة. تم تصميمه بتقنيات عالية الجودة لضمان الأمان والحماية أثناء عملية الشحن، مما يجعله خيارًا آمنًا وموثوقًا لملاك السيارات الأمريكية في الخليج.
+          
+          باستخدام هذا المحول، يمكن لمستخدمي السيارات الأمريكية الاستفادة من مزايا الشحن السريع الفائق وتجنب وقوع تأخير غير مرغوب فيه بسبب عدم توافق المنافذ. بالتالي، يسهم هذا المنتج في دعم النقل النظيف وتحفيز استخدام السيارات الكهربائية وتقليل الانبعاثات الضارة في المنطقة.
+          
+          في النهاية، يُعد محول CCS2 إلى CCS1 للسيارات الأمريكية في الخليج حلاً مثاليًا وموثوقًا لملاك السيارات الأمريكية الذين يرغبون في الاستفادة الكاملة من شبكة الشواحن العامة السريعة المتاحة والمساهمة في الحفاظ على البيئة في المنطقة.`,
+          function: 'adapter',
+          illustration: require('../images/product-images/CCS2toCCS1.jpg'),
+          current:' 250 أمبير',
+          operatingTemperature: '-30°C ~ 85°C',
+          power: '200 كيلوواط',
+          specialFeature: 'قفل أمان',
+          availablePorts: 'CCS2 to CCS1 (المنفذ الأوروبي إلى المنفذ الأمريكي)',
 
 
+        }
+    
   ];
   
     export const blogPosts = [

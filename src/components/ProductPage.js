@@ -275,6 +275,12 @@ export default function ProductPage() {
                   <Td>{product.operatingTemperature}</Td>
                 </Tr>
               )}
+              {product.specialFeature && (
+                <Tr>
+                  <Td>ميزة خاصة</Td>
+                  <Td>{product.specialFeature}</Td>
+                </Tr>
+              )}
             </Tbody>
           </Table>
         </Box>
