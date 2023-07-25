@@ -2,12 +2,17 @@ import React from 'react';
 import { Box, Image, Text, Button, Link, Icon } from '@chakra-ui/react';
 import { products } from './data/productdata';
 import { FaBackward } from 'react-icons/fa';
+import { Helmet } from 'react-helmet';
 
 const Adapters = () => {
   const filteredProducts = products.filter((product) => product.function === 'adapter');
 
   return (
     <Box dir='rtl'>
+      <Helmet> 
+      <title>ادابتر السيارات الكهربائية - محولات سيارة كهربائية</title>
+      <meta name='keywords' content='ادابتر سيارة كهربائية، ادابترات السيارات الكهربائية، ادابتر تسلا، ادابتر التسلا، ادابتر id4, ادابتر id6,'/>
+      </Helmet>
       <Button colorScheme="green" m={2}>
         <Link href="/pick">
           <Icon as={FaBackward} m={1} />
