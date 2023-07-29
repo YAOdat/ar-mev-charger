@@ -20,9 +20,9 @@ const Adapters = () => {
       </Button>
 
       {filteredProducts.map((product) => (
-        <Box display="flex" flexDirection={['column', 'row']} alignItems={['start', 'center']} key={product.id} mb={5}>
+        <Box m={4} display="flex" flexDirection={['column', 'row']} alignItems={['start', 'center']} key={product.id} mb={5}>
           <Link href={`/products/${product.id}`}>
-          <Image src={product.imageUrl} alt={product.name} boxSize="300px" objectFit="cover" />
+          <Image ml={3} src={product.imageUrl} alt={product.name} boxSize="300px" objectFit="cover" />
           </Link>
           <Box ml={[0, 4]} mt={[4, 0]}>
             <Text fontWeight="bold">{product.name}</Text>
@@ -34,7 +34,7 @@ const Adapters = () => {
             )}
             <Text>{product.description}</Text>
             <Link href="https://wa.me/971501679410">
-              <Button colorScheme="green" width="half">
+              <Button m={3} colorScheme="green" width="half">
 اطلب عبر واتساب              </Button>
             </Link>
           </Box>

@@ -23,6 +23,7 @@ import { useParams } from 'react-router-dom';
 import { products } from '../components/data/productdata.js';
 import { TransformWrapper, TransformComponent } from 'react-zoom-pan-pinch';
 import RelatedProducts from './RelatedProducts.js';
+import YouTube from 'react-youtube';
 
 export default function ProductPage() {
   const { id } = useParams();
@@ -61,7 +62,10 @@ export default function ProductPage() {
     ));
 
   const metaDescription = `${product?.name} - درهم ${product?.price}. ${product?.description}`;
-
+  const videoOptions = {
+    height: '360',
+    width: '640',
+  };
   return (
     <Container maxW={'7xl'} dir='rtl'>
       <Helmet>
@@ -216,9 +220,24 @@ export default function ProductPage() {
           {product.illustration2 && (
             <Image src={product.illustration2} alt={product.name} my={2} />
           )}
+              {product.video && (
+            <Container maxW={'7xl'} dir='rtl'>
+            <SimpleGrid
+              columns={{ base: 1, lg: 2 }}
+              spacing={{ base: 8, md: 10 }}
+              py={{ base: 18, md: 24 }}
+            >
+              <Flex>
+                <YouTube videoId={product.video}/>
+              </Flex>
+            </SimpleGrid>
+          </Container>
+          )
+        }
           <Heading as="h2" size="md" my={2}>
             الخصائص:
           </Heading>
+      
           <Table variant="striped" colorScheme="gray">
             <Thead>
               <Tr>
