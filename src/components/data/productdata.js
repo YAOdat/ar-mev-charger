@@ -317,7 +317,8 @@
           cableLength: '-',
           illustration: require('../images/product-images/GBT2GBT.webp'),
           illustration2: 'https://www.akyga.com/upl/app/products/images2/big-webp/dd106aec8f6ad2582c4bf459534ee3c0.webp.jpg',
-      },
+          video: 'qyXSooHlsIY',
+        },
       {
           id:'13',
           name: 'شاحن سيارة كهربائية بقوة 22 كليوواط 3 فاز',
