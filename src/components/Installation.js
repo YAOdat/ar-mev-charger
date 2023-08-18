@@ -74,9 +74,6 @@ const BeforeForm = ({onNext}) => {
     );
   };
 
-
-
-
 const Form1 = ({ onNext }) => {
     const handleClick = (value) => {
       if (value === 'UAE') {
@@ -97,6 +94,7 @@ const Form1 = ({ onNext }) => {
   <meta name="keywords" content="تركيب شاحن سيارات كهربائية"/>
   <meta name="keywords" content="تركيب شاحن سيارة كهربائية"/>
   <meta name="keywords" content="تركيب شاحن تسلا"/>
+  <meta name="keywords" content="محطة شواحن متنقلة"/>
 </Helmet>
         <Heading as='h1' w="100%" textAlign={'center'} fontWeight="normal" mb="2%">
           هل أنت متواجد داخل الإمارات؟
