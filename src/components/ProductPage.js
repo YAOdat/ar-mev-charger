@@ -300,6 +300,12 @@ export default function ProductPage() {
                   <Td>{product.specialFeature}</Td>
                 </Tr>
               )}
+               {product.dimensions && (
+                <Tr>
+                  <Td>أبعاد المنتج</Td>
+                  <Td>{product.dimensions}</Td>
+                </Tr>
+              )}
             </Tbody>
           </Table>
         </Box>
