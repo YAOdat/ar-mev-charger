@@ -306,6 +306,18 @@ export default function ProductPage() {
                   <Td>{product.dimensions}</Td>
                 </Tr>
               )}
+                   {product.inputVoltage && (
+                <Tr>
+                  <Td>الجهد التشغيلي</Td>
+                  <Td>{product.inputVoltage}</Td>
+                </Tr>
+              )}
+                {product.protectionLevel && (
+                <Tr>
+                  <Td>مستوى الحماية</Td>
+                  <Td>{product.protectionLevel}</Td>
+                </Tr>
+              )}
             </Tbody>
           </Table>
         </Box>

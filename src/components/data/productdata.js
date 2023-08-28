@@ -5,7 +5,7 @@
       currency: 'درهم',
       price: 1700,
       flag: 'جديد',
-      imageUrl: 'https://iili.io/Hr78TZb.md.webp',
+      imageSource: 'https://iili.io/Hr78TZb.md.webp',
       rating: 4,
       ratingCount: 19,
       description:
@@ -38,7 +38,7 @@
       price: 1100,
       salePrice: 900,
       flag: 'تخفيض',
-      imageUrl: 'https://iili.io/Hr78acB.md.png',
+      imageSource: 'https://iili.io/Hr78acB.md.png',
       rating: 5,
       ratingCount: 16,
       description:'شاحن سيارة كهربائية متنقل بمنفذ GBT مما يعني أنه قادر على شحن سيارات ID.4 و ID.6 بسرعة وكفاءة. يأتي بشاشة LCD تبين حالة شحن بطارية السيارة، ويمكن تغيير أمبيرية الشحن.',
@@ -68,7 +68,7 @@
       name: 'توصيلة شاحن السيارة الكهربائية Type 2 إلى GBT',
       currency: 'AED',
       price: 550,
-      imageUrl: 'https://iili.io/Hr7856Q.md.png',
+      imageSource: 'https://iili.io/Hr7856Q.md.png',
       rating: 4,
       ratingCount: 20,
       description:
@@ -89,7 +89,7 @@
       name: 'تحويلة شاحن سيارة كهربائية Type 2 إلى Type 1',
       currency: 'AED',
       price: 350,
-      imageUrl: 'https://iili.io/Hr78091.md.jpg',
+      imageSource: 'https://iili.io/Hr78091.md.jpg',
       rating: 5,
       ratingCount: 4,
       tags: ['تسلا', 'فورد', 'GMC', 'تطويلة'],
@@ -116,7 +116,7 @@
       name: 'تحويلة شاحن سيارة كهربائية Type 1 إلى Tesla',
       price: 400,
       currency: 'AED',
-      imageUrl: 'https://iili.io/HrEn199.md.jpg',
+      imageSource: 'https://iili.io/HrEn199.md.jpg',
       rating: 5,
       tags: ['تسلا','محول'],
       ratingCount: 4,
@@ -144,7 +144,7 @@
         currency: 'AED',
         price: 1800,
         flag: 'new',
-        imageUrl: 'https://iili.io/Hr78TZb.md.webp',
+        imageSource: 'https://iili.io/Hr78TZb.md.webp',
         rating: 4,
         ratingCount: 19,
         description:
@@ -178,7 +178,7 @@
         currency: 'AED',
         price: 1800,
         flag: 'new',
-        imageUrl: 'https://iili.io/HrjMhfn.md.webp',
+        imageSource: 'https://iili.io/HrjMhfn.md.webp',
         rating: 4,
         ratingCount: 14,
         tags: ['تسلا','Type2','شاحن منزلي'],
@@ -205,7 +205,7 @@
         currency: 'AED',
         price: 1800,
         flag: 'new',
-        imageUrl: 'https://iili.io/HrkHE0b.md.png',
+        imageSource: 'https://iili.io/HrkHE0b.md.png',
         rating: 4,
         ratingCount: 14,
         tags: ['Tesla', 'تسلا', 'شاحن منزلي'],
@@ -223,7 +223,7 @@
         currency: 'AED',
         price: 600,
         flag: 'new',
-        imageUrl: 'https://iili.io/HregvLP.md.png',
+        imageSource: 'https://iili.io/HregvLP.md.png',
         rating: 4,
         ratingCount: 14,
         tags: ['Tesla', 'تسلا', 'محول'],
@@ -246,7 +246,7 @@
         price: 1000,
         flag: 'new',
         tags: ['ID6','ID4','شاحن متنقل'],
-        imageUrl: 'https://iili.io/H4JwlS9.md.png',
+        imageSource: 'https://iili.io/H4JwlS9.md.png',
         rating: 4,
         ratingCount: 14,
         description:
@@ -267,10 +267,10 @@
             id:'11',
             name: 'ادابتر الشحن السريع DC CCS2 to GBT',
             currency: 'AED',
-            price: 7000,
+            price: 5500,
             flag: 'new',
             tags: ['CCS2 to GBT', 'ID4', 'ID6', 'فولكس فاجن'],
-            imageUrl: require('../images/product-images/DCAdapter.webp'),
+            imageSource: require('../images/product-images/DCAdapter.webp'),
             rating: 5,
             ratingCount: 4,
             description: 'وصلة الشحن السريع لشواحن DC سيارات فولس فاجن ID4 و ID6 CCS2 إلى GBT. يمكنك من شحن سيارات ID4 و ID6 باستخدام شواحن DC ذات منفذ السيارات الكهربائية الأوروبية CCS2 مثل Tesla الخليجي, BMW, Mercedes وغيرها الكثير.',
@@ -291,7 +291,7 @@
           currency: 'AED',
           price: 350,
           flag: 'new',
-          imageUrl: require('../images/product-images/GBTtoGBT.jpg'),
+          imageSource: require('../images/product-images/GBTtoGBT.jpg'),
           imageAlt: 'ادابتر سيارات فولكس فاجن ID4و ID6',
           rating: 5,
           tags: ['محول', 'ادابتر id4', 'ادابتر id6', 'id4 شحن سريع'],
@@ -326,7 +326,7 @@
           price: 1850,
           flag: 'new',
           tags: ['شاحن'],
-          imageUrl: require('../images/product-images/white-ev-charger.webp'),
+          imageSource: require('../images/product-images/white-ev-charger.webp'),
           imageAlt: 'شاحن سيارة كهربائية 3 فاز',
           rating: 5,
           ratingCount: 3,
@@ -360,7 +360,7 @@
             price: 10250,
             tags: ['scanner'],
             flag: 'new',
-            imageUrl: require('../images/product-images/tesla-ev-scanner.jpg'), 
+            imageSource: require('../images/product-images/tesla-ev-scanner.jpg'), 
             rating: 5,
             ratingCount: 1,
             description: 'D9 EV Professional EV Smart Diagnostic System, a high-performance 9.7-inch tablet that supports Bluetooth communication, DoIP, and CAN-FD protocols. With online software updates and compatibility with most Tesla EV models, it offers comprehensive diagnostic functions including battery pack detection, Tesla diagnosis, ECU information reading, DTC clearing, live data analysis, and over 40 special functions. Plus, it provides IMMO support for added security. Stay ahead with the D9 EV and unlock the full potential of electric vehicle diagnostics. ',
@@ -390,7 +390,7 @@
           salePrice: 750,
           flag: 'new',
           tags: ['scanner', 'Tesla', 'تسلا'],
-          imageUrl: require('../images/product-images/tesla-obd2.png'),
+          imageSource: require('../images/product-images/tesla-obd2.png'),
           rating: 5,
           ratingCount: 4,
           description: "وصلة فحص  تسلا قادرة على كشف أعطال مختلف موديلات سيارات تسلا. تأتي باشتراك سنتين مجاني.",
@@ -415,7 +415,7 @@
         price: 950,
         tags: ['شاحن متنقل'],
         flag: 'new',
-        imageUrl: require('../images/product-images/Portable-EV-Charger.webp'),
+        imageSource: require('../images/product-images/Portable-EV-Charger.webp'),
         rating: 5,
         ratingCount: 2,
         description: 'شاحن سيارة كهربائية متنقل يأتي بعدة نسخ ليتوافق مع جميع السيارات الكهربائية مثل ID4, ID6, BMW, Toyota, Mercedes, Tesla وغيرها الكثير من السيارات الكهربائية المختلفة.',
@@ -441,7 +441,7 @@
         salePrice: 1600,
         tags: ['شاحن منزلي', 'Tesla', 'تسلا'],
         flag: 'new',
-        imageUrl: require('../images/product-images/teslatype2teison.jpg'),
+        imageSource: require('../images/product-images/teslatype2teison.jpg'),
         rating: 5,
         ratingCount: 1,
         description: "شاحن سيارة تسلا منزلي يتميز بقدرته على شحن السيارة بسرعة عالية وبأمان تام. يأتي بمنفذ Type 2 المتوافق مع سيارات تسلا الخليجية ويمكن متابعة عملية الشحن من خلال الهاتف.        ",
@@ -468,7 +468,7 @@
         salePrice: 1500,
         tags: ['شاحن ', 'Nissan', 'نيسان', 'شاحن نيسان ليف', 'شاحن نيسان ليف للبيع', 'شاحن نيسان ليف منزلي'],
         flag: 'new',
-        imageUrl: require('../images/product-images/mega_ev_charger.png'),
+        imageSource: require('../images/product-images/mega_ev_charger.png'),
         rating: 5,
         ratingCount: 1,
         description: "شاحن سيارة نيسان ليف منزلي يتميز بقدرته على شحن السيارة بسرعة وأمان تام. يأتي بمنفذ Type 1 أو منفذ Type 2 ليتوافق مع جميع موديلات سيارة نيسان ليف الكهربائية. ",
@@ -501,7 +501,7 @@
         price: 1000,
         tags: ['وصلة ', 'Volkswagen', 'فولكس فاجن', 'obd11 vw', 'obd11'],
         flag: 'new',
-        imageUrl: require('../images/product-images/obd11.jpg'),
+        imageSource: require('../images/product-images/obd11.jpg'),
         rating: 5,
         ratingCount: 1,
         description: "باستخدام وصلة OBDEleven يمكن فحص وتشخيص وحتى برمجة سيارات فوكس فاجن الكهربائية ID4 و ID6 وغيرهما الكثير من السيارات.",
@@ -533,7 +533,7 @@
         currency: 'AED',
         price: 1000,
         flag: 'new',
-        imageUrl: require('../images/product-images/Type2Tesla.png'),
+        imageSource: require('../images/product-images/Type2Tesla.png'),
         rating: 5,
         ratingCount: 2,
         description: "باستخدام هذ الادابتر يمكنك شحن سيارة تسلا الأمريكية باستخدام الشواحن العامة وشواحن تسلا الخليجية ذات منفذ Type 2. يدعم هذا المحول الشحن السريع DC Charging.",
@@ -558,7 +558,7 @@
         price: 1600,
         tags: ['شاحن ', 'Mercedes', 'مرسيدس', 'شاحن مرسيدس', 'شاحن مرسيدس كهربائية', 'شاحن مرسيدس كهربائية منزلي', 'شاحن لسيارات مرسيدس للبيع', 'شاحن ميجا لسيارات مرسيدس'],
         flag: 'new',
-        imageUrl: require('../images/product-images/New-Mega-Charger.png'),
+        imageSource: require('../images/product-images/New-Mega-Charger.png'),
         rating: 5,
         ratingCount: 1,
         description: "الشاحن الكهربائي لسيارات مرسيدس بنز هو الشاحن الأفضل مصمم خصيصًا لمالكي سيارات مرسيدس بنز الكهربائية. يتميز بتصميم أنيق ومدمج، ويوفر توافقًا شاملاً مع جميع طرازات EQS وEQC وEQA وEQB. يتيح الشاحن شحن البطارية بسهولة وأمان، ويتميز بمواد متينة مقاومة للحرارة العالية وحماية ممتازة من العوامل البيئية المختلفة. هذا الشاحن هو اختيار مثالي للاستخدام المنزلي ويساهم في دعم مرسيدس بنز للتنقل المستدام والمبتكر.        ",
@@ -597,7 +597,7 @@
           price: 1350,
           tags: ['ادابتر ', 'CCS2', 'CCS1', 'شاحن CCS1', 'شاحن CCS2', 'شاحن CCS1 للبيع', 'شاحن CCS2 للبيع', 'شاحن CCS1 منزلي', 'شاحن CCS2 منزلي', 'شاحن Ford سريع', 'محول CCS2 إلى CCS1', 'CCS2 to CCS1 Adapter'],
           flag: 'new',
-          imageUrl: require('../images/product-images/CCS2toCCS1.png'),
+          imageSource: require('../images/product-images/CCS2toCCS1.png'),
           rating: 5,
           ratingCount: 1,
           description: "يمكنك هذا المحول من شحن السيارات الأمريكية مثل فورد وشيفرولية  Ford, Chevrolate, GMC باستخدام الشواحن العامة السريعة ذات منفذ CCS2",
@@ -628,10 +628,10 @@
           price: 1550,
           tags: ['شاحن سيارة كهربائية جديد', 'شاحن سيارة كهربائية سريع', 'جرج سيارة كهربائية', 'شاحن GBT', 'شاحن شانجان', 'شاحن Changan كهربائية', 'شاحن سيارة شانجان'],
           flag: 'new',
-          imageUrl: require('../images/product-images/Changan-EV.png'),
+          imageSource: require('../images/product-images/Changan-EV.png'),
           rating: 5,
           ratingCount: 1,
-          description: "يمكنك هذا المحول من شحن السيارات الأمريكية مثل فورد وشيفرولية  Ford, Chevrolate, GMC باستخدام الشواحن العامة السريعة ذات منفذ CCS2",
+          description: "يمكنك هذا الشاحن من شحن مختلف موديلات سيارة شانجان الكهربائية الصينية.",
           longDescription: `شاحن سيارة شانجان الكهربائية - شاحن ميجا، هو جهاز متطور وفعال يُستخدم لشحن سيارات شانجان الكهربائية. يأتي هذا الشاحن بتصميم عصري وأنيق يتناسب مع أحدث التقنيات في عالم السيارات الكهربائية. يتميز بأداء متميز وموثوقية عالية في توفير الطاقة للبطارية الكهربائية للسيارة.
 
           يتميز شاحن سيارة شانجان الكهربائية - شاحن ميجا بعدة مميزات، منها:
@@ -654,11 +654,89 @@
           current:' 32 أمبير',
           availablePorts: 'GB/T',
           weight: '6 كيلوغرام',
-          dimensions: '47*31*20سم'
+          dimensions: '47*31*20 سم'
           
 
 
         },
+        {
+          id: '24',
+          name: 'شاحن سيارة كهربائية ID4 و ID6 سريع بتيار DC',
+          currency: 'AED',
+          price: 6000,
+          tags: ['شاحن سيارة كهربائية جديد', 'شاحن سيارة كهربائية سريع', 'جرج سيارة كهربائية', 'شاحن ID4', 'شاحن ID6', 'شاحن فولكس فاجن', 'شاحن فولكس فاجن كهربائية', 'شاحن سيارة فولكس فاجن'],
+          flag: 'new',
+          imageSource: require('../images/product-images/DC-Charger.webp'),
+          rating: 5,
+          ratingCount: 1,
+          function: 'charger',
+          description: "محطة شحن GBT الصينية للسيارات الكهربائية توفر شحنًا فائق السرعة من 20% إلى 80% في ساعة واحدة، وتعمل بكهرباء 3 فاز من اللوحة الرئيسية، مع تصميم مقاوم للماء ودرجات حرارة قاسية. تقدم قوة تصل إلى 22 كيلوواط ويمكن تركيبها بسهولة على الحائط، مع شاشة لعرض معلومات الشحن.          ",
+          longDescription: `
+          تقدم هذه المحطة الشحنية الفعالة والقوية تجربة شحن متميزة لمجموعة متنوعة من السيارات الكهربائية، بما في ذلك سيارات هوندا وتويوتا وBYD التي تأتي مع منفذ الشحن الصيني GBT. يتميز هذا الشاحن بالعديد من المزايا الرائعة:
+          
+          شحن سريع جدًا: يقوم الشاحن بشحن البطارية من 20% إلى 80% في غضون ساعة واحدة فقط، مما يوفر وقتًا قيمًا للمستخدمين.
+          
+          كهرباء 3 فاز: يتطلب الشاحن توصيله بمصدر كهرباء 3 فاز، والذي عادةً متوفر في الفيلات والمراكز التجارية من اللوحة الرئيسية للكهرباء.
+          
+          مقاوم للعوامل البيئية: يتمتع الشاحن بتصنيف درجة الحماية IP56، مما يجعله مقاومًا لرشات الماء في جميع الاتجاهات ويضمن أداءً موثوقًا في ظروف الطقس المتغيرة.
+          
+          مقاوم للظروف البيئية القاسية: يمكن لهذا الشاحن تحمل درجات حرارة تتراوح بين 30 تحت الصفر و60 درجة مئوية كحد أقصى، مما يجعله مناسبًا للاستخدام في مناطق ذات ظروف مناخية متنوعة.
+          
+          قوة كبيرة: يقدم الشاحن قوة تصل إلى 22 كيلوواط لكل ساعة بتيار يبلغ 65 أمبير، مما يضمن شحنًا سريعًا وفعالًا.
+          
+          تصميم مريح: يمكن تثبيت الشاحن بسهولة على الحائط ويأتي مع شاشة لعرض معلومات عن عملية الشحن لتوفير راحة إضافية للمستخدمين.`,
+          illustration: require ('../images/product-images/DC_Charger_Port.png'),
+          availablePorts: 'GBT',
+          power: '22 كيلوواط / ساعة',
+          inputVoltage: '380-500 فولت (AC)',
+          inputFrequency: '45-55 هرتز',
+          current: '65 أمبير',
+          productWeight: '33 كيلوغرام',
+          cableLength: '5 متر',
+          protectionLevel: 'IP54',
+          dimensions: '393 * 630 * 145 مم',
+          operatingTemperature: '-30° ~ 60°',
+        },
+        {
+          id: '25',
+          name: 'شاحن متنقل سريع 3 فاز للسيارات الكهربائية',
+          currency: 'AED',
+          price: 1500,
+          tags: ['شاحن سيارة كهربائية جديد', 'شاحن سيارة كهربائية سريع', 'جرج سيارة كهربائية', 'شاحن GBT', 'شاحن متنقل', 'شاحن متنقل سريع', 'شاحن متنقل للسيارات الكهربائية', 'شاحن متنقل للسيارات الكهربائية', 'شاحن متنقل للسيارات الكهربائية', 'شاحن متنقل للسيارات الكهربائية', 'شاحن متنقل للسيارات الكهربائية', 'شاحن متنقل للسيارات الكهربائية', 'شاحن متنقل للسيارات الكهربائية', 'شاحن متنقل للسيارات الكهربائية'],
+          flag: 'new',
+          imageSource: require('../images/product-images/3P-Portable.webp'),
+          rating: 5,
+          ratingCount: 1,
+          description: "شاحن متنقل سريع 3 فاز للسيارات الكهربائية",
+          longDescription:`
+          الشاحن المتنقل للسيارات الكهربائية 3 فاز هو جهاز مبتكر وقوي مصمم لتلبية احتياجات ملاك السيارات الكهربائية ذات منفذ Type 2. يتميز هذا الشاحن بالعديد من المزايا الرائعة التي تجعله حلاً مثالياً لشحن سيارتك بكل سهولة وفعالية.
+          
+          توافق متعدد: يمكن لهذا الشاحن شحن السيارات الكهربائية التي تحمل منفذ Type 2، مما يعني أنه متوافق مع العديد من السيارات الأوروبية والخليجية الشهيرة.
+          
+          مرونة التيار الكهربائي: يأتي هذا الشاحن مزودًا بزر تحكم يمكنك استخدامه لضبط مقدار التيار الكهربائي المناسب لسيارتك. هذا يتيح لك السيطرة على سرعة الشحن وفقًا لاحتياجاتك الخاصة.
+          
+          أداء ممتاز: يعمل الشاحن بجهد كهربائي يبلغ 380 فولت وثلاث مراحل (3 فاز)، مما يوفر أداءً ممتازًا وشحنًا سريعًا لسيارتك الكهربائية.
+          
+          محمول وسهل الاستخدام: تصميمه المحمول يجعله سهل الحمل والتنقل. يمكنك استخدامه في أي مكان تريده مع سهولة توصيله بمصدر الطاقة الثلاثي الفاز.
+          
+          موثوقية عالية: يتميز هذا الشاحن ببناء قوي ومواد عالية الجودة، مما يجعله متينًا ويضمن لك أنه سيستمر في العمل بكفاءة على مر الزمن.
+          
+          بفضل هذه الميزات البارزة، يعد الشاحن المتنقل للسيارات الكهربائية 3 فاز خيارًا ممتازًا لأصحاب السيارات الكهربائية الذين يبحثون عن جهاز موثوق وفعال لشحن سياراتهم بسرعة وسهولة في أي مكان
+          
+          بالطبع، هذا الشاحن المتنقل للسيارات الكهربائية 3 فاز متوافق مع العديد من السيارات الكهربائية الشهيرة، بما في ذلك:
+          
+          تسلا (Tesla): مثل Model S، Model 3، Model X، وModel Y.
+          
+          مرسيدس (Mercedes-Benz): مثل EQC وEQS.
+          
+          بورش (Porsche): مثل Taycan.
+          
+          وبالإضافة إلى هذه السيارات، فإن الشاحن المتنقل 3 فاز قادر أيضًا على شحن العديد من السيارات الكهربائية الأخرى التي تستخدم منفذ Type 2.`,
+          illustration: require ('../images/product-images/sockets.jpg'),
+          availablePorts: 'Type 2',
+          power: '11 كيلوواط / ساعة',
+          inputVoltage: '380 فولت',
+        }
   ];
   
     export const blogPosts = [
