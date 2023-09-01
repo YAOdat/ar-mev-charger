@@ -30,7 +30,7 @@ const Tesla = () => {
       </Text>
       {filteredProducts.map((product) => (
         <Box display="flex" flexDirection={flexDirection} alignItems="center" key={product.id} mb={5}>
-          <Image src={product.imageUrl} alt={product.name} boxSize="300px" objectFit="cover" />
+          <Image src={product.imageSource} alt={product.name} boxSize="300px" objectFit="cover" />
           <Box ml={4}>
             <Text fontWeight="bold">{product.name}</Text>
             <Text> {product.price} درهم</Text>

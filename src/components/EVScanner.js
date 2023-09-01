@@ -21,7 +21,7 @@ const EVScanner = () => {
       {filteredProducts.map((product) => (
         <Box display="flex" flexDirection={flexDirection} alignItems="center" key={product.id} mb={5}>
             <Link href={`/products/${product.id}`}> 
-          <Image src={product.imageUrl} alt={product.name} boxSize="300px" objectFit="cover" />
+          <Image src={product.imageSource} alt={product.name} boxSize="300px" objectFit="cover" />
           </Link>
           <Box ml={4}>
             <Text fontWeight="bold">{product.name}</Text>

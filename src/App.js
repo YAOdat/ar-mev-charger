@@ -19,6 +19,7 @@ import Adapters from './components/Adapters';
 import EVScanner from './components/EVScanner';
 import ProductPage from './components/ProductPage';
 import Services from './components/Services';
+import AC from './components/AChargers';
 import Installation from './components/Installation';
 import Emergency from './components/Emergency';
 import PostPage from './components/PostPage';
@@ -204,6 +205,7 @@ function App() {
           />
           <Route path="/products/ev-scanners" element={<EVScanner />} />
           <Route path="/products/adapters/dc" element={<Adapters />} />
+          <Route path="/products/chargers/ac-chargers" element={<AC />} />
           <Route path="/services/ev-charger-installation" element={<Installation />} />
           <Route path="/services/roadside-charging-service" element={<Emergency />} />
           <Route path='/services' element={<Services />} />

@@ -40,6 +40,7 @@ export default function WithSubnavigation() {
     window.location.href = newUrl;
   };
   
+  
   return (
     <Box dir='rtl'>
       <Flex
@@ -301,6 +302,18 @@ const NAV_ITEMS = [
         label: 'الشواحن',
         subLabel: 'أفضل شواحن السيارات الكهربائية',
         href: '/products/chargers',
+        subChildren: [
+          {
+            label: 'شواحن AC',
+            subLabel: 'احصل على أفضل شواحن التيار المتردد AC',
+            href: '/products/chargers/ac-chargers',
+          },
+          {
+            label: 'شواحن DC',
+            subLabel: 'احصل على أفضل شواحن السيارات الكهربائية ثابت التيار DC',
+            href: '/products/11',
+          },
+        ],
       },
       {
         label: 'المحولات',
