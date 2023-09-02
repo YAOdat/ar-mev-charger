@@ -311,7 +311,7 @@ const NAV_ITEMS = [
           {
             label: 'شواحن DC',
             subLabel: 'احصل على أفضل شواحن السيارات الكهربائية ثابت التيار DC',
-            href: '/products/11',
+            href: '/products/24',
           },
         ],
       },
