@@ -19,7 +19,7 @@ const Type2 = () => {
       {filteredProducts.map((product) => (
         <Box display="flex" flexDirection={flexDirection} alignItems="center" key={product.id} mb={5}>
            <Link to={`/product/${product.id}`}>
-          <Image src={product.imageUrl} alt={product.name} boxSize="300px" objectFit="cover" ml={5}/>
+          <Image src={product.imageSource} alt={product.name} boxSize="300px" objectFit="cover" ml={5}/>
           </Link>
           <Box ml={4}>
             <Text fontWeight="bold" mr={3}>{product.name}</Text>
